@@ -1,3 +1,11 @@
-C:/Users/WorldPC/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/c_practice.dir
-C:/Users/WorldPC/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/WorldPC/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/02-2-1.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/02-1-2.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/c_practice.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/02-2-2.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/02-1-1.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/HelloComment.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/SimpleAddOne.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/PrintTwo.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/PrintfOne.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
