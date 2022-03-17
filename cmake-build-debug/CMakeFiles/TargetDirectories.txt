@@ -7,5 +7,6 @@ C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/HelloCommen
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/SimpleAddOne.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/PrintTwo.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/PrintfOne.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/VarDeclAndInit.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

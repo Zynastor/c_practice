@@ -222,6 +222,19 @@ PrintfOne\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintfOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintfOne.dir\build
 .PHONY : PrintfOne\fast
 
+#=============================================================================
+# Target rules for targets named VarDeclAndInit
+
+# Build rule for target.
+VarDeclAndInit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) VarDeclAndInit
+.PHONY : VarDeclAndInit
+
+# fast build rule for target.
+VarDeclAndInit\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VarDeclAndInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\build
+.PHONY : VarDeclAndInit\fast
+
 02\1\02-1-1.obj: 02\1\02-1-1.c.obj
 .PHONY : 02\1\02-1-1.obj
 
@@ -438,6 +451,30 @@ PrintfOne\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddOne.dir\03\1\SimpleAddOne.c.s
 .PHONY : 03\1\SimpleAddOne.c.s
 
+03\1\VarDeclAndInit.obj: 03\1\VarDeclAndInit.c.obj
+.PHONY : 03\1\VarDeclAndInit.obj
+
+# target to build an object file
+03\1\VarDeclAndInit.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VarDeclAndInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\03\1\VarDeclAndInit.c.obj
+.PHONY : 03\1\VarDeclAndInit.c.obj
+
+03\1\VarDeclAndInit.i: 03\1\VarDeclAndInit.c.i
+.PHONY : 03\1\VarDeclAndInit.i
+
+# target to preprocess a source file
+03\1\VarDeclAndInit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VarDeclAndInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\03\1\VarDeclAndInit.c.i
+.PHONY : 03\1\VarDeclAndInit.c.i
+
+03\1\VarDeclAndInit.s: 03\1\VarDeclAndInit.c.s
+.PHONY : 03\1\VarDeclAndInit.s
+
+# target to generate assembly for a file
+03\1\VarDeclAndInit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VarDeclAndInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\03\1\VarDeclAndInit.c.s
+.PHONY : 03\1\VarDeclAndInit.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -454,6 +491,7 @@ help:
 	@echo ... PrintTwo
 	@echo ... PrintfOne
 	@echo ... SimpleAddOne
+	@echo ... VarDeclAndInit
 	@echo ... c_practice
 	@echo ... 02/1/02-1-1.obj
 	@echo ... 02/1/02-1-1.i
@@ -482,6 +520,9 @@ help:
 	@echo ... 03/1/SimpleAddOne.obj
 	@echo ... 03/1/SimpleAddOne.i
 	@echo ... 03/1/SimpleAddOne.s
+	@echo ... 03/1/VarDeclAndInit.obj
+	@echo ... 03/1/VarDeclAndInit.i
+	@echo ... 03/1/VarDeclAndInit.s
 .PHONY : help
 
 

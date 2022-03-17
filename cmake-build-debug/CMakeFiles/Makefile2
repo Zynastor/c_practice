@@ -61,6 +61,7 @@ all: CMakeFiles\HelloComment.dir\all
 all: CMakeFiles\SimpleAddOne.dir\all
 all: CMakeFiles\PrintTwo.dir\all
 all: CMakeFiles\PrintfOne.dir\all
+all: CMakeFiles\VarDeclAndInit.dir\all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -77,6 +78,7 @@ clean: CMakeFiles\HelloComment.dir\clean
 clean: CMakeFiles\SimpleAddOne.dir\clean
 clean: CMakeFiles\PrintTwo.dir\clean
 clean: CMakeFiles\PrintfOne.dir\clean
+clean: CMakeFiles\VarDeclAndInit.dir\clean
 .PHONY : clean
 
 #=============================================================================
@@ -138,7 +140,7 @@ CMakeFiles\02-1-2.dir\clean:
 CMakeFiles\c_practice.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_practice.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c_practice.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_practice.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c_practice.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target c_practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target c_practice"
 .PHONY : CMakeFiles\c_practice.dir\all
 
 # Build rule for subdir invocation for target.
@@ -312,6 +314,32 @@ PrintfOne: CMakeFiles\PrintfOne.dir\rule
 CMakeFiles\PrintfOne.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintfOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintfOne.dir\clean
 .PHONY : CMakeFiles\PrintfOne.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/VarDeclAndInit.dir
+
+# All Build rule for target.
+CMakeFiles\VarDeclAndInit.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VarDeclAndInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VarDeclAndInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target VarDeclAndInit"
+.PHONY : CMakeFiles\VarDeclAndInit.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\VarDeclAndInit.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\VarDeclAndInit.dir\rule
+
+# Convenience name for target.
+VarDeclAndInit: CMakeFiles\VarDeclAndInit.dir\rule
+.PHONY : VarDeclAndInit
+
+# clean rule for target.
+CMakeFiles\VarDeclAndInit.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VarDeclAndInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\clean
+.PHONY : CMakeFiles\VarDeclAndInit.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

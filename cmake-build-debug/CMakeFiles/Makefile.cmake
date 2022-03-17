@@ -52,4 +52,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SimpleAddOne.dir/DependInfo.cmake"
   "CMakeFiles/PrintTwo.dir/DependInfo.cmake"
   "CMakeFiles/PrintfOne.dir/DependInfo.cmake"
+  "CMakeFiles/VarDeclAndInit.dir/DependInfo.cmake"
   )
