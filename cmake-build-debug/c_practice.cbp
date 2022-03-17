@@ -193,6 +193,50 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="OperatorSix">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorSix.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorSix"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OperatorSix/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorSix.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorSix/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="02-1-1">
 				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/02-1-1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
@@ -413,6 +457,402 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="OperatorTwo">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorTwo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorTwo"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OperatorTwo/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorTwo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorTwo/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarDeclAndInit">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/VarDeclAndInit.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 VarDeclAndInit"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarDeclAndInit/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/VarDeclAndInit.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 VarDeclAndInit/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleAddTwo">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/simpleAddTwo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 simpleAddTwo"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleAddTwo/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/simpleAddTwo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 simpleAddTwo/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OperatorOne">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorOne.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorOne"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OperatorOne/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorOne.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorOne/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OperatorThree">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorThree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorThree"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OperatorThree/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorThree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorThree/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OperatorFour">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorFour.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorFour"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OperatorFour/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorFour.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorFour/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OperatorFive">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorFive.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorFive"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OperatorFive/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorFive.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorFive/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OperatorSeven">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorSeven.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorSeven"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OperatorSeven/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/OperatorSeven.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 OperatorSeven/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CommaOp">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CommaOp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 CommaOp"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CommaOp/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CommaOp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 CommaOp/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
 				<Option type="4"/>
@@ -460,6 +900,36 @@
 		</Unit>
 		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/03/1/SimpleAddOne.c">
 			<Option target="SimpleAddOne"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/03/1/SimpleAddTwo.c">
+			<Option target="simpleAddTwo"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/03/1/VarDeclAndInit.c">
+			<Option target="VarDeclAndInit"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/03/2/CommaOp.c">
+			<Option target="CommaOp"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/03/2/OperatorFive.c">
+			<Option target="OperatorFive"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/03/2/OperatorFour.c">
+			<Option target="OperatorFour"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/03/2/OperatorOne.c">
+			<Option target="OperatorOne"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/03/2/OperatorSeven.c">
+			<Option target="OperatorSeven"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/03/2/OperatorSix.c">
+			<Option target="OperatorSix"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/03/2/OperatorThree.c">
+			<Option target="OperatorThree"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/03/2/OperatorTwo.c">
+			<Option target="OperatorTwo"/>
 		</Unit>
 		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

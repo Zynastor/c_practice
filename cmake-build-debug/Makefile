@@ -158,6 +158,19 @@ c_practice\fast:
 .PHONY : 02-2-2\fast
 
 #=============================================================================
+# Target rules for targets named OperatorSix
+
+# Build rule for target.
+OperatorSix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) OperatorSix
+.PHONY : OperatorSix
+
+# fast build rule for target.
+OperatorSix\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorSix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorSix.dir\build
+.PHONY : OperatorSix\fast
+
+#=============================================================================
 # Target rules for targets named 02-1-1
 
 # Build rule for target.
@@ -221,6 +234,123 @@ PrintfOne: cmake_check_build_system
 PrintfOne\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintfOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintfOne.dir\build
 .PHONY : PrintfOne\fast
+
+#=============================================================================
+# Target rules for targets named OperatorTwo
+
+# Build rule for target.
+OperatorTwo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) OperatorTwo
+.PHONY : OperatorTwo
+
+# fast build rule for target.
+OperatorTwo\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorTwo.dir\build
+.PHONY : OperatorTwo\fast
+
+#=============================================================================
+# Target rules for targets named VarDeclAndInit
+
+# Build rule for target.
+VarDeclAndInit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) VarDeclAndInit
+.PHONY : VarDeclAndInit
+
+# fast build rule for target.
+VarDeclAndInit\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VarDeclAndInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\build
+.PHONY : VarDeclAndInit\fast
+
+#=============================================================================
+# Target rules for targets named simpleAddTwo
+
+# Build rule for target.
+simpleAddTwo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) simpleAddTwo
+.PHONY : simpleAddTwo
+
+# fast build rule for target.
+simpleAddTwo\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simpleAddTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\simpleAddTwo.dir\build
+.PHONY : simpleAddTwo\fast
+
+#=============================================================================
+# Target rules for targets named OperatorOne
+
+# Build rule for target.
+OperatorOne: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) OperatorOne
+.PHONY : OperatorOne
+
+# fast build rule for target.
+OperatorOne\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorOne.dir\build
+.PHONY : OperatorOne\fast
+
+#=============================================================================
+# Target rules for targets named OperatorThree
+
+# Build rule for target.
+OperatorThree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) OperatorThree
+.PHONY : OperatorThree
+
+# fast build rule for target.
+OperatorThree\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorThree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorThree.dir\build
+.PHONY : OperatorThree\fast
+
+#=============================================================================
+# Target rules for targets named OperatorFour
+
+# Build rule for target.
+OperatorFour: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) OperatorFour
+.PHONY : OperatorFour
+
+# fast build rule for target.
+OperatorFour\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorFour.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFour.dir\build
+.PHONY : OperatorFour\fast
+
+#=============================================================================
+# Target rules for targets named OperatorFive
+
+# Build rule for target.
+OperatorFive: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) OperatorFive
+.PHONY : OperatorFive
+
+# fast build rule for target.
+OperatorFive\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorFive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFive.dir\build
+.PHONY : OperatorFive\fast
+
+#=============================================================================
+# Target rules for targets named OperatorSeven
+
+# Build rule for target.
+OperatorSeven: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) OperatorSeven
+.PHONY : OperatorSeven
+
+# fast build rule for target.
+OperatorSeven\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorSeven.dir\build
+.PHONY : OperatorSeven\fast
+
+#=============================================================================
+# Target rules for targets named CommaOp
+
+# Build rule for target.
+CommaOp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CommaOp
+.PHONY : CommaOp
+
+# fast build rule for target.
+CommaOp\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CommaOp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CommaOp.dir\build
+.PHONY : CommaOp\fast
 
 02\1\02-1-1.obj: 02\1\02-1-1.c.obj
 .PHONY : 02\1\02-1-1.obj
@@ -438,6 +568,246 @@ PrintfOne\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddOne.dir\03\1\SimpleAddOne.c.s
 .PHONY : 03\1\SimpleAddOne.c.s
 
+03\1\SimpleAddTwo.obj: 03\1\SimpleAddTwo.c.obj
+.PHONY : 03\1\SimpleAddTwo.obj
+
+# target to build an object file
+03\1\SimpleAddTwo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simpleAddTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\simpleAddTwo.dir\03\1\SimpleAddTwo.c.obj
+.PHONY : 03\1\SimpleAddTwo.c.obj
+
+03\1\SimpleAddTwo.i: 03\1\SimpleAddTwo.c.i
+.PHONY : 03\1\SimpleAddTwo.i
+
+# target to preprocess a source file
+03\1\SimpleAddTwo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simpleAddTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\simpleAddTwo.dir\03\1\SimpleAddTwo.c.i
+.PHONY : 03\1\SimpleAddTwo.c.i
+
+03\1\SimpleAddTwo.s: 03\1\SimpleAddTwo.c.s
+.PHONY : 03\1\SimpleAddTwo.s
+
+# target to generate assembly for a file
+03\1\SimpleAddTwo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simpleAddTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\simpleAddTwo.dir\03\1\SimpleAddTwo.c.s
+.PHONY : 03\1\SimpleAddTwo.c.s
+
+03\1\VarDeclAndInit.obj: 03\1\VarDeclAndInit.c.obj
+.PHONY : 03\1\VarDeclAndInit.obj
+
+# target to build an object file
+03\1\VarDeclAndInit.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VarDeclAndInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\03\1\VarDeclAndInit.c.obj
+.PHONY : 03\1\VarDeclAndInit.c.obj
+
+03\1\VarDeclAndInit.i: 03\1\VarDeclAndInit.c.i
+.PHONY : 03\1\VarDeclAndInit.i
+
+# target to preprocess a source file
+03\1\VarDeclAndInit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VarDeclAndInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\03\1\VarDeclAndInit.c.i
+.PHONY : 03\1\VarDeclAndInit.c.i
+
+03\1\VarDeclAndInit.s: 03\1\VarDeclAndInit.c.s
+.PHONY : 03\1\VarDeclAndInit.s
+
+# target to generate assembly for a file
+03\1\VarDeclAndInit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VarDeclAndInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\03\1\VarDeclAndInit.c.s
+.PHONY : 03\1\VarDeclAndInit.c.s
+
+03\2\CommaOp.obj: 03\2\CommaOp.c.obj
+.PHONY : 03\2\CommaOp.obj
+
+# target to build an object file
+03\2\CommaOp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CommaOp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CommaOp.dir\03\2\CommaOp.c.obj
+.PHONY : 03\2\CommaOp.c.obj
+
+03\2\CommaOp.i: 03\2\CommaOp.c.i
+.PHONY : 03\2\CommaOp.i
+
+# target to preprocess a source file
+03\2\CommaOp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CommaOp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CommaOp.dir\03\2\CommaOp.c.i
+.PHONY : 03\2\CommaOp.c.i
+
+03\2\CommaOp.s: 03\2\CommaOp.c.s
+.PHONY : 03\2\CommaOp.s
+
+# target to generate assembly for a file
+03\2\CommaOp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CommaOp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CommaOp.dir\03\2\CommaOp.c.s
+.PHONY : 03\2\CommaOp.c.s
+
+03\2\OperatorFive.obj: 03\2\OperatorFive.c.obj
+.PHONY : 03\2\OperatorFive.obj
+
+# target to build an object file
+03\2\OperatorFive.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorFive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFive.dir\03\2\OperatorFive.c.obj
+.PHONY : 03\2\OperatorFive.c.obj
+
+03\2\OperatorFive.i: 03\2\OperatorFive.c.i
+.PHONY : 03\2\OperatorFive.i
+
+# target to preprocess a source file
+03\2\OperatorFive.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorFive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFive.dir\03\2\OperatorFive.c.i
+.PHONY : 03\2\OperatorFive.c.i
+
+03\2\OperatorFive.s: 03\2\OperatorFive.c.s
+.PHONY : 03\2\OperatorFive.s
+
+# target to generate assembly for a file
+03\2\OperatorFive.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorFive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFive.dir\03\2\OperatorFive.c.s
+.PHONY : 03\2\OperatorFive.c.s
+
+03\2\OperatorFour.obj: 03\2\OperatorFour.c.obj
+.PHONY : 03\2\OperatorFour.obj
+
+# target to build an object file
+03\2\OperatorFour.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorFour.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFour.dir\03\2\OperatorFour.c.obj
+.PHONY : 03\2\OperatorFour.c.obj
+
+03\2\OperatorFour.i: 03\2\OperatorFour.c.i
+.PHONY : 03\2\OperatorFour.i
+
+# target to preprocess a source file
+03\2\OperatorFour.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorFour.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFour.dir\03\2\OperatorFour.c.i
+.PHONY : 03\2\OperatorFour.c.i
+
+03\2\OperatorFour.s: 03\2\OperatorFour.c.s
+.PHONY : 03\2\OperatorFour.s
+
+# target to generate assembly for a file
+03\2\OperatorFour.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorFour.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFour.dir\03\2\OperatorFour.c.s
+.PHONY : 03\2\OperatorFour.c.s
+
+03\2\OperatorOne.obj: 03\2\OperatorOne.c.obj
+.PHONY : 03\2\OperatorOne.obj
+
+# target to build an object file
+03\2\OperatorOne.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorOne.dir\03\2\OperatorOne.c.obj
+.PHONY : 03\2\OperatorOne.c.obj
+
+03\2\OperatorOne.i: 03\2\OperatorOne.c.i
+.PHONY : 03\2\OperatorOne.i
+
+# target to preprocess a source file
+03\2\OperatorOne.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorOne.dir\03\2\OperatorOne.c.i
+.PHONY : 03\2\OperatorOne.c.i
+
+03\2\OperatorOne.s: 03\2\OperatorOne.c.s
+.PHONY : 03\2\OperatorOne.s
+
+# target to generate assembly for a file
+03\2\OperatorOne.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorOne.dir\03\2\OperatorOne.c.s
+.PHONY : 03\2\OperatorOne.c.s
+
+03\2\OperatorSeven.obj: 03\2\OperatorSeven.c.obj
+.PHONY : 03\2\OperatorSeven.obj
+
+# target to build an object file
+03\2\OperatorSeven.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorSeven.dir\03\2\OperatorSeven.c.obj
+.PHONY : 03\2\OperatorSeven.c.obj
+
+03\2\OperatorSeven.i: 03\2\OperatorSeven.c.i
+.PHONY : 03\2\OperatorSeven.i
+
+# target to preprocess a source file
+03\2\OperatorSeven.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorSeven.dir\03\2\OperatorSeven.c.i
+.PHONY : 03\2\OperatorSeven.c.i
+
+03\2\OperatorSeven.s: 03\2\OperatorSeven.c.s
+.PHONY : 03\2\OperatorSeven.s
+
+# target to generate assembly for a file
+03\2\OperatorSeven.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorSeven.dir\03\2\OperatorSeven.c.s
+.PHONY : 03\2\OperatorSeven.c.s
+
+03\2\OperatorSix.obj: 03\2\OperatorSix.c.obj
+.PHONY : 03\2\OperatorSix.obj
+
+# target to build an object file
+03\2\OperatorSix.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorSix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorSix.dir\03\2\OperatorSix.c.obj
+.PHONY : 03\2\OperatorSix.c.obj
+
+03\2\OperatorSix.i: 03\2\OperatorSix.c.i
+.PHONY : 03\2\OperatorSix.i
+
+# target to preprocess a source file
+03\2\OperatorSix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorSix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorSix.dir\03\2\OperatorSix.c.i
+.PHONY : 03\2\OperatorSix.c.i
+
+03\2\OperatorSix.s: 03\2\OperatorSix.c.s
+.PHONY : 03\2\OperatorSix.s
+
+# target to generate assembly for a file
+03\2\OperatorSix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorSix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorSix.dir\03\2\OperatorSix.c.s
+.PHONY : 03\2\OperatorSix.c.s
+
+03\2\OperatorThree.obj: 03\2\OperatorThree.c.obj
+.PHONY : 03\2\OperatorThree.obj
+
+# target to build an object file
+03\2\OperatorThree.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorThree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorThree.dir\03\2\OperatorThree.c.obj
+.PHONY : 03\2\OperatorThree.c.obj
+
+03\2\OperatorThree.i: 03\2\OperatorThree.c.i
+.PHONY : 03\2\OperatorThree.i
+
+# target to preprocess a source file
+03\2\OperatorThree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorThree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorThree.dir\03\2\OperatorThree.c.i
+.PHONY : 03\2\OperatorThree.c.i
+
+03\2\OperatorThree.s: 03\2\OperatorThree.c.s
+.PHONY : 03\2\OperatorThree.s
+
+# target to generate assembly for a file
+03\2\OperatorThree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorThree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorThree.dir\03\2\OperatorThree.c.s
+.PHONY : 03\2\OperatorThree.c.s
+
+03\2\OperatorTwo.obj: 03\2\OperatorTwo.c.obj
+.PHONY : 03\2\OperatorTwo.obj
+
+# target to build an object file
+03\2\OperatorTwo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorTwo.dir\03\2\OperatorTwo.c.obj
+.PHONY : 03\2\OperatorTwo.c.obj
+
+03\2\OperatorTwo.i: 03\2\OperatorTwo.c.i
+.PHONY : 03\2\OperatorTwo.i
+
+# target to preprocess a source file
+03\2\OperatorTwo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorTwo.dir\03\2\OperatorTwo.c.i
+.PHONY : 03\2\OperatorTwo.c.i
+
+03\2\OperatorTwo.s: 03\2\OperatorTwo.c.s
+.PHONY : 03\2\OperatorTwo.s
+
+# target to generate assembly for a file
+03\2\OperatorTwo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorTwo.dir\03\2\OperatorTwo.c.s
+.PHONY : 03\2\OperatorTwo.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -450,11 +820,21 @@ help:
 	@echo ... 02-1-2
 	@echo ... 02-2-1
 	@echo ... 02-2-2
+	@echo ... CommaOp
 	@echo ... HelloComment
+	@echo ... OperatorFive
+	@echo ... OperatorFour
+	@echo ... OperatorOne
+	@echo ... OperatorSeven
+	@echo ... OperatorSix
+	@echo ... OperatorThree
+	@echo ... OperatorTwo
 	@echo ... PrintTwo
 	@echo ... PrintfOne
 	@echo ... SimpleAddOne
+	@echo ... VarDeclAndInit
 	@echo ... c_practice
+	@echo ... simpleAddTwo
 	@echo ... 02/1/02-1-1.obj
 	@echo ... 02/1/02-1-1.i
 	@echo ... 02/1/02-1-1.s
@@ -482,6 +862,36 @@ help:
 	@echo ... 03/1/SimpleAddOne.obj
 	@echo ... 03/1/SimpleAddOne.i
 	@echo ... 03/1/SimpleAddOne.s
+	@echo ... 03/1/SimpleAddTwo.obj
+	@echo ... 03/1/SimpleAddTwo.i
+	@echo ... 03/1/SimpleAddTwo.s
+	@echo ... 03/1/VarDeclAndInit.obj
+	@echo ... 03/1/VarDeclAndInit.i
+	@echo ... 03/1/VarDeclAndInit.s
+	@echo ... 03/2/CommaOp.obj
+	@echo ... 03/2/CommaOp.i
+	@echo ... 03/2/CommaOp.s
+	@echo ... 03/2/OperatorFive.obj
+	@echo ... 03/2/OperatorFive.i
+	@echo ... 03/2/OperatorFive.s
+	@echo ... 03/2/OperatorFour.obj
+	@echo ... 03/2/OperatorFour.i
+	@echo ... 03/2/OperatorFour.s
+	@echo ... 03/2/OperatorOne.obj
+	@echo ... 03/2/OperatorOne.i
+	@echo ... 03/2/OperatorOne.s
+	@echo ... 03/2/OperatorSeven.obj
+	@echo ... 03/2/OperatorSeven.i
+	@echo ... 03/2/OperatorSeven.s
+	@echo ... 03/2/OperatorSix.obj
+	@echo ... 03/2/OperatorSix.i
+	@echo ... 03/2/OperatorSix.s
+	@echo ... 03/2/OperatorThree.obj
+	@echo ... 03/2/OperatorThree.i
+	@echo ... 03/2/OperatorThree.s
+	@echo ... 03/2/OperatorTwo.obj
+	@echo ... 03/2/OperatorTwo.i
+	@echo ... 03/2/OperatorTwo.s
 .PHONY : help
 
 
