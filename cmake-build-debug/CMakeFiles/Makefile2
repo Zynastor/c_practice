@@ -52,10 +52,16 @@ CMAKE_BINARY_DIR = C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles\OctHex.dir\all
+all: CMakeFiles\05-1-5.dir\all
+all: CMakeFiles\03-1-3.dir\all
 all: CMakeFiles\02-2-1.dir\all
+all: CMakeFiles\RealNumOutput.dir\all
 all: CMakeFiles\02-1-2.dir\all
 all: CMakeFiles\c_practice.dir\all
+all: CMakeFiles\BitLeftShift.dir\all
 all: CMakeFiles\02-2-2.dir\all
+all: CMakeFiles\CharShortBaseAdd.dir\all
 all: CMakeFiles\OperatorSix.dir\all
 all: CMakeFiles\02-1-1.dir\all
 all: CMakeFiles\HelloComment.dir\all
@@ -66,11 +72,41 @@ all: CMakeFiles\OperatorTwo.dir\all
 all: CMakeFiles\VarDeclAndInit.dir\all
 all: CMakeFiles\simpleAddTwo.dir\all
 all: CMakeFiles\OperatorOne.dir\all
+all: CMakeFiles\Notation.dir\all
 all: CMakeFiles\OperatorThree.dir\all
 all: CMakeFiles\OperatorFour.dir\all
+all: CMakeFiles\LiteralSize.dir\all
 all: CMakeFiles\OperatorFive.dir\all
+all: CMakeFiles\UsingPG.dir\all
 all: CMakeFiles\OperatorSeven.dir\all
 all: CMakeFiles\CommaOp.dir\all
+all: CMakeFiles\BitAndOperation.dir\all
+all: CMakeFiles\SimpleAddThree.dir\all
+all: CMakeFiles\ScanfConvTwo.dir\all
+all: CMakeFiles\SimpleAddFour.dir\all
+all: CMakeFiles\AutoConvOne.dir\all
+all: CMakeFiles\03-1-1.dir\all
+all: CMakeFiles\05-1-4.dir\all
+all: CMakeFiles\03-1-2.dir\all
+all: CMakeFiles\05-1-2.dir\all
+all: CMakeFiles\03-1-4.dir\all
+all: CMakeFiles\03-1-5.dir\all
+all: CMakeFiles\FloatError.dir\all
+all: CMakeFiles\BitOrOperation.dir\all
+all: CMakeFiles\04-4-1.dir\all
+all: CMakeFiles\BitNotOperation.dir\all
+all: CMakeFiles\BitRightShift.dir\all
+all: CMakeFiles\04-4-2.dir\all
+all: CMakeFiles\SizeOfOperator.dir\all
+all: CMakeFiles\CircleArea.dir\all
+all: CMakeFiles\HowChar.dir\all
+all: CMakeFiles\05-1-1.dir\all
+all: CMakeFiles\UsingPS.dir\all
+all: CMakeFiles\ConvDiv.dir\all
+all: CMakeFiles\StringPointf.dir\all
+all: CMakeFiles\FormPrintf.dir\all
+all: CMakeFiles\FieldWidth.dir\all
+all: CMakeFiles\ScanfConvOne.dir\all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,10 +114,16 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles\OctHex.dir\clean
+clean: CMakeFiles\05-1-5.dir\clean
+clean: CMakeFiles\03-1-3.dir\clean
 clean: CMakeFiles\02-2-1.dir\clean
+clean: CMakeFiles\RealNumOutput.dir\clean
 clean: CMakeFiles\02-1-2.dir\clean
 clean: CMakeFiles\c_practice.dir\clean
+clean: CMakeFiles\BitLeftShift.dir\clean
 clean: CMakeFiles\02-2-2.dir\clean
+clean: CMakeFiles\CharShortBaseAdd.dir\clean
 clean: CMakeFiles\OperatorSix.dir\clean
 clean: CMakeFiles\02-1-1.dir\clean
 clean: CMakeFiles\HelloComment.dir\clean
@@ -92,12 +134,120 @@ clean: CMakeFiles\OperatorTwo.dir\clean
 clean: CMakeFiles\VarDeclAndInit.dir\clean
 clean: CMakeFiles\simpleAddTwo.dir\clean
 clean: CMakeFiles\OperatorOne.dir\clean
+clean: CMakeFiles\Notation.dir\clean
 clean: CMakeFiles\OperatorThree.dir\clean
 clean: CMakeFiles\OperatorFour.dir\clean
+clean: CMakeFiles\LiteralSize.dir\clean
 clean: CMakeFiles\OperatorFive.dir\clean
+clean: CMakeFiles\UsingPG.dir\clean
 clean: CMakeFiles\OperatorSeven.dir\clean
 clean: CMakeFiles\CommaOp.dir\clean
+clean: CMakeFiles\BitAndOperation.dir\clean
+clean: CMakeFiles\SimpleAddThree.dir\clean
+clean: CMakeFiles\ScanfConvTwo.dir\clean
+clean: CMakeFiles\SimpleAddFour.dir\clean
+clean: CMakeFiles\AutoConvOne.dir\clean
+clean: CMakeFiles\03-1-1.dir\clean
+clean: CMakeFiles\05-1-4.dir\clean
+clean: CMakeFiles\03-1-2.dir\clean
+clean: CMakeFiles\05-1-2.dir\clean
+clean: CMakeFiles\03-1-4.dir\clean
+clean: CMakeFiles\03-1-5.dir\clean
+clean: CMakeFiles\FloatError.dir\clean
+clean: CMakeFiles\BitOrOperation.dir\clean
+clean: CMakeFiles\04-4-1.dir\clean
+clean: CMakeFiles\BitNotOperation.dir\clean
+clean: CMakeFiles\BitRightShift.dir\clean
+clean: CMakeFiles\04-4-2.dir\clean
+clean: CMakeFiles\SizeOfOperator.dir\clean
+clean: CMakeFiles\CircleArea.dir\clean
+clean: CMakeFiles\HowChar.dir\clean
+clean: CMakeFiles\05-1-1.dir\clean
+clean: CMakeFiles\UsingPS.dir\clean
+clean: CMakeFiles\ConvDiv.dir\clean
+clean: CMakeFiles\StringPointf.dir\clean
+clean: CMakeFiles\FormPrintf.dir\clean
+clean: CMakeFiles\FieldWidth.dir\clean
+clean: CMakeFiles\ScanfConvOne.dir\clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/OctHex.dir
+
+# All Build rule for target.
+CMakeFiles\OctHex.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OctHex.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OctHex.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OctHex.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OctHex.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target OctHex"
+.PHONY : CMakeFiles\OctHex.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\OctHex.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\OctHex.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\OctHex.dir\rule
+
+# Convenience name for target.
+OctHex: CMakeFiles\OctHex.dir\rule
+.PHONY : OctHex
+
+# clean rule for target.
+CMakeFiles\OctHex.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OctHex.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OctHex.dir\clean
+.PHONY : CMakeFiles\OctHex.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/05-1-5.dir
+
+# All Build rule for target.
+CMakeFiles\05-1-5.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-1-5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05-1-5.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-1-5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05-1-5.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target 05-1-5"
+.PHONY : CMakeFiles\05-1-5.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\05-1-5.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\05-1-5.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\05-1-5.dir\rule
+
+# Convenience name for target.
+05-1-5: CMakeFiles\05-1-5.dir\rule
+.PHONY : 05-1-5
+
+# clean rule for target.
+CMakeFiles\05-1-5.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-1-5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05-1-5.dir\clean
+.PHONY : CMakeFiles\05-1-5.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/03-1-3.dir
+
+# All Build rule for target.
+CMakeFiles\03-1-3.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-3.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-3.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 03-1-3"
+.PHONY : CMakeFiles\03-1-3.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\03-1-3.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\03-1-3.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\03-1-3.dir\rule
+
+# Convenience name for target.
+03-1-3: CMakeFiles\03-1-3.dir\rule
+.PHONY : 03-1-3
+
+# clean rule for target.
+CMakeFiles\03-1-3.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-3.dir\clean
+.PHONY : CMakeFiles\03-1-3.dir\clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/02-2-1.dir
@@ -106,7 +256,7 @@ clean: CMakeFiles\CommaOp.dir\clean
 CMakeFiles\02-2-1.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\02-2-1.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\02-2-1.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 02-2-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target 02-2-1"
 .PHONY : CMakeFiles\02-2-1.dir\all
 
 # Build rule for subdir invocation for target.
@@ -126,13 +276,39 @@ CMakeFiles\02-2-1.dir\clean:
 .PHONY : CMakeFiles\02-2-1.dir\clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/RealNumOutput.dir
+
+# All Build rule for target.
+CMakeFiles\RealNumOutput.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RealNumOutput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RealNumOutput.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RealNumOutput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RealNumOutput.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target RealNumOutput"
+.PHONY : CMakeFiles\RealNumOutput.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\RealNumOutput.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\RealNumOutput.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\RealNumOutput.dir\rule
+
+# Convenience name for target.
+RealNumOutput: CMakeFiles\RealNumOutput.dir\rule
+.PHONY : RealNumOutput
+
+# clean rule for target.
+CMakeFiles\RealNumOutput.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RealNumOutput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RealNumOutput.dir\clean
+.PHONY : CMakeFiles\RealNumOutput.dir\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/02-1-2.dir
 
 # All Build rule for target.
 CMakeFiles\02-1-2.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\02-1-2.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\02-1-2.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target 02-1-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=2,3 "Built target 02-1-2"
 .PHONY : CMakeFiles\02-1-2.dir\all
 
 # Build rule for subdir invocation for target.
@@ -158,7 +334,7 @@ CMakeFiles\02-1-2.dir\clean:
 CMakeFiles\c_practice.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_practice.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c_practice.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_practice.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c_practice.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target c_practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=97,98 "Built target c_practice"
 .PHONY : CMakeFiles\c_practice.dir\all
 
 # Build rule for subdir invocation for target.
@@ -178,13 +354,39 @@ CMakeFiles\c_practice.dir\clean:
 .PHONY : CMakeFiles\c_practice.dir\clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/BitLeftShift.dir
+
+# All Build rule for target.
+CMakeFiles\BitLeftShift.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitLeftShift.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitLeftShift.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitLeftShift.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitLeftShift.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target BitLeftShift"
+.PHONY : CMakeFiles\BitLeftShift.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\BitLeftShift.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\BitLeftShift.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\BitLeftShift.dir\rule
+
+# Convenience name for target.
+BitLeftShift: CMakeFiles\BitLeftShift.dir\rule
+.PHONY : BitLeftShift
+
+# clean rule for target.
+CMakeFiles\BitLeftShift.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitLeftShift.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitLeftShift.dir\clean
+.PHONY : CMakeFiles\BitLeftShift.dir\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/02-2-2.dir
 
 # All Build rule for target.
 CMakeFiles\02-2-2.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\02-2-2.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\02-2-2.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 02-2-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target 02-2-2"
 .PHONY : CMakeFiles\02-2-2.dir\all
 
 # Build rule for subdir invocation for target.
@@ -204,13 +406,39 @@ CMakeFiles\02-2-2.dir\clean:
 .PHONY : CMakeFiles\02-2-2.dir\clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/CharShortBaseAdd.dir
+
+# All Build rule for target.
+CMakeFiles\CharShortBaseAdd.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CharShortBaseAdd.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CharShortBaseAdd.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CharShortBaseAdd.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CharShortBaseAdd.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target CharShortBaseAdd"
+.PHONY : CMakeFiles\CharShortBaseAdd.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\CharShortBaseAdd.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\CharShortBaseAdd.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\CharShortBaseAdd.dir\rule
+
+# Convenience name for target.
+CharShortBaseAdd: CMakeFiles\CharShortBaseAdd.dir\rule
+.PHONY : CharShortBaseAdd
+
+# clean rule for target.
+CMakeFiles\CharShortBaseAdd.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CharShortBaseAdd.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CharShortBaseAdd.dir\clean
+.PHONY : CMakeFiles\CharShortBaseAdd.dir\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/OperatorSix.dir
 
 # All Build rule for target.
 CMakeFiles\OperatorSix.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorSix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorSix.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorSix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorSix.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target OperatorSix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=68,69 "Built target OperatorSix"
 .PHONY : CMakeFiles\OperatorSix.dir\all
 
 # Build rule for subdir invocation for target.
@@ -236,12 +464,12 @@ CMakeFiles\OperatorSix.dir\clean:
 CMakeFiles\02-1-1.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\02-1-1.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\02-1-1.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 02-1-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=1 "Built target 02-1-1"
 .PHONY : CMakeFiles\02-1-1.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\02-1-1.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\02-1-1.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\02-1-1.dir\rule
@@ -262,7 +490,7 @@ CMakeFiles\02-1-1.dir\clean:
 CMakeFiles\HelloComment.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloComment.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HelloComment.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloComment.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HelloComment.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target HelloComment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target HelloComment"
 .PHONY : CMakeFiles\HelloComment.dir\all
 
 # Build rule for subdir invocation for target.
@@ -288,7 +516,7 @@ CMakeFiles\HelloComment.dir\clean:
 CMakeFiles\SimpleAddOne.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddOne.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddOne.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target SimpleAddOne"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=84,85 "Built target SimpleAddOne"
 .PHONY : CMakeFiles\SimpleAddOne.dir\all
 
 # Build rule for subdir invocation for target.
@@ -314,7 +542,7 @@ CMakeFiles\SimpleAddOne.dir\clean:
 CMakeFiles\PrintTwo.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintTwo.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintTwo.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target PrintTwo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target PrintTwo"
 .PHONY : CMakeFiles\PrintTwo.dir\all
 
 # Build rule for subdir invocation for target.
@@ -340,7 +568,7 @@ CMakeFiles\PrintTwo.dir\clean:
 CMakeFiles\PrintfOne.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintfOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintfOne.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintfOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintfOne.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target PrintfOne"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target PrintfOne"
 .PHONY : CMakeFiles\PrintfOne.dir\all
 
 # Build rule for subdir invocation for target.
@@ -366,7 +594,7 @@ CMakeFiles\PrintfOne.dir\clean:
 CMakeFiles\OperatorTwo.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorTwo.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorTwo.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target OperatorTwo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target OperatorTwo"
 .PHONY : CMakeFiles\OperatorTwo.dir\all
 
 # Build rule for subdir invocation for target.
@@ -392,7 +620,7 @@ CMakeFiles\OperatorTwo.dir\clean:
 CMakeFiles\VarDeclAndInit.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VarDeclAndInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VarDeclAndInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VarDeclAndInit.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target VarDeclAndInit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=95,96 "Built target VarDeclAndInit"
 .PHONY : CMakeFiles\VarDeclAndInit.dir\all
 
 # Build rule for subdir invocation for target.
@@ -418,7 +646,7 @@ CMakeFiles\VarDeclAndInit.dir\clean:
 CMakeFiles\simpleAddTwo.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\simpleAddTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\simpleAddTwo.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\simpleAddTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\simpleAddTwo.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target simpleAddTwo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=99,100 "Built target simpleAddTwo"
 .PHONY : CMakeFiles\simpleAddTwo.dir\all
 
 # Build rule for subdir invocation for target.
@@ -444,7 +672,7 @@ CMakeFiles\simpleAddTwo.dir\clean:
 CMakeFiles\OperatorOne.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorOne.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorOne.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target OperatorOne"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=64,65 "Built target OperatorOne"
 .PHONY : CMakeFiles\OperatorOne.dir\all
 
 # Build rule for subdir invocation for target.
@@ -464,18 +692,44 @@ CMakeFiles\OperatorOne.dir\clean:
 .PHONY : CMakeFiles\OperatorOne.dir\clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Notation.dir
+
+# All Build rule for target.
+CMakeFiles\Notation.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Notation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Notation.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Notation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Notation.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target Notation"
+.PHONY : CMakeFiles\Notation.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Notation.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Notation.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\Notation.dir\rule
+
+# Convenience name for target.
+Notation: CMakeFiles\Notation.dir\rule
+.PHONY : Notation
+
+# clean rule for target.
+CMakeFiles\Notation.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Notation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Notation.dir\clean
+.PHONY : CMakeFiles\Notation.dir\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/OperatorThree.dir
 
 # All Build rule for target.
 CMakeFiles\OperatorThree.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorThree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorThree.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorThree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorThree.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target OperatorThree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=70 "Built target OperatorThree"
 .PHONY : CMakeFiles\OperatorThree.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\OperatorThree.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\OperatorThree.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\OperatorThree.dir\rule
@@ -496,7 +750,7 @@ CMakeFiles\OperatorThree.dir\clean:
 CMakeFiles\OperatorFour.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorFour.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFour.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorFour.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFour.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target OperatorFour"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=62,63 "Built target OperatorFour"
 .PHONY : CMakeFiles\OperatorFour.dir\all
 
 # Build rule for subdir invocation for target.
@@ -516,18 +770,44 @@ CMakeFiles\OperatorFour.dir\clean:
 .PHONY : CMakeFiles\OperatorFour.dir\clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/LiteralSize.dir
+
+# All Build rule for target.
+CMakeFiles\LiteralSize.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteralSize.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LiteralSize.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteralSize.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LiteralSize.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target LiteralSize"
+.PHONY : CMakeFiles\LiteralSize.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\LiteralSize.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\LiteralSize.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\LiteralSize.dir\rule
+
+# Convenience name for target.
+LiteralSize: CMakeFiles\LiteralSize.dir\rule
+.PHONY : LiteralSize
+
+# clean rule for target.
+CMakeFiles\LiteralSize.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteralSize.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LiteralSize.dir\clean
+.PHONY : CMakeFiles\LiteralSize.dir\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/OperatorFive.dir
 
 # All Build rule for target.
 CMakeFiles\OperatorFive.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorFive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFive.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorFive.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFive.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target OperatorFive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=61 "Built target OperatorFive"
 .PHONY : CMakeFiles\OperatorFive.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\OperatorFive.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFive.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\OperatorFive.dir\rule
@@ -542,13 +822,39 @@ CMakeFiles\OperatorFive.dir\clean:
 .PHONY : CMakeFiles\OperatorFive.dir\clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/UsingPG.dir
+
+# All Build rule for target.
+CMakeFiles\UsingPG.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UsingPG.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UsingPG.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UsingPG.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UsingPG.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=91,92 "Built target UsingPG"
+.PHONY : CMakeFiles\UsingPG.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\UsingPG.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\UsingPG.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\UsingPG.dir\rule
+
+# Convenience name for target.
+UsingPG: CMakeFiles\UsingPG.dir\rule
+.PHONY : UsingPG
+
+# clean rule for target.
+CMakeFiles\UsingPG.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UsingPG.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UsingPG.dir\clean
+.PHONY : CMakeFiles\UsingPG.dir\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/OperatorSeven.dir
 
 # All Build rule for target.
 CMakeFiles\OperatorSeven.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorSeven.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorSeven.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorSeven.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target OperatorSeven"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=66,67 "Built target OperatorSeven"
 .PHONY : CMakeFiles\OperatorSeven.dir\all
 
 # Build rule for subdir invocation for target.
@@ -574,7 +880,7 @@ CMakeFiles\OperatorSeven.dir\clean:
 CMakeFiles\CommaOp.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CommaOp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CommaOp.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CommaOp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CommaOp.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target CommaOp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target CommaOp"
 .PHONY : CMakeFiles\CommaOp.dir\all
 
 # Build rule for subdir invocation for target.
@@ -592,6 +898,708 @@ CommaOp: CMakeFiles\CommaOp.dir\rule
 CMakeFiles\CommaOp.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CommaOp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CommaOp.dir\clean
 .PHONY : CMakeFiles\CommaOp.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BitAndOperation.dir
+
+# All Build rule for target.
+CMakeFiles\BitAndOperation.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitAndOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitAndOperation.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitAndOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitAndOperation.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=30 "Built target BitAndOperation"
+.PHONY : CMakeFiles\BitAndOperation.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\BitAndOperation.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\BitAndOperation.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\BitAndOperation.dir\rule
+
+# Convenience name for target.
+BitAndOperation: CMakeFiles\BitAndOperation.dir\rule
+.PHONY : BitAndOperation
+
+# clean rule for target.
+CMakeFiles\BitAndOperation.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitAndOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitAndOperation.dir\clean
+.PHONY : CMakeFiles\BitAndOperation.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SimpleAddThree.dir
+
+# All Build rule for target.
+CMakeFiles\SimpleAddThree.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddThree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddThree.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddThree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddThree.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=86,87 "Built target SimpleAddThree"
+.PHONY : CMakeFiles\SimpleAddThree.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\SimpleAddThree.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddThree.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\SimpleAddThree.dir\rule
+
+# Convenience name for target.
+SimpleAddThree: CMakeFiles\SimpleAddThree.dir\rule
+.PHONY : SimpleAddThree
+
+# clean rule for target.
+CMakeFiles\SimpleAddThree.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddThree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddThree.dir\clean
+.PHONY : CMakeFiles\SimpleAddThree.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ScanfConvTwo.dir
+
+# All Build rule for target.
+CMakeFiles\ScanfConvTwo.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScanfConvTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ScanfConvTwo.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScanfConvTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ScanfConvTwo.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=81 "Built target ScanfConvTwo"
+.PHONY : CMakeFiles\ScanfConvTwo.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\ScanfConvTwo.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\ScanfConvTwo.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\ScanfConvTwo.dir\rule
+
+# Convenience name for target.
+ScanfConvTwo: CMakeFiles\ScanfConvTwo.dir\rule
+.PHONY : ScanfConvTwo
+
+# clean rule for target.
+CMakeFiles\ScanfConvTwo.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScanfConvTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ScanfConvTwo.dir\clean
+.PHONY : CMakeFiles\ScanfConvTwo.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SimpleAddFour.dir
+
+# All Build rule for target.
+CMakeFiles\SimpleAddFour.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddFour.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddFour.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddFour.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddFour.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=82,83 "Built target SimpleAddFour"
+.PHONY : CMakeFiles\SimpleAddFour.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\SimpleAddFour.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddFour.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\SimpleAddFour.dir\rule
+
+# Convenience name for target.
+SimpleAddFour: CMakeFiles\SimpleAddFour.dir\rule
+.PHONY : SimpleAddFour
+
+# clean rule for target.
+CMakeFiles\SimpleAddFour.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddFour.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddFour.dir\clean
+.PHONY : CMakeFiles\SimpleAddFour.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/AutoConvOne.dir
+
+# All Build rule for target.
+CMakeFiles\AutoConvOne.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AutoConvOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AutoConvOne.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AutoConvOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AutoConvOne.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target AutoConvOne"
+.PHONY : CMakeFiles\AutoConvOne.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\AutoConvOne.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\AutoConvOne.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\AutoConvOne.dir\rule
+
+# Convenience name for target.
+AutoConvOne: CMakeFiles\AutoConvOne.dir\rule
+.PHONY : AutoConvOne
+
+# clean rule for target.
+CMakeFiles\AutoConvOne.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AutoConvOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AutoConvOne.dir\clean
+.PHONY : CMakeFiles\AutoConvOne.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/03-1-1.dir
+
+# All Build rule for target.
+CMakeFiles\03-1-1.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-1.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-1.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target 03-1-1"
+.PHONY : CMakeFiles\03-1-1.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\03-1-1.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\03-1-1.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\03-1-1.dir\rule
+
+# Convenience name for target.
+03-1-1: CMakeFiles\03-1-1.dir\rule
+.PHONY : 03-1-1
+
+# clean rule for target.
+CMakeFiles\03-1-1.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-1.dir\clean
+.PHONY : CMakeFiles\03-1-1.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/05-1-4.dir
+
+# All Build rule for target.
+CMakeFiles\05-1-4.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05-1-4.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05-1-4.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=24,25 "Built target 05-1-4"
+.PHONY : CMakeFiles\05-1-4.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\05-1-4.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\05-1-4.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\05-1-4.dir\rule
+
+# Convenience name for target.
+05-1-4: CMakeFiles\05-1-4.dir\rule
+.PHONY : 05-1-4
+
+# clean rule for target.
+CMakeFiles\05-1-4.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05-1-4.dir\clean
+.PHONY : CMakeFiles\05-1-4.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/03-1-2.dir
+
+# All Build rule for target.
+CMakeFiles\03-1-2.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-2.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-2.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=10 "Built target 03-1-2"
+.PHONY : CMakeFiles\03-1-2.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\03-1-2.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\03-1-2.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\03-1-2.dir\rule
+
+# Convenience name for target.
+03-1-2: CMakeFiles\03-1-2.dir\rule
+.PHONY : 03-1-2
+
+# clean rule for target.
+CMakeFiles\03-1-2.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-2.dir\clean
+.PHONY : CMakeFiles\03-1-2.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/05-1-2.dir
+
+# All Build rule for target.
+CMakeFiles\05-1-2.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05-1-2.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05-1-2.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target 05-1-2"
+.PHONY : CMakeFiles\05-1-2.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\05-1-2.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\05-1-2.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\05-1-2.dir\rule
+
+# Convenience name for target.
+05-1-2: CMakeFiles\05-1-2.dir\rule
+.PHONY : 05-1-2
+
+# clean rule for target.
+CMakeFiles\05-1-2.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05-1-2.dir\clean
+.PHONY : CMakeFiles\05-1-2.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/03-1-4.dir
+
+# All Build rule for target.
+CMakeFiles\03-1-4.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-4.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-4.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 03-1-4"
+.PHONY : CMakeFiles\03-1-4.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\03-1-4.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\03-1-4.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\03-1-4.dir\rule
+
+# Convenience name for target.
+03-1-4: CMakeFiles\03-1-4.dir\rule
+.PHONY : 03-1-4
+
+# clean rule for target.
+CMakeFiles\03-1-4.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-4.dir\clean
+.PHONY : CMakeFiles\03-1-4.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/03-1-5.dir
+
+# All Build rule for target.
+CMakeFiles\03-1-5.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-5.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-5.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 03-1-5"
+.PHONY : CMakeFiles\03-1-5.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\03-1-5.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\03-1-5.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\03-1-5.dir\rule
+
+# Convenience name for target.
+03-1-5: CMakeFiles\03-1-5.dir\rule
+.PHONY : 03-1-5
+
+# clean rule for target.
+CMakeFiles\03-1-5.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-1-5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\03-1-5.dir\clean
+.PHONY : CMakeFiles\03-1-5.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FloatError.dir
+
+# All Build rule for target.
+CMakeFiles\FloatError.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FloatError.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FloatError.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FloatError.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FloatError.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target FloatError"
+.PHONY : CMakeFiles\FloatError.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\FloatError.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\FloatError.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\FloatError.dir\rule
+
+# Convenience name for target.
+FloatError: CMakeFiles\FloatError.dir\rule
+.PHONY : FloatError
+
+# clean rule for target.
+CMakeFiles\FloatError.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FloatError.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FloatError.dir\clean
+.PHONY : CMakeFiles\FloatError.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BitOrOperation.dir
+
+# All Build rule for target.
+CMakeFiles\BitOrOperation.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitOrOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitOrOperation.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitOrOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitOrOperation.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target BitOrOperation"
+.PHONY : CMakeFiles\BitOrOperation.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\BitOrOperation.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\BitOrOperation.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\BitOrOperation.dir\rule
+
+# Convenience name for target.
+BitOrOperation: CMakeFiles\BitOrOperation.dir\rule
+.PHONY : BitOrOperation
+
+# clean rule for target.
+CMakeFiles\BitOrOperation.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitOrOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitOrOperation.dir\clean
+.PHONY : CMakeFiles\BitOrOperation.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/04-4-1.dir
+
+# All Build rule for target.
+CMakeFiles\04-4-1.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-4-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\04-4-1.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-4-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\04-4-1.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 04-4-1"
+.PHONY : CMakeFiles\04-4-1.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\04-4-1.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\04-4-1.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\04-4-1.dir\rule
+
+# Convenience name for target.
+04-4-1: CMakeFiles\04-4-1.dir\rule
+.PHONY : 04-4-1
+
+# clean rule for target.
+CMakeFiles\04-4-1.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-4-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\04-4-1.dir\clean
+.PHONY : CMakeFiles\04-4-1.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BitNotOperation.dir
+
+# All Build rule for target.
+CMakeFiles\BitNotOperation.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitNotOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitNotOperation.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitNotOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitNotOperation.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target BitNotOperation"
+.PHONY : CMakeFiles\BitNotOperation.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\BitNotOperation.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\BitNotOperation.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\BitNotOperation.dir\rule
+
+# Convenience name for target.
+BitNotOperation: CMakeFiles\BitNotOperation.dir\rule
+.PHONY : BitNotOperation
+
+# clean rule for target.
+CMakeFiles\BitNotOperation.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitNotOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitNotOperation.dir\clean
+.PHONY : CMakeFiles\BitNotOperation.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BitRightShift.dir
+
+# All Build rule for target.
+CMakeFiles\BitRightShift.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitRightShift.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitRightShift.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitRightShift.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitRightShift.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target BitRightShift"
+.PHONY : CMakeFiles\BitRightShift.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\BitRightShift.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\BitRightShift.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\BitRightShift.dir\rule
+
+# Convenience name for target.
+BitRightShift: CMakeFiles\BitRightShift.dir\rule
+.PHONY : BitRightShift
+
+# clean rule for target.
+CMakeFiles\BitRightShift.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitRightShift.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitRightShift.dir\clean
+.PHONY : CMakeFiles\BitRightShift.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/04-4-2.dir
+
+# All Build rule for target.
+CMakeFiles\04-4-2.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-4-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\04-4-2.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-4-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\04-4-2.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target 04-4-2"
+.PHONY : CMakeFiles\04-4-2.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\04-4-2.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\04-4-2.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\04-4-2.dir\rule
+
+# Convenience name for target.
+04-4-2: CMakeFiles\04-4-2.dir\rule
+.PHONY : 04-4-2
+
+# clean rule for target.
+CMakeFiles\04-4-2.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-4-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\04-4-2.dir\clean
+.PHONY : CMakeFiles\04-4-2.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SizeOfOperator.dir
+
+# All Build rule for target.
+CMakeFiles\SizeOfOperator.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SizeOfOperator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SizeOfOperator.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SizeOfOperator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SizeOfOperator.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=88,89 "Built target SizeOfOperator"
+.PHONY : CMakeFiles\SizeOfOperator.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\SizeOfOperator.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\SizeOfOperator.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\SizeOfOperator.dir\rule
+
+# Convenience name for target.
+SizeOfOperator: CMakeFiles\SizeOfOperator.dir\rule
+.PHONY : SizeOfOperator
+
+# clean rule for target.
+CMakeFiles\SizeOfOperator.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SizeOfOperator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SizeOfOperator.dir\clean
+.PHONY : CMakeFiles\SizeOfOperator.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CircleArea.dir
+
+# All Build rule for target.
+CMakeFiles\CircleArea.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircleArea.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CircleArea.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircleArea.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CircleArea.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=41 "Built target CircleArea"
+.PHONY : CMakeFiles\CircleArea.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\CircleArea.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\CircleArea.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\CircleArea.dir\rule
+
+# Convenience name for target.
+CircleArea: CMakeFiles\CircleArea.dir\rule
+.PHONY : CircleArea
+
+# clean rule for target.
+CMakeFiles\CircleArea.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircleArea.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CircleArea.dir\clean
+.PHONY : CMakeFiles\CircleArea.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/HowChar.dir
+
+# All Build rule for target.
+CMakeFiles\HowChar.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HowChar.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HowChar.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HowChar.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HowChar.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target HowChar"
+.PHONY : CMakeFiles\HowChar.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\HowChar.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\HowChar.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\HowChar.dir\rule
+
+# Convenience name for target.
+HowChar: CMakeFiles\HowChar.dir\rule
+.PHONY : HowChar
+
+# clean rule for target.
+CMakeFiles\HowChar.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HowChar.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HowChar.dir\clean
+.PHONY : CMakeFiles\HowChar.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/05-1-1.dir
+
+# All Build rule for target.
+CMakeFiles\05-1-1.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05-1-1.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05-1-1.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=21 "Built target 05-1-1"
+.PHONY : CMakeFiles\05-1-1.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\05-1-1.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\05-1-1.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\05-1-1.dir\rule
+
+# Convenience name for target.
+05-1-1: CMakeFiles\05-1-1.dir\rule
+.PHONY : 05-1-1
+
+# clean rule for target.
+CMakeFiles\05-1-1.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05-1-1.dir\clean
+.PHONY : CMakeFiles\05-1-1.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/UsingPS.dir
+
+# All Build rule for target.
+CMakeFiles\UsingPS.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UsingPS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UsingPS.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UsingPS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UsingPS.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=93,94 "Built target UsingPS"
+.PHONY : CMakeFiles\UsingPS.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\UsingPS.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\UsingPS.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\UsingPS.dir\rule
+
+# Convenience name for target.
+UsingPS: CMakeFiles\UsingPS.dir\rule
+.PHONY : UsingPS
+
+# clean rule for target.
+CMakeFiles\UsingPS.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UsingPS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UsingPS.dir\clean
+.PHONY : CMakeFiles\UsingPS.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ConvDiv.dir
+
+# All Build rule for target.
+CMakeFiles\ConvDiv.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ConvDiv.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ConvDiv.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ConvDiv.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ConvDiv.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target ConvDiv"
+.PHONY : CMakeFiles\ConvDiv.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\ConvDiv.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\ConvDiv.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\ConvDiv.dir\rule
+
+# Convenience name for target.
+ConvDiv: CMakeFiles\ConvDiv.dir\rule
+.PHONY : ConvDiv
+
+# clean rule for target.
+CMakeFiles\ConvDiv.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ConvDiv.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ConvDiv.dir\clean
+.PHONY : CMakeFiles\ConvDiv.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/StringPointf.dir
+
+# All Build rule for target.
+CMakeFiles\StringPointf.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringPointf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StringPointf.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringPointf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StringPointf.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=90 "Built target StringPointf"
+.PHONY : CMakeFiles\StringPointf.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\StringPointf.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\StringPointf.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\StringPointf.dir\rule
+
+# Convenience name for target.
+StringPointf: CMakeFiles\StringPointf.dir\rule
+.PHONY : StringPointf
+
+# clean rule for target.
+CMakeFiles\StringPointf.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringPointf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StringPointf.dir\clean
+.PHONY : CMakeFiles\StringPointf.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FormPrintf.dir
+
+# All Build rule for target.
+CMakeFiles\FormPrintf.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FormPrintf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FormPrintf.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FormPrintf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FormPrintf.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=50 "Built target FormPrintf"
+.PHONY : CMakeFiles\FormPrintf.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\FormPrintf.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\FormPrintf.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\FormPrintf.dir\rule
+
+# Convenience name for target.
+FormPrintf: CMakeFiles\FormPrintf.dir\rule
+.PHONY : FormPrintf
+
+# clean rule for target.
+CMakeFiles\FormPrintf.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FormPrintf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FormPrintf.dir\clean
+.PHONY : CMakeFiles\FormPrintf.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FieldWidth.dir
+
+# All Build rule for target.
+CMakeFiles\FieldWidth.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FieldWidth.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FieldWidth.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FieldWidth.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FieldWidth.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target FieldWidth"
+.PHONY : CMakeFiles\FieldWidth.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\FieldWidth.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\FieldWidth.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\FieldWidth.dir\rule
+
+# Convenience name for target.
+FieldWidth: CMakeFiles\FieldWidth.dir\rule
+.PHONY : FieldWidth
+
+# clean rule for target.
+CMakeFiles\FieldWidth.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FieldWidth.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FieldWidth.dir\clean
+.PHONY : CMakeFiles\FieldWidth.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ScanfConvOne.dir
+
+# All Build rule for target.
+CMakeFiles\ScanfConvOne.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScanfConvOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ScanfConvOne.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScanfConvOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ScanfConvOne.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target ScanfConvOne"
+.PHONY : CMakeFiles\ScanfConvOne.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\ScanfConvOne.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\ScanfConvOne.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\ScanfConvOne.dir\rule
+
+# Convenience name for target.
+ScanfConvOne: CMakeFiles\ScanfConvOne.dir\rule
+.PHONY : ScanfConvOne
+
+# clean rule for target.
+CMakeFiles\ScanfConvOne.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScanfConvOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ScanfConvOne.dir\clean
+.PHONY : CMakeFiles\ScanfConvOne.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
