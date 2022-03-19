@@ -145,6 +145,19 @@ OctHex\fast:
 .PHONY : 03-1-3\fast
 
 #=============================================================================
+# Target rules for targets named 07-3-1
+
+# Build rule for target.
+07-3-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 07-3-1
+.PHONY : 07-3-1
+
+# fast build rule for target.
+07-3-1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-1.dir\build
+.PHONY : 07-3-1\fast
+
+#=============================================================================
 # Target rules for targets named 02-2-1
 
 # Build rule for target.
@@ -156,19 +169,6 @@ OctHex\fast:
 02-2-1\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\02-2-1.dir\build
 .PHONY : 02-2-1\fast
-
-#=============================================================================
-# Target rules for targets named RealNumOutput
-
-# Build rule for target.
-RealNumOutput: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) RealNumOutput
-.PHONY : RealNumOutput
-
-# fast build rule for target.
-RealNumOutput\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RealNumOutput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RealNumOutput.dir\build
-.PHONY : RealNumOutput\fast
 
 #=============================================================================
 # Target rules for targets named 02-1-2
@@ -184,6 +184,19 @@ RealNumOutput\fast:
 .PHONY : 02-1-2\fast
 
 #=============================================================================
+# Target rules for targets named RealNumOutput
+
+# Build rule for target.
+RealNumOutput: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) RealNumOutput
+.PHONY : RealNumOutput
+
+# fast build rule for target.
+RealNumOutput\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RealNumOutput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RealNumOutput.dir\build
+.PHONY : RealNumOutput\fast
+
+#=============================================================================
 # Target rules for targets named c_practice
 
 # Build rule for target.
@@ -197,17 +210,17 @@ c_practice\fast:
 .PHONY : c_practice\fast
 
 #=============================================================================
-# Target rules for targets named BitLeftShift
+# Target rules for targets named 07-3-2
 
 # Build rule for target.
-BitLeftShift: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) BitLeftShift
-.PHONY : BitLeftShift
+07-3-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 07-3-2
+.PHONY : 07-3-2
 
 # fast build rule for target.
-BitLeftShift\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitLeftShift.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitLeftShift.dir\build
-.PHONY : BitLeftShift\fast
+07-3-2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-2.dir\build
+.PHONY : 07-3-2\fast
 
 #=============================================================================
 # Target rules for targets named 02-2-2
@@ -221,6 +234,19 @@ BitLeftShift\fast:
 02-2-2\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\02-2-2.dir\build
 .PHONY : 02-2-2\fast
+
+#=============================================================================
+# Target rules for targets named BitLeftShift
+
+# Build rule for target.
+BitLeftShift: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) BitLeftShift
+.PHONY : BitLeftShift
+
+# fast build rule for target.
+BitLeftShift\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitLeftShift.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitLeftShift.dir\build
+.PHONY : BitLeftShift\fast
 
 #=============================================================================
 # Target rules for targets named CharShortBaseAdd
@@ -262,6 +288,19 @@ OperatorSix\fast:
 .PHONY : 02-1-1\fast
 
 #=============================================================================
+# Target rules for targets named ThreeOperand
+
+# Build rule for target.
+ThreeOperand: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ThreeOperand
+.PHONY : ThreeOperand
+
+# fast build rule for target.
+ThreeOperand\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeOperand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ThreeOperand.dir\build
+.PHONY : ThreeOperand\fast
+
+#=============================================================================
 # Target rules for targets named HelloComment
 
 # Build rule for target.
@@ -273,6 +312,32 @@ HelloComment: cmake_check_build_system
 HelloComment\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloComment.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HelloComment.dir\build
 .PHONY : HelloComment\fast
+
+#=============================================================================
+# Target rules for targets named 07-1-3
+
+# Build rule for target.
+07-1-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 07-1-3
+.PHONY : 07-1-3
+
+# fast build rule for target.
+07-1-3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-3.dir\build
+.PHONY : 07-1-3\fast
+
+#=============================================================================
+# Target rules for targets named 08-1-4
+
+# Build rule for target.
+08-1-4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 08-1-4
+.PHONY : 08-1-4
+
+# fast build rule for target.
+08-1-4\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-4.dir\build
+.PHONY : 08-1-4\fast
 
 #=============================================================================
 # Target rules for targets named SimpleAddOne
@@ -403,6 +468,19 @@ OperatorFour: cmake_check_build_system
 OperatorFour\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OperatorFour.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OperatorFour.dir\build
 .PHONY : OperatorFour\fast
+
+#=============================================================================
+# Target rules for targets named 07-2-1
+
+# Build rule for target.
+07-2-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 07-2-1
+.PHONY : 07-2-1
+
+# fast build rule for target.
+07-2-1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-2-1.dir\build
+.PHONY : 07-2-1\fast
 
 #=============================================================================
 # Target rules for targets named LiteralSize
@@ -574,6 +652,19 @@ AutoConvOne\fast:
 .PHONY : 03-1-2\fast
 
 #=============================================================================
+# Target rules for targets named AdvanEnglishSchool
+
+# Build rule for target.
+AdvanEnglishSchool: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) AdvanEnglishSchool
+.PHONY : AdvanEnglishSchool
+
+# fast build rule for target.
+AdvanEnglishSchool\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AdvanEnglishSchool.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AdvanEnglishSchool.dir\build
+.PHONY : AdvanEnglishSchool\fast
+
+#=============================================================================
 # Target rules for targets named 05-1-2
 
 # Build rule for target.
@@ -639,19 +730,6 @@ BitOrOperation\fast:
 .PHONY : BitOrOperation\fast
 
 #=============================================================================
-# Target rules for targets named 04-4-1
-
-# Build rule for target.
-04-4-1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 04-4-1
-.PHONY : 04-4-1
-
-# fast build rule for target.
-04-4-1\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-4-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\04-4-1.dir\build
-.PHONY : 04-4-1\fast
-
-#=============================================================================
 # Target rules for targets named BitNotOperation
 
 # Build rule for target.
@@ -663,6 +741,19 @@ BitNotOperation: cmake_check_build_system
 BitNotOperation\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitNotOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BitNotOperation.dir\build
 .PHONY : BitNotOperation\fast
+
+#=============================================================================
+# Target rules for targets named 04-4-1
+
+# Build rule for target.
+04-4-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 04-4-1
+.PHONY : 04-4-1
+
+# fast build rule for target.
+04-4-1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-4-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\04-4-1.dir\build
+.PHONY : 04-4-1\fast
 
 #=============================================================================
 # Target rules for targets named BitRightShift
@@ -689,6 +780,19 @@ BitRightShift\fast:
 04-4-2\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-4-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\04-4-2.dir\build
 .PHONY : 04-4-2\fast
+
+#=============================================================================
+# Target rules for targets named 07-1-2
+
+# Build rule for target.
+07-1-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 07-1-2
+.PHONY : 07-1-2
+
+# fast build rule for target.
+07-1-2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-2.dir\build
+.PHONY : 07-1-2\fast
 
 #=============================================================================
 # Target rules for targets named SizeOfOperator
@@ -769,6 +873,19 @@ ConvDiv\fast:
 .PHONY : ConvDiv\fast
 
 #=============================================================================
+# Target rules for targets named TwoToNine
+
+# Build rule for target.
+TwoToNine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) TwoToNine
+.PHONY : TwoToNine
+
+# fast build rule for target.
+TwoToNine\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoToNine.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TwoToNine.dir\build
+.PHONY : TwoToNine\fast
+
+#=============================================================================
 # Target rules for targets named StringPointf
 
 # Build rule for target.
@@ -780,6 +897,19 @@ StringPointf: cmake_check_build_system
 StringPointf\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringPointf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StringPointf.dir\build
 .PHONY : StringPointf\fast
+
+#=============================================================================
+# Target rules for targets named NineNineDan
+
+# Build rule for target.
+NineNineDan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) NineNineDan
+.PHONY : NineNineDan
+
+# fast build rule for target.
+NineNineDan\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NineNineDan.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\NineNineDan.dir\build
+.PHONY : NineNineDan\fast
 
 #=============================================================================
 # Target rules for targets named FormPrintf
@@ -808,6 +938,32 @@ FieldWidth\fast:
 .PHONY : FieldWidth\fast
 
 #=============================================================================
+# Target rules for targets named GoToBasic
+
+# Build rule for target.
+GoToBasic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) GoToBasic
+.PHONY : GoToBasic
+
+# fast build rule for target.
+GoToBasic\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GoToBasic.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GoToBasic.dir\build
+.PHONY : GoToBasic\fast
+
+#=============================================================================
+# Target rules for targets named IfBasic
+
+# Build rule for target.
+IfBasic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) IfBasic
+.PHONY : IfBasic
+
+# fast build rule for target.
+IfBasic\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfBasic.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IfBasic.dir\build
+.PHONY : IfBasic\fast
+
+#=============================================================================
 # Target rules for targets named ScanfConvOne
 
 # Build rule for target.
@@ -819,6 +975,305 @@ ScanfConvOne: cmake_check_build_system
 ScanfConvOne\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScanfConvOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ScanfConvOne.dir\build
 .PHONY : ScanfConvOne\fast
+
+#=============================================================================
+# Target rules for targets named SimpleWhile
+
+# Build rule for target.
+SimpleWhile: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) SimpleWhile
+.PHONY : SimpleWhile
+
+# fast build rule for target.
+SimpleWhile\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleWhile.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleWhile.dir\build
+.PHONY : SimpleWhile\fast
+
+#=============================================================================
+# Target rules for targets named 07-1-1
+
+# Build rule for target.
+07-1-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 07-1-1
+.PHONY : 07-1-1
+
+# fast build rule for target.
+07-1-1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-1.dir\build
+.PHONY : 07-1-1\fast
+
+#=============================================================================
+# Target rules for targets named 07-1-4
+
+# Build rule for target.
+07-1-4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 07-1-4
+.PHONY : 07-1-4
+
+# fast build rule for target.
+07-1-4\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-4.dir\build
+.PHONY : 07-1-4\fast
+
+#=============================================================================
+# Target rules for targets named 07-1-5
+
+# Build rule for target.
+07-1-5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 07-1-5
+.PHONY : 07-1-5
+
+# fast build rule for target.
+07-1-5\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-5.dir\build
+.PHONY : 07-1-5\fast
+
+#=============================================================================
+# Target rules for targets named 07-2-2
+
+# Build rule for target.
+07-2-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 07-2-2
+.PHONY : 07-2-2
+
+# fast build rule for target.
+07-2-2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-2-2.dir\build
+.PHONY : 07-2-2\fast
+
+#=============================================================================
+# Target rules for targets named UsefulDoWhile
+
+# Build rule for target.
+UsefulDoWhile: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) UsefulDoWhile
+.PHONY : UsefulDoWhile
+
+# fast build rule for target.
+UsefulDoWhile\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UsefulDoWhile.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UsefulDoWhile.dir\build
+.PHONY : UsefulDoWhile\fast
+
+#=============================================================================
+# Target rules for targets named 07-3-1-2
+
+# Build rule for target.
+07-3-1-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 07-3-1-2
+.PHONY : 07-3-1-2
+
+# fast build rule for target.
+07-3-1-2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-1-2.dir\build
+.PHONY : 07-3-1-2\fast
+
+#=============================================================================
+# Target rules for targets named 07-3-3
+
+# Build rule for target.
+07-3-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 07-3-3
+.PHONY : 07-3-3
+
+# fast build rule for target.
+07-3-3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-3.dir\build
+.PHONY : 07-3-3\fast
+
+#=============================================================================
+# Target rules for targets named AddToNum
+
+# Build rule for target.
+AddToNum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) AddToNum
+.PHONY : AddToNum
+
+# fast build rule for target.
+AddToNum\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AddToNum.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AddToNum.dir\build
+.PHONY : AddToNum\fast
+
+#=============================================================================
+# Target rules for targets named RealMean
+
+# Build rule for target.
+RealMean: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) RealMean
+.PHONY : RealMean
+
+# fast build rule for target.
+RealMean\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RealMean.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RealMean.dir\build
+.PHONY : RealMean\fast
+
+#=============================================================================
+# Target rules for targets named CalOne
+
+# Build rule for target.
+CalOne: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CalOne
+.PHONY : CalOne
+
+# fast build rule for target.
+CalOne\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CalOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CalOne.dir\build
+.PHONY : CalOne\fast
+
+#=============================================================================
+# Target rules for targets named Mul3Mul4
+
+# Build rule for target.
+Mul3Mul4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Mul3Mul4
+.PHONY : Mul3Mul4
+
+# fast build rule for target.
+Mul3Mul4\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mul3Mul4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Mul3Mul4.dir\build
+.PHONY : Mul3Mul4\fast
+
+#=============================================================================
+# Target rules for targets named IfElseBasic
+
+# Build rule for target.
+IfElseBasic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) IfElseBasic
+.PHONY : IfElseBasic
+
+# fast build rule for target.
+IfElseBasic\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfElseBasic.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IfElseBasic.dir\build
+.PHONY : IfElseBasic\fast
+
+#=============================================================================
+# Target rules for targets named CalTwo
+
+# Build rule for target.
+CalTwo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CalTwo
+.PHONY : CalTwo
+
+# fast build rule for target.
+CalTwo\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CalTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CalTwo.dir\build
+.PHONY : CalTwo\fast
+
+#=============================================================================
+# Target rules for targets named 08-1-1
+
+# Build rule for target.
+08-1-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 08-1-1
+.PHONY : 08-1-1
+
+# fast build rule for target.
+08-1-1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-1.dir\build
+.PHONY : 08-1-1\fast
+
+#=============================================================================
+# Target rules for targets named 08-1-2
+
+# Build rule for target.
+08-1-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 08-1-2
+.PHONY : 08-1-2
+
+# fast build rule for target.
+08-1-2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-2.dir\build
+.PHONY : 08-1-2\fast
+
+#=============================================================================
+# Target rules for targets named 08-1-3
+
+# Build rule for target.
+08-1-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 08-1-3
+.PHONY : 08-1-3
+
+# fast build rule for target.
+08-1-3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-3.dir\build
+.PHONY : 08-1-3\fast
+
+#=============================================================================
+# Target rules for targets named WhenOver5000
+
+# Build rule for target.
+WhenOver5000: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) WhenOver5000
+.PHONY : WhenOver5000
+
+# fast build rule for target.
+WhenOver5000\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhenOver5000.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhenOver5000.dir\build
+.PHONY : WhenOver5000\fast
+
+#=============================================================================
+# Target rules for targets named ExceptMul2Mul3
+
+# Build rule for target.
+ExceptMul2Mul3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ExceptMul2Mul3
+.PHONY : ExceptMul2Mul3
+
+# fast build rule for target.
+ExceptMul2Mul3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExceptMul2Mul3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExceptMul2Mul3.dir\build
+.PHONY : ExceptMul2Mul3\fast
+
+#=============================================================================
+# Target rules for targets named 08-2-1
+
+# Build rule for target.
+08-2-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 08-2-1
+.PHONY : 08-2-1
+
+# fast build rule for target.
+08-2-1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-2-1.dir\build
+.PHONY : 08-2-1\fast
+
+#=============================================================================
+# Target rules for targets named 08-2-2
+
+# Build rule for target.
+08-2-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 08-2-2
+.PHONY : 08-2-2
+
+# fast build rule for target.
+08-2-2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-2-2.dir\build
+.PHONY : 08-2-2\fast
+
+#=============================================================================
+# Target rules for targets named EnglishSchool
+
+# Build rule for target.
+EnglishSchool: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) EnglishSchool
+.PHONY : EnglishSchool
+
+# fast build rule for target.
+EnglishSchool\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EnglishSchool.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EnglishSchool.dir\build
+.PHONY : EnglishSchool\fast
+
+#=============================================================================
+# Target rules for targets named 08-3
+
+# Build rule for target.
+08-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 08-3
+.PHONY : 08-3
+
+# fast build rule for target.
+08-3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-3.dir\build
+.PHONY : 08-3\fast
 
 02\1\02-1-1.obj: 02\1\02-1-1.c.obj
 .PHONY : 02\1\02-1-1.obj
@@ -2140,6 +2595,846 @@ ScanfConvOne\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScanfConvTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ScanfConvTwo.dir\06\2\ScanfConvTwo.c.s
 .PHONY : 06\2\ScanfConvTwo.c.s
 
+07\1\07-1-1.obj: 07\1\07-1-1.c.obj
+.PHONY : 07\1\07-1-1.obj
+
+# target to build an object file
+07\1\07-1-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-1.dir\07\1\07-1-1.c.obj
+.PHONY : 07\1\07-1-1.c.obj
+
+07\1\07-1-1.i: 07\1\07-1-1.c.i
+.PHONY : 07\1\07-1-1.i
+
+# target to preprocess a source file
+07\1\07-1-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-1.dir\07\1\07-1-1.c.i
+.PHONY : 07\1\07-1-1.c.i
+
+07\1\07-1-1.s: 07\1\07-1-1.c.s
+.PHONY : 07\1\07-1-1.s
+
+# target to generate assembly for a file
+07\1\07-1-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-1.dir\07\1\07-1-1.c.s
+.PHONY : 07\1\07-1-1.c.s
+
+07\1\07-1-2.obj: 07\1\07-1-2.c.obj
+.PHONY : 07\1\07-1-2.obj
+
+# target to build an object file
+07\1\07-1-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-2.dir\07\1\07-1-2.c.obj
+.PHONY : 07\1\07-1-2.c.obj
+
+07\1\07-1-2.i: 07\1\07-1-2.c.i
+.PHONY : 07\1\07-1-2.i
+
+# target to preprocess a source file
+07\1\07-1-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-2.dir\07\1\07-1-2.c.i
+.PHONY : 07\1\07-1-2.c.i
+
+07\1\07-1-2.s: 07\1\07-1-2.c.s
+.PHONY : 07\1\07-1-2.s
+
+# target to generate assembly for a file
+07\1\07-1-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-2.dir\07\1\07-1-2.c.s
+.PHONY : 07\1\07-1-2.c.s
+
+07\1\07-1-3.obj: 07\1\07-1-3.c.obj
+.PHONY : 07\1\07-1-3.obj
+
+# target to build an object file
+07\1\07-1-3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-3.dir\07\1\07-1-3.c.obj
+.PHONY : 07\1\07-1-3.c.obj
+
+07\1\07-1-3.i: 07\1\07-1-3.c.i
+.PHONY : 07\1\07-1-3.i
+
+# target to preprocess a source file
+07\1\07-1-3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-3.dir\07\1\07-1-3.c.i
+.PHONY : 07\1\07-1-3.c.i
+
+07\1\07-1-3.s: 07\1\07-1-3.c.s
+.PHONY : 07\1\07-1-3.s
+
+# target to generate assembly for a file
+07\1\07-1-3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-3.dir\07\1\07-1-3.c.s
+.PHONY : 07\1\07-1-3.c.s
+
+07\1\07-1-4.obj: 07\1\07-1-4.c.obj
+.PHONY : 07\1\07-1-4.obj
+
+# target to build an object file
+07\1\07-1-4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-4.dir\07\1\07-1-4.c.obj
+.PHONY : 07\1\07-1-4.c.obj
+
+07\1\07-1-4.i: 07\1\07-1-4.c.i
+.PHONY : 07\1\07-1-4.i
+
+# target to preprocess a source file
+07\1\07-1-4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-4.dir\07\1\07-1-4.c.i
+.PHONY : 07\1\07-1-4.c.i
+
+07\1\07-1-4.s: 07\1\07-1-4.c.s
+.PHONY : 07\1\07-1-4.s
+
+# target to generate assembly for a file
+07\1\07-1-4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-4.dir\07\1\07-1-4.c.s
+.PHONY : 07\1\07-1-4.c.s
+
+07\1\07-1-5.obj: 07\1\07-1-5.c.obj
+.PHONY : 07\1\07-1-5.obj
+
+# target to build an object file
+07\1\07-1-5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-5.dir\07\1\07-1-5.c.obj
+.PHONY : 07\1\07-1-5.c.obj
+
+07\1\07-1-5.i: 07\1\07-1-5.c.i
+.PHONY : 07\1\07-1-5.i
+
+# target to preprocess a source file
+07\1\07-1-5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-5.dir\07\1\07-1-5.c.i
+.PHONY : 07\1\07-1-5.c.i
+
+07\1\07-1-5.s: 07\1\07-1-5.c.s
+.PHONY : 07\1\07-1-5.s
+
+# target to generate assembly for a file
+07\1\07-1-5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-1-5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-1-5.dir\07\1\07-1-5.c.s
+.PHONY : 07\1\07-1-5.c.s
+
+07\1\07-2-1.obj: 07\1\07-2-1.c.obj
+.PHONY : 07\1\07-2-1.obj
+
+# target to build an object file
+07\1\07-2-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-2-1.dir\07\1\07-2-1.c.obj
+.PHONY : 07\1\07-2-1.c.obj
+
+07\1\07-2-1.i: 07\1\07-2-1.c.i
+.PHONY : 07\1\07-2-1.i
+
+# target to preprocess a source file
+07\1\07-2-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-2-1.dir\07\1\07-2-1.c.i
+.PHONY : 07\1\07-2-1.c.i
+
+07\1\07-2-1.s: 07\1\07-2-1.c.s
+.PHONY : 07\1\07-2-1.s
+
+# target to generate assembly for a file
+07\1\07-2-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-2-1.dir\07\1\07-2-1.c.s
+.PHONY : 07\1\07-2-1.c.s
+
+07\1\07-2-2.obj: 07\1\07-2-2.c.obj
+.PHONY : 07\1\07-2-2.obj
+
+# target to build an object file
+07\1\07-2-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-2-2.dir\07\1\07-2-2.c.obj
+.PHONY : 07\1\07-2-2.c.obj
+
+07\1\07-2-2.i: 07\1\07-2-2.c.i
+.PHONY : 07\1\07-2-2.i
+
+# target to preprocess a source file
+07\1\07-2-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-2-2.dir\07\1\07-2-2.c.i
+.PHONY : 07\1\07-2-2.c.i
+
+07\1\07-2-2.s: 07\1\07-2-2.c.s
+.PHONY : 07\1\07-2-2.s
+
+# target to generate assembly for a file
+07\1\07-2-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-2-2.dir\07\1\07-2-2.c.s
+.PHONY : 07\1\07-2-2.c.s
+
+07\1\NineNineDan.obj: 07\1\NineNineDan.c.obj
+.PHONY : 07\1\NineNineDan.obj
+
+# target to build an object file
+07\1\NineNineDan.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NineNineDan.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\NineNineDan.dir\07\1\NineNineDan.c.obj
+.PHONY : 07\1\NineNineDan.c.obj
+
+07\1\NineNineDan.i: 07\1\NineNineDan.c.i
+.PHONY : 07\1\NineNineDan.i
+
+# target to preprocess a source file
+07\1\NineNineDan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NineNineDan.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\NineNineDan.dir\07\1\NineNineDan.c.i
+.PHONY : 07\1\NineNineDan.c.i
+
+07\1\NineNineDan.s: 07\1\NineNineDan.c.s
+.PHONY : 07\1\NineNineDan.s
+
+# target to generate assembly for a file
+07\1\NineNineDan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NineNineDan.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\NineNineDan.dir\07\1\NineNineDan.c.s
+.PHONY : 07\1\NineNineDan.c.s
+
+07\1\SimpleWhile.obj: 07\1\SimpleWhile.c.obj
+.PHONY : 07\1\SimpleWhile.obj
+
+# target to build an object file
+07\1\SimpleWhile.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleWhile.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleWhile.dir\07\1\SimpleWhile.c.obj
+.PHONY : 07\1\SimpleWhile.c.obj
+
+07\1\SimpleWhile.i: 07\1\SimpleWhile.c.i
+.PHONY : 07\1\SimpleWhile.i
+
+# target to preprocess a source file
+07\1\SimpleWhile.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleWhile.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleWhile.dir\07\1\SimpleWhile.c.i
+.PHONY : 07\1\SimpleWhile.c.i
+
+07\1\SimpleWhile.s: 07\1\SimpleWhile.c.s
+.PHONY : 07\1\SimpleWhile.s
+
+# target to generate assembly for a file
+07\1\SimpleWhile.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleWhile.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleWhile.dir\07\1\SimpleWhile.c.s
+.PHONY : 07\1\SimpleWhile.c.s
+
+07\1\TwoToNine.obj: 07\1\TwoToNine.c.obj
+.PHONY : 07\1\TwoToNine.obj
+
+# target to build an object file
+07\1\TwoToNine.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoToNine.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TwoToNine.dir\07\1\TwoToNine.c.obj
+.PHONY : 07\1\TwoToNine.c.obj
+
+07\1\TwoToNine.i: 07\1\TwoToNine.c.i
+.PHONY : 07\1\TwoToNine.i
+
+# target to preprocess a source file
+07\1\TwoToNine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoToNine.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TwoToNine.dir\07\1\TwoToNine.c.i
+.PHONY : 07\1\TwoToNine.c.i
+
+07\1\TwoToNine.s: 07\1\TwoToNine.c.s
+.PHONY : 07\1\TwoToNine.s
+
+# target to generate assembly for a file
+07\1\TwoToNine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoToNine.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TwoToNine.dir\07\1\TwoToNine.c.s
+.PHONY : 07\1\TwoToNine.c.s
+
+07\2\07-3-1-2.obj: 07\2\07-3-1-2.c.obj
+.PHONY : 07\2\07-3-1-2.obj
+
+# target to build an object file
+07\2\07-3-1-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-1-2.dir\07\2\07-3-1-2.c.obj
+.PHONY : 07\2\07-3-1-2.c.obj
+
+07\2\07-3-1-2.i: 07\2\07-3-1-2.c.i
+.PHONY : 07\2\07-3-1-2.i
+
+# target to preprocess a source file
+07\2\07-3-1-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-1-2.dir\07\2\07-3-1-2.c.i
+.PHONY : 07\2\07-3-1-2.c.i
+
+07\2\07-3-1-2.s: 07\2\07-3-1-2.c.s
+.PHONY : 07\2\07-3-1-2.s
+
+# target to generate assembly for a file
+07\2\07-3-1-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-1-2.dir\07\2\07-3-1-2.c.s
+.PHONY : 07\2\07-3-1-2.c.s
+
+07\2\07-3-1.obj: 07\2\07-3-1.c.obj
+.PHONY : 07\2\07-3-1.obj
+
+# target to build an object file
+07\2\07-3-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-1.dir\07\2\07-3-1.c.obj
+.PHONY : 07\2\07-3-1.c.obj
+
+07\2\07-3-1.i: 07\2\07-3-1.c.i
+.PHONY : 07\2\07-3-1.i
+
+# target to preprocess a source file
+07\2\07-3-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-1.dir\07\2\07-3-1.c.i
+.PHONY : 07\2\07-3-1.c.i
+
+07\2\07-3-1.s: 07\2\07-3-1.c.s
+.PHONY : 07\2\07-3-1.s
+
+# target to generate assembly for a file
+07\2\07-3-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-1.dir\07\2\07-3-1.c.s
+.PHONY : 07\2\07-3-1.c.s
+
+07\2\07-3-2.obj: 07\2\07-3-2.c.obj
+.PHONY : 07\2\07-3-2.obj
+
+# target to build an object file
+07\2\07-3-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-2.dir\07\2\07-3-2.c.obj
+.PHONY : 07\2\07-3-2.c.obj
+
+07\2\07-3-2.i: 07\2\07-3-2.c.i
+.PHONY : 07\2\07-3-2.i
+
+# target to preprocess a source file
+07\2\07-3-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-2.dir\07\2\07-3-2.c.i
+.PHONY : 07\2\07-3-2.c.i
+
+07\2\07-3-2.s: 07\2\07-3-2.c.s
+.PHONY : 07\2\07-3-2.s
+
+# target to generate assembly for a file
+07\2\07-3-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-2.dir\07\2\07-3-2.c.s
+.PHONY : 07\2\07-3-2.c.s
+
+07\2\07-3-3.obj: 07\2\07-3-3.c.obj
+.PHONY : 07\2\07-3-3.obj
+
+# target to build an object file
+07\2\07-3-3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-3.dir\07\2\07-3-3.c.obj
+.PHONY : 07\2\07-3-3.c.obj
+
+07\2\07-3-3.i: 07\2\07-3-3.c.i
+.PHONY : 07\2\07-3-3.i
+
+# target to preprocess a source file
+07\2\07-3-3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-3.dir\07\2\07-3-3.c.i
+.PHONY : 07\2\07-3-3.c.i
+
+07\2\07-3-3.s: 07\2\07-3-3.c.s
+.PHONY : 07\2\07-3-3.s
+
+# target to generate assembly for a file
+07\2\07-3-3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-3.dir\07\2\07-3-3.c.s
+.PHONY : 07\2\07-3-3.c.s
+
+07\2\UsefulDoWhile.obj: 07\2\UsefulDoWhile.c.obj
+.PHONY : 07\2\UsefulDoWhile.obj
+
+# target to build an object file
+07\2\UsefulDoWhile.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UsefulDoWhile.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UsefulDoWhile.dir\07\2\UsefulDoWhile.c.obj
+.PHONY : 07\2\UsefulDoWhile.c.obj
+
+07\2\UsefulDoWhile.i: 07\2\UsefulDoWhile.c.i
+.PHONY : 07\2\UsefulDoWhile.i
+
+# target to preprocess a source file
+07\2\UsefulDoWhile.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UsefulDoWhile.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UsefulDoWhile.dir\07\2\UsefulDoWhile.c.i
+.PHONY : 07\2\UsefulDoWhile.c.i
+
+07\2\UsefulDoWhile.s: 07\2\UsefulDoWhile.c.s
+.PHONY : 07\2\UsefulDoWhile.s
+
+# target to generate assembly for a file
+07\2\UsefulDoWhile.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UsefulDoWhile.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UsefulDoWhile.dir\07\2\UsefulDoWhile.c.s
+.PHONY : 07\2\UsefulDoWhile.c.s
+
+07\3\AddToNum.obj: 07\3\AddToNum.c.obj
+.PHONY : 07\3\AddToNum.obj
+
+# target to build an object file
+07\3\AddToNum.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AddToNum.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AddToNum.dir\07\3\AddToNum.c.obj
+.PHONY : 07\3\AddToNum.c.obj
+
+07\3\AddToNum.i: 07\3\AddToNum.c.i
+.PHONY : 07\3\AddToNum.i
+
+# target to preprocess a source file
+07\3\AddToNum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AddToNum.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AddToNum.dir\07\3\AddToNum.c.i
+.PHONY : 07\3\AddToNum.c.i
+
+07\3\AddToNum.s: 07\3\AddToNum.c.s
+.PHONY : 07\3\AddToNum.s
+
+# target to generate assembly for a file
+07\3\AddToNum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AddToNum.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AddToNum.dir\07\3\AddToNum.c.s
+.PHONY : 07\3\AddToNum.c.s
+
+07\3\RealMean.obj: 07\3\RealMean.c.obj
+.PHONY : 07\3\RealMean.obj
+
+# target to build an object file
+07\3\RealMean.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RealMean.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RealMean.dir\07\3\RealMean.c.obj
+.PHONY : 07\3\RealMean.c.obj
+
+07\3\RealMean.i: 07\3\RealMean.c.i
+.PHONY : 07\3\RealMean.i
+
+# target to preprocess a source file
+07\3\RealMean.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RealMean.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RealMean.dir\07\3\RealMean.c.i
+.PHONY : 07\3\RealMean.c.i
+
+07\3\RealMean.s: 07\3\RealMean.c.s
+.PHONY : 07\3\RealMean.s
+
+# target to generate assembly for a file
+07\3\RealMean.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RealMean.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RealMean.dir\07\3\RealMean.c.s
+.PHONY : 07\3\RealMean.c.s
+
+08\1\08-1-1.obj: 08\1\08-1-1.c.obj
+.PHONY : 08\1\08-1-1.obj
+
+# target to build an object file
+08\1\08-1-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-1.dir\08\1\08-1-1.c.obj
+.PHONY : 08\1\08-1-1.c.obj
+
+08\1\08-1-1.i: 08\1\08-1-1.c.i
+.PHONY : 08\1\08-1-1.i
+
+# target to preprocess a source file
+08\1\08-1-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-1.dir\08\1\08-1-1.c.i
+.PHONY : 08\1\08-1-1.c.i
+
+08\1\08-1-1.s: 08\1\08-1-1.c.s
+.PHONY : 08\1\08-1-1.s
+
+# target to generate assembly for a file
+08\1\08-1-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-1.dir\08\1\08-1-1.c.s
+.PHONY : 08\1\08-1-1.c.s
+
+08\1\08-1-2.obj: 08\1\08-1-2.c.obj
+.PHONY : 08\1\08-1-2.obj
+
+# target to build an object file
+08\1\08-1-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-2.dir\08\1\08-1-2.c.obj
+.PHONY : 08\1\08-1-2.c.obj
+
+08\1\08-1-2.i: 08\1\08-1-2.c.i
+.PHONY : 08\1\08-1-2.i
+
+# target to preprocess a source file
+08\1\08-1-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-2.dir\08\1\08-1-2.c.i
+.PHONY : 08\1\08-1-2.c.i
+
+08\1\08-1-2.s: 08\1\08-1-2.c.s
+.PHONY : 08\1\08-1-2.s
+
+# target to generate assembly for a file
+08\1\08-1-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-2.dir\08\1\08-1-2.c.s
+.PHONY : 08\1\08-1-2.c.s
+
+08\1\08-1-3.obj: 08\1\08-1-3.c.obj
+.PHONY : 08\1\08-1-3.obj
+
+# target to build an object file
+08\1\08-1-3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-3.dir\08\1\08-1-3.c.obj
+.PHONY : 08\1\08-1-3.c.obj
+
+08\1\08-1-3.i: 08\1\08-1-3.c.i
+.PHONY : 08\1\08-1-3.i
+
+# target to preprocess a source file
+08\1\08-1-3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-3.dir\08\1\08-1-3.c.i
+.PHONY : 08\1\08-1-3.c.i
+
+08\1\08-1-3.s: 08\1\08-1-3.c.s
+.PHONY : 08\1\08-1-3.s
+
+# target to generate assembly for a file
+08\1\08-1-3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-3.dir\08\1\08-1-3.c.s
+.PHONY : 08\1\08-1-3.c.s
+
+08\1\08-1-4.obj: 08\1\08-1-4.c.obj
+.PHONY : 08\1\08-1-4.obj
+
+# target to build an object file
+08\1\08-1-4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-4.dir\08\1\08-1-4.c.obj
+.PHONY : 08\1\08-1-4.c.obj
+
+08\1\08-1-4.i: 08\1\08-1-4.c.i
+.PHONY : 08\1\08-1-4.i
+
+# target to preprocess a source file
+08\1\08-1-4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-4.dir\08\1\08-1-4.c.i
+.PHONY : 08\1\08-1-4.c.i
+
+08\1\08-1-4.s: 08\1\08-1-4.c.s
+.PHONY : 08\1\08-1-4.s
+
+# target to generate assembly for a file
+08\1\08-1-4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-1-4.dir\08\1\08-1-4.c.s
+.PHONY : 08\1\08-1-4.c.s
+
+08\1\CalOne.obj: 08\1\CalOne.c.obj
+.PHONY : 08\1\CalOne.obj
+
+# target to build an object file
+08\1\CalOne.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CalOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CalOne.dir\08\1\CalOne.c.obj
+.PHONY : 08\1\CalOne.c.obj
+
+08\1\CalOne.i: 08\1\CalOne.c.i
+.PHONY : 08\1\CalOne.i
+
+# target to preprocess a source file
+08\1\CalOne.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CalOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CalOne.dir\08\1\CalOne.c.i
+.PHONY : 08\1\CalOne.c.i
+
+08\1\CalOne.s: 08\1\CalOne.c.s
+.PHONY : 08\1\CalOne.s
+
+# target to generate assembly for a file
+08\1\CalOne.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CalOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CalOne.dir\08\1\CalOne.c.s
+.PHONY : 08\1\CalOne.c.s
+
+08\1\CalTwo.obj: 08\1\CalTwo.c.obj
+.PHONY : 08\1\CalTwo.obj
+
+# target to build an object file
+08\1\CalTwo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CalTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CalTwo.dir\08\1\CalTwo.c.obj
+.PHONY : 08\1\CalTwo.c.obj
+
+08\1\CalTwo.i: 08\1\CalTwo.c.i
+.PHONY : 08\1\CalTwo.i
+
+# target to preprocess a source file
+08\1\CalTwo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CalTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CalTwo.dir\08\1\CalTwo.c.i
+.PHONY : 08\1\CalTwo.c.i
+
+08\1\CalTwo.s: 08\1\CalTwo.c.s
+.PHONY : 08\1\CalTwo.s
+
+# target to generate assembly for a file
+08\1\CalTwo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CalTwo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CalTwo.dir\08\1\CalTwo.c.s
+.PHONY : 08\1\CalTwo.c.s
+
+08\1\IfBasic.obj: 08\1\IfBasic.c.obj
+.PHONY : 08\1\IfBasic.obj
+
+# target to build an object file
+08\1\IfBasic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfBasic.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IfBasic.dir\08\1\IfBasic.c.obj
+.PHONY : 08\1\IfBasic.c.obj
+
+08\1\IfBasic.i: 08\1\IfBasic.c.i
+.PHONY : 08\1\IfBasic.i
+
+# target to preprocess a source file
+08\1\IfBasic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfBasic.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IfBasic.dir\08\1\IfBasic.c.i
+.PHONY : 08\1\IfBasic.c.i
+
+08\1\IfBasic.s: 08\1\IfBasic.c.s
+.PHONY : 08\1\IfBasic.s
+
+# target to generate assembly for a file
+08\1\IfBasic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfBasic.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IfBasic.dir\08\1\IfBasic.c.s
+.PHONY : 08\1\IfBasic.c.s
+
+08\1\IfElseBasic.obj: 08\1\IfElseBasic.c.obj
+.PHONY : 08\1\IfElseBasic.obj
+
+# target to build an object file
+08\1\IfElseBasic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfElseBasic.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IfElseBasic.dir\08\1\IfElseBasic.c.obj
+.PHONY : 08\1\IfElseBasic.c.obj
+
+08\1\IfElseBasic.i: 08\1\IfElseBasic.c.i
+.PHONY : 08\1\IfElseBasic.i
+
+# target to preprocess a source file
+08\1\IfElseBasic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfElseBasic.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IfElseBasic.dir\08\1\IfElseBasic.c.i
+.PHONY : 08\1\IfElseBasic.c.i
+
+08\1\IfElseBasic.s: 08\1\IfElseBasic.c.s
+.PHONY : 08\1\IfElseBasic.s
+
+# target to generate assembly for a file
+08\1\IfElseBasic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfElseBasic.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\IfElseBasic.dir\08\1\IfElseBasic.c.s
+.PHONY : 08\1\IfElseBasic.c.s
+
+08\1\Mul3Mul4.obj: 08\1\Mul3Mul4.c.obj
+.PHONY : 08\1\Mul3Mul4.obj
+
+# target to build an object file
+08\1\Mul3Mul4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mul3Mul4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Mul3Mul4.dir\08\1\Mul3Mul4.c.obj
+.PHONY : 08\1\Mul3Mul4.c.obj
+
+08\1\Mul3Mul4.i: 08\1\Mul3Mul4.c.i
+.PHONY : 08\1\Mul3Mul4.i
+
+# target to preprocess a source file
+08\1\Mul3Mul4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mul3Mul4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Mul3Mul4.dir\08\1\Mul3Mul4.c.i
+.PHONY : 08\1\Mul3Mul4.c.i
+
+08\1\Mul3Mul4.s: 08\1\Mul3Mul4.c.s
+.PHONY : 08\1\Mul3Mul4.s
+
+# target to generate assembly for a file
+08\1\Mul3Mul4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mul3Mul4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Mul3Mul4.dir\08\1\Mul3Mul4.c.s
+.PHONY : 08\1\Mul3Mul4.c.s
+
+08\1\ThreeOperand.obj: 08\1\ThreeOperand.c.obj
+.PHONY : 08\1\ThreeOperand.obj
+
+# target to build an object file
+08\1\ThreeOperand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeOperand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ThreeOperand.dir\08\1\ThreeOperand.c.obj
+.PHONY : 08\1\ThreeOperand.c.obj
+
+08\1\ThreeOperand.i: 08\1\ThreeOperand.c.i
+.PHONY : 08\1\ThreeOperand.i
+
+# target to preprocess a source file
+08\1\ThreeOperand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeOperand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ThreeOperand.dir\08\1\ThreeOperand.c.i
+.PHONY : 08\1\ThreeOperand.c.i
+
+08\1\ThreeOperand.s: 08\1\ThreeOperand.c.s
+.PHONY : 08\1\ThreeOperand.s
+
+# target to generate assembly for a file
+08\1\ThreeOperand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeOperand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ThreeOperand.dir\08\1\ThreeOperand.c.s
+.PHONY : 08\1\ThreeOperand.c.s
+
+08\2\08-2-1.obj: 08\2\08-2-1.c.obj
+.PHONY : 08\2\08-2-1.obj
+
+# target to build an object file
+08\2\08-2-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-2-1.dir\08\2\08-2-1.c.obj
+.PHONY : 08\2\08-2-1.c.obj
+
+08\2\08-2-1.i: 08\2\08-2-1.c.i
+.PHONY : 08\2\08-2-1.i
+
+# target to preprocess a source file
+08\2\08-2-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-2-1.dir\08\2\08-2-1.c.i
+.PHONY : 08\2\08-2-1.c.i
+
+08\2\08-2-1.s: 08\2\08-2-1.c.s
+.PHONY : 08\2\08-2-1.s
+
+# target to generate assembly for a file
+08\2\08-2-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-2-1.dir\08\2\08-2-1.c.s
+.PHONY : 08\2\08-2-1.c.s
+
+08\2\08-2-2.obj: 08\2\08-2-2.c.obj
+.PHONY : 08\2\08-2-2.obj
+
+# target to build an object file
+08\2\08-2-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-2-2.dir\08\2\08-2-2.c.obj
+.PHONY : 08\2\08-2-2.c.obj
+
+08\2\08-2-2.i: 08\2\08-2-2.c.i
+.PHONY : 08\2\08-2-2.i
+
+# target to preprocess a source file
+08\2\08-2-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-2-2.dir\08\2\08-2-2.c.i
+.PHONY : 08\2\08-2-2.c.i
+
+08\2\08-2-2.s: 08\2\08-2-2.c.s
+.PHONY : 08\2\08-2-2.s
+
+# target to generate assembly for a file
+08\2\08-2-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-2-2.dir\08\2\08-2-2.c.s
+.PHONY : 08\2\08-2-2.c.s
+
+08\2\ExceptMul2Mul3.obj: 08\2\ExceptMul2Mul3.c.obj
+.PHONY : 08\2\ExceptMul2Mul3.obj
+
+# target to build an object file
+08\2\ExceptMul2Mul3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExceptMul2Mul3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExceptMul2Mul3.dir\08\2\ExceptMul2Mul3.c.obj
+.PHONY : 08\2\ExceptMul2Mul3.c.obj
+
+08\2\ExceptMul2Mul3.i: 08\2\ExceptMul2Mul3.c.i
+.PHONY : 08\2\ExceptMul2Mul3.i
+
+# target to preprocess a source file
+08\2\ExceptMul2Mul3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExceptMul2Mul3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExceptMul2Mul3.dir\08\2\ExceptMul2Mul3.c.i
+.PHONY : 08\2\ExceptMul2Mul3.c.i
+
+08\2\ExceptMul2Mul3.s: 08\2\ExceptMul2Mul3.c.s
+.PHONY : 08\2\ExceptMul2Mul3.s
+
+# target to generate assembly for a file
+08\2\ExceptMul2Mul3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExceptMul2Mul3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExceptMul2Mul3.dir\08\2\ExceptMul2Mul3.c.s
+.PHONY : 08\2\ExceptMul2Mul3.c.s
+
+08\2\WhenOver5000.obj: 08\2\WhenOver5000.c.obj
+.PHONY : 08\2\WhenOver5000.obj
+
+# target to build an object file
+08\2\WhenOver5000.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhenOver5000.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhenOver5000.dir\08\2\WhenOver5000.c.obj
+.PHONY : 08\2\WhenOver5000.c.obj
+
+08\2\WhenOver5000.i: 08\2\WhenOver5000.c.i
+.PHONY : 08\2\WhenOver5000.i
+
+# target to preprocess a source file
+08\2\WhenOver5000.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhenOver5000.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhenOver5000.dir\08\2\WhenOver5000.c.i
+.PHONY : 08\2\WhenOver5000.c.i
+
+08\2\WhenOver5000.s: 08\2\WhenOver5000.c.s
+.PHONY : 08\2\WhenOver5000.s
+
+# target to generate assembly for a file
+08\2\WhenOver5000.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhenOver5000.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhenOver5000.dir\08\2\WhenOver5000.c.s
+.PHONY : 08\2\WhenOver5000.c.s
+
+08\3\08-3.obj: 08\3\08-3.c.obj
+.PHONY : 08\3\08-3.obj
+
+# target to build an object file
+08\3\08-3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-3.dir\08\3\08-3.c.obj
+.PHONY : 08\3\08-3.c.obj
+
+08\3\08-3.i: 08\3\08-3.c.i
+.PHONY : 08\3\08-3.i
+
+# target to preprocess a source file
+08\3\08-3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-3.dir\08\3\08-3.c.i
+.PHONY : 08\3\08-3.c.i
+
+08\3\08-3.s: 08\3\08-3.c.s
+.PHONY : 08\3\08-3.s
+
+# target to generate assembly for a file
+08\3\08-3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-3.dir\08\3\08-3.c.s
+.PHONY : 08\3\08-3.c.s
+
+08\3\AdvanEnglishSchool.obj: 08\3\AdvanEnglishSchool.c.obj
+.PHONY : 08\3\AdvanEnglishSchool.obj
+
+# target to build an object file
+08\3\AdvanEnglishSchool.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AdvanEnglishSchool.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AdvanEnglishSchool.dir\08\3\AdvanEnglishSchool.c.obj
+.PHONY : 08\3\AdvanEnglishSchool.c.obj
+
+08\3\AdvanEnglishSchool.i: 08\3\AdvanEnglishSchool.c.i
+.PHONY : 08\3\AdvanEnglishSchool.i
+
+# target to preprocess a source file
+08\3\AdvanEnglishSchool.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AdvanEnglishSchool.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AdvanEnglishSchool.dir\08\3\AdvanEnglishSchool.c.i
+.PHONY : 08\3\AdvanEnglishSchool.c.i
+
+08\3\AdvanEnglishSchool.s: 08\3\AdvanEnglishSchool.c.s
+.PHONY : 08\3\AdvanEnglishSchool.s
+
+# target to generate assembly for a file
+08\3\AdvanEnglishSchool.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AdvanEnglishSchool.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AdvanEnglishSchool.dir\08\3\AdvanEnglishSchool.c.s
+.PHONY : 08\3\AdvanEnglishSchool.c.s
+
+08\3\EnglishSchool.obj: 08\3\EnglishSchool.c.obj
+.PHONY : 08\3\EnglishSchool.obj
+
+# target to build an object file
+08\3\EnglishSchool.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EnglishSchool.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EnglishSchool.dir\08\3\EnglishSchool.c.obj
+.PHONY : 08\3\EnglishSchool.c.obj
+
+08\3\EnglishSchool.i: 08\3\EnglishSchool.c.i
+.PHONY : 08\3\EnglishSchool.i
+
+# target to preprocess a source file
+08\3\EnglishSchool.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EnglishSchool.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EnglishSchool.dir\08\3\EnglishSchool.c.i
+.PHONY : 08\3\EnglishSchool.c.i
+
+08\3\EnglishSchool.s: 08\3\EnglishSchool.c.s
+.PHONY : 08\3\EnglishSchool.s
+
+# target to generate assembly for a file
+08\3\EnglishSchool.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EnglishSchool.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\EnglishSchool.dir\08\3\EnglishSchool.c.s
+.PHONY : 08\3\EnglishSchool.c.s
+
+08\3\GoToBasic.obj: 08\3\GoToBasic.c.obj
+.PHONY : 08\3\GoToBasic.obj
+
+# target to build an object file
+08\3\GoToBasic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GoToBasic.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GoToBasic.dir\08\3\GoToBasic.c.obj
+.PHONY : 08\3\GoToBasic.c.obj
+
+08\3\GoToBasic.i: 08\3\GoToBasic.c.i
+.PHONY : 08\3\GoToBasic.i
+
+# target to preprocess a source file
+08\3\GoToBasic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GoToBasic.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GoToBasic.dir\08\3\GoToBasic.c.i
+.PHONY : 08\3\GoToBasic.c.i
+
+08\3\GoToBasic.s: 08\3\GoToBasic.c.s
+.PHONY : 08\3\GoToBasic.s
+
+# target to generate assembly for a file
+08\3\GoToBasic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GoToBasic.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GoToBasic.dir\08\3\GoToBasic.c.s
+.PHONY : 08\3\GoToBasic.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2163,22 +3458,51 @@ help:
 	@echo ... 05-1-2
 	@echo ... 05-1-4
 	@echo ... 05-1-5
+	@echo ... 07-1-1
+	@echo ... 07-1-2
+	@echo ... 07-1-3
+	@echo ... 07-1-4
+	@echo ... 07-1-5
+	@echo ... 07-2-1
+	@echo ... 07-2-2
+	@echo ... 07-3-1
+	@echo ... 07-3-1-2
+	@echo ... 07-3-2
+	@echo ... 07-3-3
+	@echo ... 08-1-1
+	@echo ... 08-1-2
+	@echo ... 08-1-3
+	@echo ... 08-1-4
+	@echo ... 08-2-1
+	@echo ... 08-2-2
+	@echo ... 08-3
+	@echo ... AddToNum
+	@echo ... AdvanEnglishSchool
 	@echo ... AutoConvOne
 	@echo ... BitAndOperation
 	@echo ... BitLeftShift
 	@echo ... BitNotOperation
 	@echo ... BitOrOperation
 	@echo ... BitRightShift
+	@echo ... CalOne
+	@echo ... CalTwo
 	@echo ... CharShortBaseAdd
 	@echo ... CircleArea
 	@echo ... CommaOp
 	@echo ... ConvDiv
+	@echo ... EnglishSchool
+	@echo ... ExceptMul2Mul3
 	@echo ... FieldWidth
 	@echo ... FloatError
 	@echo ... FormPrintf
+	@echo ... GoToBasic
 	@echo ... HelloComment
 	@echo ... HowChar
+	@echo ... IfBasic
+	@echo ... IfElseBasic
 	@echo ... LiteralSize
+	@echo ... Mul3Mul4
+	@echo ... NineNineDan
 	@echo ... Notation
 	@echo ... OctHex
 	@echo ... OperatorFive
@@ -2190,17 +3514,23 @@ help:
 	@echo ... OperatorTwo
 	@echo ... PrintTwo
 	@echo ... PrintfOne
+	@echo ... RealMean
 	@echo ... RealNumOutput
 	@echo ... ScanfConvOne
 	@echo ... ScanfConvTwo
 	@echo ... SimpleAddFour
 	@echo ... SimpleAddOne
 	@echo ... SimpleAddThree
+	@echo ... SimpleWhile
 	@echo ... SizeOfOperator
 	@echo ... StringPointf
+	@echo ... ThreeOperand
+	@echo ... TwoToNine
+	@echo ... UsefulDoWhile
 	@echo ... UsingPG
 	@echo ... UsingPS
 	@echo ... VarDeclAndInit
+	@echo ... WhenOver5000
 	@echo ... c_practice
 	@echo ... simpleAddTwo
 	@echo ... 02/1/02-1-1.obj
@@ -2368,6 +3698,111 @@ help:
 	@echo ... 06/2/ScanfConvTwo.obj
 	@echo ... 06/2/ScanfConvTwo.i
 	@echo ... 06/2/ScanfConvTwo.s
+	@echo ... 07/1/07-1-1.obj
+	@echo ... 07/1/07-1-1.i
+	@echo ... 07/1/07-1-1.s
+	@echo ... 07/1/07-1-2.obj
+	@echo ... 07/1/07-1-2.i
+	@echo ... 07/1/07-1-2.s
+	@echo ... 07/1/07-1-3.obj
+	@echo ... 07/1/07-1-3.i
+	@echo ... 07/1/07-1-3.s
+	@echo ... 07/1/07-1-4.obj
+	@echo ... 07/1/07-1-4.i
+	@echo ... 07/1/07-1-4.s
+	@echo ... 07/1/07-1-5.obj
+	@echo ... 07/1/07-1-5.i
+	@echo ... 07/1/07-1-5.s
+	@echo ... 07/1/07-2-1.obj
+	@echo ... 07/1/07-2-1.i
+	@echo ... 07/1/07-2-1.s
+	@echo ... 07/1/07-2-2.obj
+	@echo ... 07/1/07-2-2.i
+	@echo ... 07/1/07-2-2.s
+	@echo ... 07/1/NineNineDan.obj
+	@echo ... 07/1/NineNineDan.i
+	@echo ... 07/1/NineNineDan.s
+	@echo ... 07/1/SimpleWhile.obj
+	@echo ... 07/1/SimpleWhile.i
+	@echo ... 07/1/SimpleWhile.s
+	@echo ... 07/1/TwoToNine.obj
+	@echo ... 07/1/TwoToNine.i
+	@echo ... 07/1/TwoToNine.s
+	@echo ... 07/2/07-3-1-2.obj
+	@echo ... 07/2/07-3-1-2.i
+	@echo ... 07/2/07-3-1-2.s
+	@echo ... 07/2/07-3-1.obj
+	@echo ... 07/2/07-3-1.i
+	@echo ... 07/2/07-3-1.s
+	@echo ... 07/2/07-3-2.obj
+	@echo ... 07/2/07-3-2.i
+	@echo ... 07/2/07-3-2.s
+	@echo ... 07/2/07-3-3.obj
+	@echo ... 07/2/07-3-3.i
+	@echo ... 07/2/07-3-3.s
+	@echo ... 07/2/UsefulDoWhile.obj
+	@echo ... 07/2/UsefulDoWhile.i
+	@echo ... 07/2/UsefulDoWhile.s
+	@echo ... 07/3/AddToNum.obj
+	@echo ... 07/3/AddToNum.i
+	@echo ... 07/3/AddToNum.s
+	@echo ... 07/3/RealMean.obj
+	@echo ... 07/3/RealMean.i
+	@echo ... 07/3/RealMean.s
+	@echo ... 08/1/08-1-1.obj
+	@echo ... 08/1/08-1-1.i
+	@echo ... 08/1/08-1-1.s
+	@echo ... 08/1/08-1-2.obj
+	@echo ... 08/1/08-1-2.i
+	@echo ... 08/1/08-1-2.s
+	@echo ... 08/1/08-1-3.obj
+	@echo ... 08/1/08-1-3.i
+	@echo ... 08/1/08-1-3.s
+	@echo ... 08/1/08-1-4.obj
+	@echo ... 08/1/08-1-4.i
+	@echo ... 08/1/08-1-4.s
+	@echo ... 08/1/CalOne.obj
+	@echo ... 08/1/CalOne.i
+	@echo ... 08/1/CalOne.s
+	@echo ... 08/1/CalTwo.obj
+	@echo ... 08/1/CalTwo.i
+	@echo ... 08/1/CalTwo.s
+	@echo ... 08/1/IfBasic.obj
+	@echo ... 08/1/IfBasic.i
+	@echo ... 08/1/IfBasic.s
+	@echo ... 08/1/IfElseBasic.obj
+	@echo ... 08/1/IfElseBasic.i
+	@echo ... 08/1/IfElseBasic.s
+	@echo ... 08/1/Mul3Mul4.obj
+	@echo ... 08/1/Mul3Mul4.i
+	@echo ... 08/1/Mul3Mul4.s
+	@echo ... 08/1/ThreeOperand.obj
+	@echo ... 08/1/ThreeOperand.i
+	@echo ... 08/1/ThreeOperand.s
+	@echo ... 08/2/08-2-1.obj
+	@echo ... 08/2/08-2-1.i
+	@echo ... 08/2/08-2-1.s
+	@echo ... 08/2/08-2-2.obj
+	@echo ... 08/2/08-2-2.i
+	@echo ... 08/2/08-2-2.s
+	@echo ... 08/2/ExceptMul2Mul3.obj
+	@echo ... 08/2/ExceptMul2Mul3.i
+	@echo ... 08/2/ExceptMul2Mul3.s
+	@echo ... 08/2/WhenOver5000.obj
+	@echo ... 08/2/WhenOver5000.i
+	@echo ... 08/2/WhenOver5000.s
+	@echo ... 08/3/08-3.obj
+	@echo ... 08/3/08-3.i
+	@echo ... 08/3/08-3.s
+	@echo ... 08/3/AdvanEnglishSchool.obj
+	@echo ... 08/3/AdvanEnglishSchool.i
+	@echo ... 08/3/AdvanEnglishSchool.s
+	@echo ... 08/3/EnglishSchool.obj
+	@echo ... 08/3/EnglishSchool.i
+	@echo ... 08/3/EnglishSchool.s
+	@echo ... 08/3/GoToBasic.obj
+	@echo ... 08/3/GoToBasic.i
+	@echo ... 08/3/GoToBasic.s
 .PHONY : help
 
 
