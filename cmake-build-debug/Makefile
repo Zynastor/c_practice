@@ -210,6 +210,19 @@ c_practice\fast:
 .PHONY : c_practice\fast
 
 #=============================================================================
+# Target rules for targets named PrintfOutput
+
+# Build rule for target.
+PrintfOutput: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PrintfOutput
+.PHONY : PrintfOutput
+
+# fast build rule for target.
+PrintfOutput\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintfOutput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintfOutput.dir\build
+.PHONY : PrintfOutput\fast
+
+#=============================================================================
 # Target rules for targets named 07-3-2
 
 # Build rule for target.
@@ -834,6 +847,19 @@ HowChar\fast:
 .PHONY : HowChar\fast
 
 #=============================================================================
+# Target rules for targets named GlobalVariable
+
+# Build rule for target.
+GlobalVariable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) GlobalVariable
+.PHONY : GlobalVariable
+
+# fast build rule for target.
+GlobalVariable\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GlobalVariable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GlobalVariable.dir\build
+.PHONY : GlobalVariable\fast
+
+#=============================================================================
 # Target rules for targets named 05-1-1
 
 # Build rule for target.
@@ -1274,6 +1300,149 @@ EnglishSchool\fast:
 08-3\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\08-3.dir\build
 .PHONY : 08-3\fast
+
+#=============================================================================
+# Target rules for targets named SimpleAddFunc
+
+# Build rule for target.
+SimpleAddFunc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) SimpleAddFunc
+.PHONY : SimpleAddFunc
+
+# fast build rule for target.
+SimpleAddFunc\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddFunc.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddFunc.dir\build
+.PHONY : SimpleAddFunc\fast
+
+#=============================================================================
+# Target rules for targets named SmartAddFunc
+
+# Build rule for target.
+SmartAddFunc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) SmartAddFunc
+.PHONY : SmartAddFunc
+
+# fast build rule for target.
+SmartAddFunc\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartAddFunc.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SmartAddFunc.dir\build
+.PHONY : SmartAddFunc\fast
+
+#=============================================================================
+# Target rules for targets named NumCompare
+
+# Build rule for target.
+NumCompare: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) NumCompare
+.PHONY : NumCompare
+
+# fast build rule for target.
+NumCompare\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\NumCompare.dir\build
+.PHONY : NumCompare\fast
+
+#=============================================================================
+# Target rules for targets named AbsoCompare
+
+# Build rule for target.
+AbsoCompare: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) AbsoCompare
+.PHONY : AbsoCompare
+
+# fast build rule for target.
+AbsoCompare\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbsoCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AbsoCompare.dir\build
+.PHONY : AbsoCompare\fast
+
+#=============================================================================
+# Target rules for targets named 09-1-1
+
+# Build rule for target.
+09-1-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 09-1-1
+.PHONY : 09-1-1
+
+# fast build rule for target.
+09-1-1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-1-1.dir\build
+.PHONY : 09-1-1\fast
+
+#=============================================================================
+# Target rules for targets named 09-1-2
+
+# Build rule for target.
+09-1-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 09-1-2
+.PHONY : 09-1-2
+
+# fast build rule for target.
+09-1-2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-1-2.dir\build
+.PHONY : 09-1-2\fast
+
+#=============================================================================
+# Target rules for targets named 09-1-3
+
+# Build rule for target.
+09-1-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 09-1-3
+.PHONY : 09-1-3
+
+# fast build rule for target.
+09-1-3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-1-3.dir\build
+.PHONY : 09-1-3\fast
+
+#=============================================================================
+# Target rules for targets named LocalVariable
+
+# Build rule for target.
+LocalVariable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LocalVariable
+.PHONY : LocalVariable
+
+# fast build rule for target.
+LocalVariable\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalVariable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalVariable.dir\build
+.PHONY : LocalVariable\fast
+
+#=============================================================================
+# Target rules for targets named AnotherLocalVal
+
+# Build rule for target.
+AnotherLocalVal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) AnotherLocalVal
+.PHONY : AnotherLocalVal
+
+# fast build rule for target.
+AnotherLocalVal\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AnotherLocalVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AnotherLocalVal.dir\build
+.PHONY : AnotherLocalVal\fast
+
+#=============================================================================
+# Target rules for targets named LocalValHideVal
+
+# Build rule for target.
+LocalValHideVal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LocalValHideVal
+.PHONY : LocalValHideVal
+
+# fast build rule for target.
+LocalValHideVal\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalValHideVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalValHideVal.dir\build
+.PHONY : LocalValHideVal\fast
+
+#=============================================================================
+# Target rules for targets named LocalValHideGlobalVal
+
+# Build rule for target.
+LocalValHideGlobalVal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LocalValHideGlobalVal
+.PHONY : LocalValHideGlobalVal
+
+# fast build rule for target.
+LocalValHideGlobalVal\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalValHideGlobalVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalValHideGlobalVal.dir\build
+.PHONY : LocalValHideGlobalVal\fast
 
 02\1\02-1-1.obj: 02\1\02-1-1.c.obj
 .PHONY : 02\1\02-1-1.obj
@@ -3435,6 +3604,318 @@ EnglishSchool\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GoToBasic.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GoToBasic.dir\08\3\GoToBasic.c.s
 .PHONY : 08\3\GoToBasic.c.s
 
+09\1\09-1-1.obj: 09\1\09-1-1.c.obj
+.PHONY : 09\1\09-1-1.obj
+
+# target to build an object file
+09\1\09-1-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-1-1.dir\09\1\09-1-1.c.obj
+.PHONY : 09\1\09-1-1.c.obj
+
+09\1\09-1-1.i: 09\1\09-1-1.c.i
+.PHONY : 09\1\09-1-1.i
+
+# target to preprocess a source file
+09\1\09-1-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-1-1.dir\09\1\09-1-1.c.i
+.PHONY : 09\1\09-1-1.c.i
+
+09\1\09-1-1.s: 09\1\09-1-1.c.s
+.PHONY : 09\1\09-1-1.s
+
+# target to generate assembly for a file
+09\1\09-1-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-1-1.dir\09\1\09-1-1.c.s
+.PHONY : 09\1\09-1-1.c.s
+
+09\1\09-1-2.obj: 09\1\09-1-2.c.obj
+.PHONY : 09\1\09-1-2.obj
+
+# target to build an object file
+09\1\09-1-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-1-2.dir\09\1\09-1-2.c.obj
+.PHONY : 09\1\09-1-2.c.obj
+
+09\1\09-1-2.i: 09\1\09-1-2.c.i
+.PHONY : 09\1\09-1-2.i
+
+# target to preprocess a source file
+09\1\09-1-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-1-2.dir\09\1\09-1-2.c.i
+.PHONY : 09\1\09-1-2.c.i
+
+09\1\09-1-2.s: 09\1\09-1-2.c.s
+.PHONY : 09\1\09-1-2.s
+
+# target to generate assembly for a file
+09\1\09-1-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-1-2.dir\09\1\09-1-2.c.s
+.PHONY : 09\1\09-1-2.c.s
+
+09\1\09-1-3.obj: 09\1\09-1-3.c.obj
+.PHONY : 09\1\09-1-3.obj
+
+# target to build an object file
+09\1\09-1-3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-1-3.dir\09\1\09-1-3.c.obj
+.PHONY : 09\1\09-1-3.c.obj
+
+09\1\09-1-3.i: 09\1\09-1-3.c.i
+.PHONY : 09\1\09-1-3.i
+
+# target to preprocess a source file
+09\1\09-1-3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-1-3.dir\09\1\09-1-3.c.i
+.PHONY : 09\1\09-1-3.c.i
+
+09\1\09-1-3.s: 09\1\09-1-3.c.s
+.PHONY : 09\1\09-1-3.s
+
+# target to generate assembly for a file
+09\1\09-1-3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-1-3.dir\09\1\09-1-3.c.s
+.PHONY : 09\1\09-1-3.c.s
+
+09\1\AbsoCompare.obj: 09\1\AbsoCompare.c.obj
+.PHONY : 09\1\AbsoCompare.obj
+
+# target to build an object file
+09\1\AbsoCompare.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbsoCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AbsoCompare.dir\09\1\AbsoCompare.c.obj
+.PHONY : 09\1\AbsoCompare.c.obj
+
+09\1\AbsoCompare.i: 09\1\AbsoCompare.c.i
+.PHONY : 09\1\AbsoCompare.i
+
+# target to preprocess a source file
+09\1\AbsoCompare.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbsoCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AbsoCompare.dir\09\1\AbsoCompare.c.i
+.PHONY : 09\1\AbsoCompare.c.i
+
+09\1\AbsoCompare.s: 09\1\AbsoCompare.c.s
+.PHONY : 09\1\AbsoCompare.s
+
+# target to generate assembly for a file
+09\1\AbsoCompare.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbsoCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AbsoCompare.dir\09\1\AbsoCompare.c.s
+.PHONY : 09\1\AbsoCompare.c.s
+
+09\1\NumCompare.obj: 09\1\NumCompare.c.obj
+.PHONY : 09\1\NumCompare.obj
+
+# target to build an object file
+09\1\NumCompare.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\NumCompare.dir\09\1\NumCompare.c.obj
+.PHONY : 09\1\NumCompare.c.obj
+
+09\1\NumCompare.i: 09\1\NumCompare.c.i
+.PHONY : 09\1\NumCompare.i
+
+# target to preprocess a source file
+09\1\NumCompare.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\NumCompare.dir\09\1\NumCompare.c.i
+.PHONY : 09\1\NumCompare.c.i
+
+09\1\NumCompare.s: 09\1\NumCompare.c.s
+.PHONY : 09\1\NumCompare.s
+
+# target to generate assembly for a file
+09\1\NumCompare.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\NumCompare.dir\09\1\NumCompare.c.s
+.PHONY : 09\1\NumCompare.c.s
+
+09\1\PrintfOutput.obj: 09\1\PrintfOutput.c.obj
+.PHONY : 09\1\PrintfOutput.obj
+
+# target to build an object file
+09\1\PrintfOutput.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintfOutput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintfOutput.dir\09\1\PrintfOutput.c.obj
+.PHONY : 09\1\PrintfOutput.c.obj
+
+09\1\PrintfOutput.i: 09\1\PrintfOutput.c.i
+.PHONY : 09\1\PrintfOutput.i
+
+# target to preprocess a source file
+09\1\PrintfOutput.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintfOutput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintfOutput.dir\09\1\PrintfOutput.c.i
+.PHONY : 09\1\PrintfOutput.c.i
+
+09\1\PrintfOutput.s: 09\1\PrintfOutput.c.s
+.PHONY : 09\1\PrintfOutput.s
+
+# target to generate assembly for a file
+09\1\PrintfOutput.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintfOutput.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintfOutput.dir\09\1\PrintfOutput.c.s
+.PHONY : 09\1\PrintfOutput.c.s
+
+09\1\SimpleAddFunc.obj: 09\1\SimpleAddFunc.c.obj
+.PHONY : 09\1\SimpleAddFunc.obj
+
+# target to build an object file
+09\1\SimpleAddFunc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddFunc.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddFunc.dir\09\1\SimpleAddFunc.c.obj
+.PHONY : 09\1\SimpleAddFunc.c.obj
+
+09\1\SimpleAddFunc.i: 09\1\SimpleAddFunc.c.i
+.PHONY : 09\1\SimpleAddFunc.i
+
+# target to preprocess a source file
+09\1\SimpleAddFunc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddFunc.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddFunc.dir\09\1\SimpleAddFunc.c.i
+.PHONY : 09\1\SimpleAddFunc.c.i
+
+09\1\SimpleAddFunc.s: 09\1\SimpleAddFunc.c.s
+.PHONY : 09\1\SimpleAddFunc.s
+
+# target to generate assembly for a file
+09\1\SimpleAddFunc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleAddFunc.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SimpleAddFunc.dir\09\1\SimpleAddFunc.c.s
+.PHONY : 09\1\SimpleAddFunc.c.s
+
+09\1\SmartAddFunc.obj: 09\1\SmartAddFunc.c.obj
+.PHONY : 09\1\SmartAddFunc.obj
+
+# target to build an object file
+09\1\SmartAddFunc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartAddFunc.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SmartAddFunc.dir\09\1\SmartAddFunc.c.obj
+.PHONY : 09\1\SmartAddFunc.c.obj
+
+09\1\SmartAddFunc.i: 09\1\SmartAddFunc.c.i
+.PHONY : 09\1\SmartAddFunc.i
+
+# target to preprocess a source file
+09\1\SmartAddFunc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartAddFunc.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SmartAddFunc.dir\09\1\SmartAddFunc.c.i
+.PHONY : 09\1\SmartAddFunc.c.i
+
+09\1\SmartAddFunc.s: 09\1\SmartAddFunc.c.s
+.PHONY : 09\1\SmartAddFunc.s
+
+# target to generate assembly for a file
+09\1\SmartAddFunc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartAddFunc.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SmartAddFunc.dir\09\1\SmartAddFunc.c.s
+.PHONY : 09\1\SmartAddFunc.c.s
+
+09\2\AnotherLocalVal.obj: 09\2\AnotherLocalVal.c.obj
+.PHONY : 09\2\AnotherLocalVal.obj
+
+# target to build an object file
+09\2\AnotherLocalVal.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AnotherLocalVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AnotherLocalVal.dir\09\2\AnotherLocalVal.c.obj
+.PHONY : 09\2\AnotherLocalVal.c.obj
+
+09\2\AnotherLocalVal.i: 09\2\AnotherLocalVal.c.i
+.PHONY : 09\2\AnotherLocalVal.i
+
+# target to preprocess a source file
+09\2\AnotherLocalVal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AnotherLocalVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AnotherLocalVal.dir\09\2\AnotherLocalVal.c.i
+.PHONY : 09\2\AnotherLocalVal.c.i
+
+09\2\AnotherLocalVal.s: 09\2\AnotherLocalVal.c.s
+.PHONY : 09\2\AnotherLocalVal.s
+
+# target to generate assembly for a file
+09\2\AnotherLocalVal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AnotherLocalVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AnotherLocalVal.dir\09\2\AnotherLocalVal.c.s
+.PHONY : 09\2\AnotherLocalVal.c.s
+
+09\2\LocalValHideVal.obj: 09\2\LocalValHideVal.c.obj
+.PHONY : 09\2\LocalValHideVal.obj
+
+# target to build an object file
+09\2\LocalValHideVal.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalValHideVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalValHideVal.dir\09\2\LocalValHideVal.c.obj
+.PHONY : 09\2\LocalValHideVal.c.obj
+
+09\2\LocalValHideVal.i: 09\2\LocalValHideVal.c.i
+.PHONY : 09\2\LocalValHideVal.i
+
+# target to preprocess a source file
+09\2\LocalValHideVal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalValHideVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalValHideVal.dir\09\2\LocalValHideVal.c.i
+.PHONY : 09\2\LocalValHideVal.c.i
+
+09\2\LocalValHideVal.s: 09\2\LocalValHideVal.c.s
+.PHONY : 09\2\LocalValHideVal.s
+
+# target to generate assembly for a file
+09\2\LocalValHideVal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalValHideVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalValHideVal.dir\09\2\LocalValHideVal.c.s
+.PHONY : 09\2\LocalValHideVal.c.s
+
+09\2\LocalVariable.obj: 09\2\LocalVariable.c.obj
+.PHONY : 09\2\LocalVariable.obj
+
+# target to build an object file
+09\2\LocalVariable.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalVariable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalVariable.dir\09\2\LocalVariable.c.obj
+.PHONY : 09\2\LocalVariable.c.obj
+
+09\2\LocalVariable.i: 09\2\LocalVariable.c.i
+.PHONY : 09\2\LocalVariable.i
+
+# target to preprocess a source file
+09\2\LocalVariable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalVariable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalVariable.dir\09\2\LocalVariable.c.i
+.PHONY : 09\2\LocalVariable.c.i
+
+09\2\LocalVariable.s: 09\2\LocalVariable.c.s
+.PHONY : 09\2\LocalVariable.s
+
+# target to generate assembly for a file
+09\2\LocalVariable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalVariable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalVariable.dir\09\2\LocalVariable.c.s
+.PHONY : 09\2\LocalVariable.c.s
+
+09\3\GlobalVariable.obj: 09\3\GlobalVariable.c.obj
+.PHONY : 09\3\GlobalVariable.obj
+
+# target to build an object file
+09\3\GlobalVariable.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GlobalVariable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GlobalVariable.dir\09\3\GlobalVariable.c.obj
+.PHONY : 09\3\GlobalVariable.c.obj
+
+09\3\GlobalVariable.i: 09\3\GlobalVariable.c.i
+.PHONY : 09\3\GlobalVariable.i
+
+# target to preprocess a source file
+09\3\GlobalVariable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GlobalVariable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GlobalVariable.dir\09\3\GlobalVariable.c.i
+.PHONY : 09\3\GlobalVariable.c.i
+
+09\3\GlobalVariable.s: 09\3\GlobalVariable.c.s
+.PHONY : 09\3\GlobalVariable.s
+
+# target to generate assembly for a file
+09\3\GlobalVariable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GlobalVariable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GlobalVariable.dir\09\3\GlobalVariable.c.s
+.PHONY : 09\3\GlobalVariable.c.s
+
+09\3\LocalValHideGlobalVal.obj: 09\3\LocalValHideGlobalVal.c.obj
+.PHONY : 09\3\LocalValHideGlobalVal.obj
+
+# target to build an object file
+09\3\LocalValHideGlobalVal.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalValHideGlobalVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalValHideGlobalVal.dir\09\3\LocalValHideGlobalVal.c.obj
+.PHONY : 09\3\LocalValHideGlobalVal.c.obj
+
+09\3\LocalValHideGlobalVal.i: 09\3\LocalValHideGlobalVal.c.i
+.PHONY : 09\3\LocalValHideGlobalVal.i
+
+# target to preprocess a source file
+09\3\LocalValHideGlobalVal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalValHideGlobalVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalValHideGlobalVal.dir\09\3\LocalValHideGlobalVal.c.i
+.PHONY : 09\3\LocalValHideGlobalVal.c.i
+
+09\3\LocalValHideGlobalVal.s: 09\3\LocalValHideGlobalVal.c.s
+.PHONY : 09\3\LocalValHideGlobalVal.s
+
+# target to generate assembly for a file
+09\3\LocalValHideGlobalVal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalValHideGlobalVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalValHideGlobalVal.dir\09\3\LocalValHideGlobalVal.c.s
+.PHONY : 09\3\LocalValHideGlobalVal.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -3476,8 +3957,13 @@ help:
 	@echo ... 08-2-1
 	@echo ... 08-2-2
 	@echo ... 08-3
+	@echo ... 09-1-1
+	@echo ... 09-1-2
+	@echo ... 09-1-3
+	@echo ... AbsoCompare
 	@echo ... AddToNum
 	@echo ... AdvanEnglishSchool
+	@echo ... AnotherLocalVal
 	@echo ... AutoConvOne
 	@echo ... BitAndOperation
 	@echo ... BitLeftShift
@@ -3495,15 +3981,20 @@ help:
 	@echo ... FieldWidth
 	@echo ... FloatError
 	@echo ... FormPrintf
+	@echo ... GlobalVariable
 	@echo ... GoToBasic
 	@echo ... HelloComment
 	@echo ... HowChar
 	@echo ... IfBasic
 	@echo ... IfElseBasic
 	@echo ... LiteralSize
+	@echo ... LocalValHideGlobalVal
+	@echo ... LocalValHideVal
+	@echo ... LocalVariable
 	@echo ... Mul3Mul4
 	@echo ... NineNineDan
 	@echo ... Notation
+	@echo ... NumCompare
 	@echo ... OctHex
 	@echo ... OperatorFive
 	@echo ... OperatorFour
@@ -3514,15 +4005,18 @@ help:
 	@echo ... OperatorTwo
 	@echo ... PrintTwo
 	@echo ... PrintfOne
+	@echo ... PrintfOutput
 	@echo ... RealMean
 	@echo ... RealNumOutput
 	@echo ... ScanfConvOne
 	@echo ... ScanfConvTwo
 	@echo ... SimpleAddFour
+	@echo ... SimpleAddFunc
 	@echo ... SimpleAddOne
 	@echo ... SimpleAddThree
 	@echo ... SimpleWhile
 	@echo ... SizeOfOperator
+	@echo ... SmartAddFunc
 	@echo ... StringPointf
 	@echo ... ThreeOperand
 	@echo ... TwoToNine
@@ -3803,6 +4297,45 @@ help:
 	@echo ... 08/3/GoToBasic.obj
 	@echo ... 08/3/GoToBasic.i
 	@echo ... 08/3/GoToBasic.s
+	@echo ... 09/1/09-1-1.obj
+	@echo ... 09/1/09-1-1.i
+	@echo ... 09/1/09-1-1.s
+	@echo ... 09/1/09-1-2.obj
+	@echo ... 09/1/09-1-2.i
+	@echo ... 09/1/09-1-2.s
+	@echo ... 09/1/09-1-3.obj
+	@echo ... 09/1/09-1-3.i
+	@echo ... 09/1/09-1-3.s
+	@echo ... 09/1/AbsoCompare.obj
+	@echo ... 09/1/AbsoCompare.i
+	@echo ... 09/1/AbsoCompare.s
+	@echo ... 09/1/NumCompare.obj
+	@echo ... 09/1/NumCompare.i
+	@echo ... 09/1/NumCompare.s
+	@echo ... 09/1/PrintfOutput.obj
+	@echo ... 09/1/PrintfOutput.i
+	@echo ... 09/1/PrintfOutput.s
+	@echo ... 09/1/SimpleAddFunc.obj
+	@echo ... 09/1/SimpleAddFunc.i
+	@echo ... 09/1/SimpleAddFunc.s
+	@echo ... 09/1/SmartAddFunc.obj
+	@echo ... 09/1/SmartAddFunc.i
+	@echo ... 09/1/SmartAddFunc.s
+	@echo ... 09/2/AnotherLocalVal.obj
+	@echo ... 09/2/AnotherLocalVal.i
+	@echo ... 09/2/AnotherLocalVal.s
+	@echo ... 09/2/LocalValHideVal.obj
+	@echo ... 09/2/LocalValHideVal.i
+	@echo ... 09/2/LocalValHideVal.s
+	@echo ... 09/2/LocalVariable.obj
+	@echo ... 09/2/LocalVariable.i
+	@echo ... 09/2/LocalVariable.s
+	@echo ... 09/3/GlobalVariable.obj
+	@echo ... 09/3/GlobalVariable.i
+	@echo ... 09/3/GlobalVariable.s
+	@echo ... 09/3/LocalValHideGlobalVal.obj
+	@echo ... 09/3/LocalValHideGlobalVal.i
+	@echo ... 09/3/LocalValHideGlobalVal.s
 .PHONY : help
 
 
