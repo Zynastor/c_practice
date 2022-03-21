@@ -938,6 +938,19 @@ NineNineDan\fast:
 .PHONY : NineNineDan\fast
 
 #=============================================================================
+# Target rules for targets named Dogeon5
+
+# Build rule for target.
+Dogeon5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Dogeon5
+.PHONY : Dogeon5
+
+# fast build rule for target.
+Dogeon5\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon5.dir\build
+.PHONY : Dogeon5\fast
+
+#=============================================================================
 # Target rules for targets named FormPrintf
 
 # Build rule for target.
@@ -1105,6 +1118,19 @@ UsefulDoWhile\fast:
 07-3-3\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-3-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\07-3-3.dir\build
 .PHONY : 07-3-3\fast
+
+#=============================================================================
+# Target rules for targets named Dogeon4
+
+# Build rule for target.
+Dogeon4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Dogeon4
+.PHONY : Dogeon4
+
+# fast build rule for target.
+Dogeon4\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon4.dir\build
+.PHONY : Dogeon4\fast
 
 #=============================================================================
 # Target rules for targets named AddToNum
@@ -1443,6 +1469,162 @@ LocalValHideGlobalVal: cmake_check_build_system
 LocalValHideGlobalVal\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalValHideGlobalVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalValHideGlobalVal.dir\build
 .PHONY : LocalValHideGlobalVal\fast
+
+#=============================================================================
+# Target rules for targets named StaticLocalVariable
+
+# Build rule for target.
+StaticLocalVariable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) StaticLocalVariable
+.PHONY : StaticLocalVariable
+
+# fast build rule for target.
+StaticLocalVariable\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLocalVariable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLocalVariable.dir\build
+.PHONY : StaticLocalVariable\fast
+
+#=============================================================================
+# Target rules for targets named 09-2
+
+# Build rule for target.
+09-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 09-2
+.PHONY : 09-2
+
+# fast build rule for target.
+09-2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-2.dir\build
+.PHONY : 09-2\fast
+
+#=============================================================================
+# Target rules for targets named RecursiveFunc
+
+# Build rule for target.
+RecursiveFunc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) RecursiveFunc
+.PHONY : RecursiveFunc
+
+# fast build rule for target.
+RecursiveFunc\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecursiveFunc.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RecursiveFunc.dir\build
+.PHONY : RecursiveFunc\fast
+
+#=============================================================================
+# Target rules for targets named RecursiveFactorial
+
+# Build rule for target.
+RecursiveFactorial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) RecursiveFactorial
+.PHONY : RecursiveFactorial
+
+# fast build rule for target.
+RecursiveFactorial\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecursiveFactorial.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RecursiveFactorial.dir\build
+.PHONY : RecursiveFactorial\fast
+
+#=============================================================================
+# Target rules for targets named Dogeon1
+
+# Build rule for target.
+Dogeon1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Dogeon1
+.PHONY : Dogeon1
+
+# fast build rule for target.
+Dogeon1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon1.dir\build
+.PHONY : Dogeon1\fast
+
+#=============================================================================
+# Target rules for targets named Dogeon2
+
+# Build rule for target.
+Dogeon2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Dogeon2
+.PHONY : Dogeon2
+
+# fast build rule for target.
+Dogeon2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon2.dir\build
+.PHONY : Dogeon2\fast
+
+#=============================================================================
+# Target rules for targets named Dogeon3
+
+# Build rule for target.
+Dogeon3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Dogeon3
+.PHONY : Dogeon3
+
+# fast build rule for target.
+Dogeon3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon3.dir\build
+.PHONY : Dogeon3\fast
+
+#=============================================================================
+# Target rules for targets named Dogeon3u
+
+# Build rule for target.
+Dogeon3u: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Dogeon3u
+.PHONY : Dogeon3u
+
+# fast build rule for target.
+Dogeon3u\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon3u.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon3u.dir\build
+.PHONY : Dogeon3u\fast
+
+#=============================================================================
+# Target rules for targets named Dogeon6
+
+# Build rule for target.
+Dogeon6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Dogeon6
+.PHONY : Dogeon6
+
+# fast build rule for target.
+Dogeon6\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon6.dir\build
+.PHONY : Dogeon6\fast
+
+#=============================================================================
+# Target rules for targets named Dogeon7
+
+# Build rule for target.
+Dogeon7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Dogeon7
+.PHONY : Dogeon7
+
+# fast build rule for target.
+Dogeon7\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon7.dir\build
+.PHONY : Dogeon7\fast
+
+#=============================================================================
+# Target rules for targets named Dogeon8
+
+# Build rule for target.
+Dogeon8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Dogeon8
+.PHONY : Dogeon8
+
+# fast build rule for target.
+Dogeon8\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon8.dir\build
+.PHONY : Dogeon8\fast
+
+#=============================================================================
+# Target rules for targets named ArrayAccess
+
+# Build rule for target.
+ArrayAccess: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ArrayAccess
+.PHONY : ArrayAccess
+
+# fast build rule for target.
+ArrayAccess\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayAccess.dir\build
+.PHONY : ArrayAccess\fast
 
 02\1\02-1-1.obj: 02\1\02-1-1.c.obj
 .PHONY : 02\1\02-1-1.obj
@@ -3868,6 +4050,30 @@ LocalValHideGlobalVal\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalVariable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalVariable.dir\09\2\LocalVariable.c.s
 .PHONY : 09\2\LocalVariable.c.s
 
+09\3\09-2.obj: 09\3\09-2.c.obj
+.PHONY : 09\3\09-2.obj
+
+# target to build an object file
+09\3\09-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-2.dir\09\3\09-2.c.obj
+.PHONY : 09\3\09-2.c.obj
+
+09\3\09-2.i: 09\3\09-2.c.i
+.PHONY : 09\3\09-2.i
+
+# target to preprocess a source file
+09\3\09-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-2.dir\09\3\09-2.c.i
+.PHONY : 09\3\09-2.c.i
+
+09\3\09-2.s: 09\3\09-2.c.s
+.PHONY : 09\3\09-2.s
+
+# target to generate assembly for a file
+09\3\09-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\09-2.dir\09\3\09-2.c.s
+.PHONY : 09\3\09-2.c.s
+
 09\3\GlobalVariable.obj: 09\3\GlobalVariable.c.obj
 .PHONY : 09\3\GlobalVariable.obj
 
@@ -3916,6 +4122,318 @@ LocalValHideGlobalVal\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LocalValHideGlobalVal.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LocalValHideGlobalVal.dir\09\3\LocalValHideGlobalVal.c.s
 .PHONY : 09\3\LocalValHideGlobalVal.c.s
 
+09\3\StaticLocalVariable.obj: 09\3\StaticLocalVariable.c.obj
+.PHONY : 09\3\StaticLocalVariable.obj
+
+# target to build an object file
+09\3\StaticLocalVariable.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLocalVariable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLocalVariable.dir\09\3\StaticLocalVariable.c.obj
+.PHONY : 09\3\StaticLocalVariable.c.obj
+
+09\3\StaticLocalVariable.i: 09\3\StaticLocalVariable.c.i
+.PHONY : 09\3\StaticLocalVariable.i
+
+# target to preprocess a source file
+09\3\StaticLocalVariable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLocalVariable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLocalVariable.dir\09\3\StaticLocalVariable.c.i
+.PHONY : 09\3\StaticLocalVariable.c.i
+
+09\3\StaticLocalVariable.s: 09\3\StaticLocalVariable.c.s
+.PHONY : 09\3\StaticLocalVariable.s
+
+# target to generate assembly for a file
+09\3\StaticLocalVariable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLocalVariable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLocalVariable.dir\09\3\StaticLocalVariable.c.s
+.PHONY : 09\3\StaticLocalVariable.c.s
+
+09\4\RecursiveFactorial.obj: 09\4\RecursiveFactorial.c.obj
+.PHONY : 09\4\RecursiveFactorial.obj
+
+# target to build an object file
+09\4\RecursiveFactorial.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecursiveFactorial.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RecursiveFactorial.dir\09\4\RecursiveFactorial.c.obj
+.PHONY : 09\4\RecursiveFactorial.c.obj
+
+09\4\RecursiveFactorial.i: 09\4\RecursiveFactorial.c.i
+.PHONY : 09\4\RecursiveFactorial.i
+
+# target to preprocess a source file
+09\4\RecursiveFactorial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecursiveFactorial.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RecursiveFactorial.dir\09\4\RecursiveFactorial.c.i
+.PHONY : 09\4\RecursiveFactorial.c.i
+
+09\4\RecursiveFactorial.s: 09\4\RecursiveFactorial.c.s
+.PHONY : 09\4\RecursiveFactorial.s
+
+# target to generate assembly for a file
+09\4\RecursiveFactorial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecursiveFactorial.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RecursiveFactorial.dir\09\4\RecursiveFactorial.c.s
+.PHONY : 09\4\RecursiveFactorial.c.s
+
+09\4\RecursiveFunc.obj: 09\4\RecursiveFunc.c.obj
+.PHONY : 09\4\RecursiveFunc.obj
+
+# target to build an object file
+09\4\RecursiveFunc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecursiveFunc.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RecursiveFunc.dir\09\4\RecursiveFunc.c.obj
+.PHONY : 09\4\RecursiveFunc.c.obj
+
+09\4\RecursiveFunc.i: 09\4\RecursiveFunc.c.i
+.PHONY : 09\4\RecursiveFunc.i
+
+# target to preprocess a source file
+09\4\RecursiveFunc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecursiveFunc.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RecursiveFunc.dir\09\4\RecursiveFunc.c.i
+.PHONY : 09\4\RecursiveFunc.c.i
+
+09\4\RecursiveFunc.s: 09\4\RecursiveFunc.c.s
+.PHONY : 09\4\RecursiveFunc.s
+
+# target to generate assembly for a file
+09\4\RecursiveFunc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecursiveFunc.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RecursiveFunc.dir\09\4\RecursiveFunc.c.s
+.PHONY : 09\4\RecursiveFunc.c.s
+
+10\Dogeon1.obj: 10\Dogeon1.c.obj
+.PHONY : 10\Dogeon1.obj
+
+# target to build an object file
+10\Dogeon1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon1.dir\10\Dogeon1.c.obj
+.PHONY : 10\Dogeon1.c.obj
+
+10\Dogeon1.i: 10\Dogeon1.c.i
+.PHONY : 10\Dogeon1.i
+
+# target to preprocess a source file
+10\Dogeon1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon1.dir\10\Dogeon1.c.i
+.PHONY : 10\Dogeon1.c.i
+
+10\Dogeon1.s: 10\Dogeon1.c.s
+.PHONY : 10\Dogeon1.s
+
+# target to generate assembly for a file
+10\Dogeon1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon1.dir\10\Dogeon1.c.s
+.PHONY : 10\Dogeon1.c.s
+
+10\Dogeon2.obj: 10\Dogeon2.c.obj
+.PHONY : 10\Dogeon2.obj
+
+# target to build an object file
+10\Dogeon2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon2.dir\10\Dogeon2.c.obj
+.PHONY : 10\Dogeon2.c.obj
+
+10\Dogeon2.i: 10\Dogeon2.c.i
+.PHONY : 10\Dogeon2.i
+
+# target to preprocess a source file
+10\Dogeon2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon2.dir\10\Dogeon2.c.i
+.PHONY : 10\Dogeon2.c.i
+
+10\Dogeon2.s: 10\Dogeon2.c.s
+.PHONY : 10\Dogeon2.s
+
+# target to generate assembly for a file
+10\Dogeon2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon2.dir\10\Dogeon2.c.s
+.PHONY : 10\Dogeon2.c.s
+
+10\Dogeon3.obj: 10\Dogeon3.c.obj
+.PHONY : 10\Dogeon3.obj
+
+# target to build an object file
+10\Dogeon3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon3.dir\10\Dogeon3.c.obj
+.PHONY : 10\Dogeon3.c.obj
+
+10\Dogeon3.i: 10\Dogeon3.c.i
+.PHONY : 10\Dogeon3.i
+
+# target to preprocess a source file
+10\Dogeon3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon3.dir\10\Dogeon3.c.i
+.PHONY : 10\Dogeon3.c.i
+
+10\Dogeon3.s: 10\Dogeon3.c.s
+.PHONY : 10\Dogeon3.s
+
+# target to generate assembly for a file
+10\Dogeon3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon3.dir\10\Dogeon3.c.s
+.PHONY : 10\Dogeon3.c.s
+
+10\Dogeon3u.obj: 10\Dogeon3u.c.obj
+.PHONY : 10\Dogeon3u.obj
+
+# target to build an object file
+10\Dogeon3u.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon3u.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon3u.dir\10\Dogeon3u.c.obj
+.PHONY : 10\Dogeon3u.c.obj
+
+10\Dogeon3u.i: 10\Dogeon3u.c.i
+.PHONY : 10\Dogeon3u.i
+
+# target to preprocess a source file
+10\Dogeon3u.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon3u.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon3u.dir\10\Dogeon3u.c.i
+.PHONY : 10\Dogeon3u.c.i
+
+10\Dogeon3u.s: 10\Dogeon3u.c.s
+.PHONY : 10\Dogeon3u.s
+
+# target to generate assembly for a file
+10\Dogeon3u.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon3u.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon3u.dir\10\Dogeon3u.c.s
+.PHONY : 10\Dogeon3u.c.s
+
+10\Dogeon4.obj: 10\Dogeon4.c.obj
+.PHONY : 10\Dogeon4.obj
+
+# target to build an object file
+10\Dogeon4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon4.dir\10\Dogeon4.c.obj
+.PHONY : 10\Dogeon4.c.obj
+
+10\Dogeon4.i: 10\Dogeon4.c.i
+.PHONY : 10\Dogeon4.i
+
+# target to preprocess a source file
+10\Dogeon4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon4.dir\10\Dogeon4.c.i
+.PHONY : 10\Dogeon4.c.i
+
+10\Dogeon4.s: 10\Dogeon4.c.s
+.PHONY : 10\Dogeon4.s
+
+# target to generate assembly for a file
+10\Dogeon4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon4.dir\10\Dogeon4.c.s
+.PHONY : 10\Dogeon4.c.s
+
+10\Dogeon5.obj: 10\Dogeon5.c.obj
+.PHONY : 10\Dogeon5.obj
+
+# target to build an object file
+10\Dogeon5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon5.dir\10\Dogeon5.c.obj
+.PHONY : 10\Dogeon5.c.obj
+
+10\Dogeon5.i: 10\Dogeon5.c.i
+.PHONY : 10\Dogeon5.i
+
+# target to preprocess a source file
+10\Dogeon5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon5.dir\10\Dogeon5.c.i
+.PHONY : 10\Dogeon5.c.i
+
+10\Dogeon5.s: 10\Dogeon5.c.s
+.PHONY : 10\Dogeon5.s
+
+# target to generate assembly for a file
+10\Dogeon5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon5.dir\10\Dogeon5.c.s
+.PHONY : 10\Dogeon5.c.s
+
+10\Dogeon6.obj: 10\Dogeon6.c.obj
+.PHONY : 10\Dogeon6.obj
+
+# target to build an object file
+10\Dogeon6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon6.dir\10\Dogeon6.c.obj
+.PHONY : 10\Dogeon6.c.obj
+
+10\Dogeon6.i: 10\Dogeon6.c.i
+.PHONY : 10\Dogeon6.i
+
+# target to preprocess a source file
+10\Dogeon6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon6.dir\10\Dogeon6.c.i
+.PHONY : 10\Dogeon6.c.i
+
+10\Dogeon6.s: 10\Dogeon6.c.s
+.PHONY : 10\Dogeon6.s
+
+# target to generate assembly for a file
+10\Dogeon6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon6.dir\10\Dogeon6.c.s
+.PHONY : 10\Dogeon6.c.s
+
+10\Dogeon7.obj: 10\Dogeon7.c.obj
+.PHONY : 10\Dogeon7.obj
+
+# target to build an object file
+10\Dogeon7.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon7.dir\10\Dogeon7.c.obj
+.PHONY : 10\Dogeon7.c.obj
+
+10\Dogeon7.i: 10\Dogeon7.c.i
+.PHONY : 10\Dogeon7.i
+
+# target to preprocess a source file
+10\Dogeon7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon7.dir\10\Dogeon7.c.i
+.PHONY : 10\Dogeon7.c.i
+
+10\Dogeon7.s: 10\Dogeon7.c.s
+.PHONY : 10\Dogeon7.s
+
+# target to generate assembly for a file
+10\Dogeon7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon7.dir\10\Dogeon7.c.s
+.PHONY : 10\Dogeon7.c.s
+
+10\Dogeon8.obj: 10\Dogeon8.c.obj
+.PHONY : 10\Dogeon8.obj
+
+# target to build an object file
+10\Dogeon8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon8.dir\10\Dogeon8.c.obj
+.PHONY : 10\Dogeon8.c.obj
+
+10\Dogeon8.i: 10\Dogeon8.c.i
+.PHONY : 10\Dogeon8.i
+
+# target to preprocess a source file
+10\Dogeon8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon8.dir\10\Dogeon8.c.i
+.PHONY : 10\Dogeon8.c.i
+
+10\Dogeon8.s: 10\Dogeon8.c.s
+.PHONY : 10\Dogeon8.s
+
+# target to generate assembly for a file
+10\Dogeon8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon8.dir\10\Dogeon8.c.s
+.PHONY : 10\Dogeon8.c.s
+
+11\ArrayAccess.obj: 11\ArrayAccess.c.obj
+.PHONY : 11\ArrayAccess.obj
+
+# target to build an object file
+11\ArrayAccess.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayAccess.dir\11\ArrayAccess.c.obj
+.PHONY : 11\ArrayAccess.c.obj
+
+11\ArrayAccess.i: 11\ArrayAccess.c.i
+.PHONY : 11\ArrayAccess.i
+
+# target to preprocess a source file
+11\ArrayAccess.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayAccess.dir\11\ArrayAccess.c.i
+.PHONY : 11\ArrayAccess.c.i
+
+11\ArrayAccess.s: 11\ArrayAccess.c.s
+.PHONY : 11\ArrayAccess.s
+
+# target to generate assembly for a file
+11\ArrayAccess.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayAccess.dir\11\ArrayAccess.c.s
+.PHONY : 11\ArrayAccess.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -3960,10 +4478,12 @@ help:
 	@echo ... 09-1-1
 	@echo ... 09-1-2
 	@echo ... 09-1-3
+	@echo ... 09-2
 	@echo ... AbsoCompare
 	@echo ... AddToNum
 	@echo ... AdvanEnglishSchool
 	@echo ... AnotherLocalVal
+	@echo ... ArrayAccess
 	@echo ... AutoConvOne
 	@echo ... BitAndOperation
 	@echo ... BitLeftShift
@@ -3976,6 +4496,15 @@ help:
 	@echo ... CircleArea
 	@echo ... CommaOp
 	@echo ... ConvDiv
+	@echo ... Dogeon1
+	@echo ... Dogeon2
+	@echo ... Dogeon3
+	@echo ... Dogeon3u
+	@echo ... Dogeon4
+	@echo ... Dogeon5
+	@echo ... Dogeon6
+	@echo ... Dogeon7
+	@echo ... Dogeon8
 	@echo ... EnglishSchool
 	@echo ... ExceptMul2Mul3
 	@echo ... FieldWidth
@@ -4008,6 +4537,8 @@ help:
 	@echo ... PrintfOutput
 	@echo ... RealMean
 	@echo ... RealNumOutput
+	@echo ... RecursiveFactorial
+	@echo ... RecursiveFunc
 	@echo ... ScanfConvOne
 	@echo ... ScanfConvTwo
 	@echo ... SimpleAddFour
@@ -4017,6 +4548,7 @@ help:
 	@echo ... SimpleWhile
 	@echo ... SizeOfOperator
 	@echo ... SmartAddFunc
+	@echo ... StaticLocalVariable
 	@echo ... StringPointf
 	@echo ... ThreeOperand
 	@echo ... TwoToNine
@@ -4330,12 +4862,54 @@ help:
 	@echo ... 09/2/LocalVariable.obj
 	@echo ... 09/2/LocalVariable.i
 	@echo ... 09/2/LocalVariable.s
+	@echo ... 09/3/09-2.obj
+	@echo ... 09/3/09-2.i
+	@echo ... 09/3/09-2.s
 	@echo ... 09/3/GlobalVariable.obj
 	@echo ... 09/3/GlobalVariable.i
 	@echo ... 09/3/GlobalVariable.s
 	@echo ... 09/3/LocalValHideGlobalVal.obj
 	@echo ... 09/3/LocalValHideGlobalVal.i
 	@echo ... 09/3/LocalValHideGlobalVal.s
+	@echo ... 09/3/StaticLocalVariable.obj
+	@echo ... 09/3/StaticLocalVariable.i
+	@echo ... 09/3/StaticLocalVariable.s
+	@echo ... 09/4/RecursiveFactorial.obj
+	@echo ... 09/4/RecursiveFactorial.i
+	@echo ... 09/4/RecursiveFactorial.s
+	@echo ... 09/4/RecursiveFunc.obj
+	@echo ... 09/4/RecursiveFunc.i
+	@echo ... 09/4/RecursiveFunc.s
+	@echo ... 10/Dogeon1.obj
+	@echo ... 10/Dogeon1.i
+	@echo ... 10/Dogeon1.s
+	@echo ... 10/Dogeon2.obj
+	@echo ... 10/Dogeon2.i
+	@echo ... 10/Dogeon2.s
+	@echo ... 10/Dogeon3.obj
+	@echo ... 10/Dogeon3.i
+	@echo ... 10/Dogeon3.s
+	@echo ... 10/Dogeon3u.obj
+	@echo ... 10/Dogeon3u.i
+	@echo ... 10/Dogeon3u.s
+	@echo ... 10/Dogeon4.obj
+	@echo ... 10/Dogeon4.i
+	@echo ... 10/Dogeon4.s
+	@echo ... 10/Dogeon5.obj
+	@echo ... 10/Dogeon5.i
+	@echo ... 10/Dogeon5.s
+	@echo ... 10/Dogeon6.obj
+	@echo ... 10/Dogeon6.i
+	@echo ... 10/Dogeon6.s
+	@echo ... 10/Dogeon7.obj
+	@echo ... 10/Dogeon7.i
+	@echo ... 10/Dogeon7.s
+	@echo ... 10/Dogeon8.obj
+	@echo ... 10/Dogeon8.i
+	@echo ... 10/Dogeon8.s
+	@echo ... 11/ArrayAccess.obj
+	@echo ... 11/ArrayAccess.i
+	@echo ... 11/ArrayAccess.s
 .PHONY : help
 
 
