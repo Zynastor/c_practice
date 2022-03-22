@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/hh118/CLionProjects/c_practice/11/ArrayAccess.c" "CMakeFiles/ArrayAccess.dir/11/ArrayAccess.c.obj" "msvc" "CMakeFiles/ArrayAccess.dir/11/ArrayAccess.c.obj.d"
+  "C:/Users/hh118/CLionProjects/c_practice/11/1/ArrayAccess.c" "CMakeFiles/ArrayAccess.dir/11/1/ArrayAccess.c.obj" "msvc" "CMakeFiles/ArrayAccess.dir/11/1/ArrayAccess.c.obj.d"
   )
 
 # Targets to which this target links.

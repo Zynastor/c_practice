@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "ArrayAccess.exe.manifest"
   "ArrayAccess.lib"
   "ArrayAccess.pdb"
-  "CMakeFiles/ArrayAccess.dir/11/ArrayAccess.c.obj"
-  "CMakeFiles/ArrayAccess.dir/11/ArrayAccess.c.obj.d"
+  "CMakeFiles/ArrayAccess.dir/11/1/ArrayAccess.c.obj"
+  "CMakeFiles/ArrayAccess.dir/11/1/ArrayAccess.c.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -717,6 +717,19 @@ AdvanEnglishSchool\fast:
 .PHONY : 03-1-5\fast
 
 #=============================================================================
+# Target rules for targets named 13-1-1
+
+# Build rule for target.
+13-1-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 13-1-1
+.PHONY : 13-1-1
+
+# fast build rule for target.
+13-1-1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-1.dir\build
+.PHONY : 13-1-1\fast
+
+#=============================================================================
 # Target rules for targets named FloatError
 
 # Build rule for target.
@@ -1237,6 +1250,19 @@ CalTwo\fast:
 .PHONY : 08-1-2\fast
 
 #=============================================================================
+# Target rules for targets named 11-1-1
+
+# Build rule for target.
+11-1-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 11-1-1
+.PHONY : 11-1-1
+
+# fast build rule for target.
+11-1-1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-1-1.dir\build
+.PHONY : 11-1-1\fast
+
+#=============================================================================
 # Target rules for targets named 08-1-3
 
 # Build rule for target.
@@ -1328,6 +1354,19 @@ EnglishSchool\fast:
 .PHONY : 08-3\fast
 
 #=============================================================================
+# Target rules for targets named TwoStringType
+
+# Build rule for target.
+TwoStringType: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) TwoStringType
+.PHONY : TwoStringType
+
+# fast build rule for target.
+TwoStringType\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoStringType.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TwoStringType.dir\build
+.PHONY : TwoStringType\fast
+
+#=============================================================================
 # Target rules for targets named SimpleAddFunc
 
 # Build rule for target.
@@ -1365,6 +1404,32 @@ NumCompare: cmake_check_build_system
 NumCompare\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumCompare.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\NumCompare.dir\build
 .PHONY : NumCompare\fast
+
+#=============================================================================
+# Target rules for targets named 13-1-3
+
+# Build rule for target.
+13-1-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 13-1-3
+.PHONY : 13-1-3
+
+# fast build rule for target.
+13-1-3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-3.dir\build
+.PHONY : 13-1-3\fast
+
+#=============================================================================
+# Target rules for targets named 11-2-2
+
+# Build rule for target.
+11-2-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 11-2-2
+.PHONY : 11-2-2
+
+# fast build rule for target.
+11-2-2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-2-2.dir\build
+.PHONY : 11-2-2\fast
 
 #=============================================================================
 # Target rules for targets named AbsoCompare
@@ -1510,6 +1575,19 @@ RecursiveFunc\fast:
 .PHONY : RecursiveFunc\fast
 
 #=============================================================================
+# Target rules for targets named PointerBaseArrayAccess
+
+# Build rule for target.
+PointerBaseArrayAccess: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PointerBaseArrayAccess
+.PHONY : PointerBaseArrayAccess
+
+# fast build rule for target.
+PointerBaseArrayAccess\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerBaseArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerBaseArrayAccess.dir\build
+.PHONY : PointerBaseArrayAccess\fast
+
+#=============================================================================
 # Target rules for targets named RecursiveFactorial
 
 # Build rule for target.
@@ -1625,6 +1703,240 @@ ArrayAccess: cmake_check_build_system
 ArrayAccess\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayAccess.dir\build
 .PHONY : ArrayAccess\fast
+
+#=============================================================================
+# Target rules for targets named ArrayInit
+
+# Build rule for target.
+ArrayInit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ArrayInit
+.PHONY : ArrayInit
+
+# fast build rule for target.
+ArrayInit\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayInit.dir\build
+.PHONY : ArrayInit\fast
+
+#=============================================================================
+# Target rules for targets named 11-1-2
+
+# Build rule for target.
+11-1-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 11-1-2
+.PHONY : 11-1-2
+
+# fast build rule for target.
+11-1-2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-1-2.dir\build
+.PHONY : 11-1-2\fast
+
+#=============================================================================
+# Target rules for targets named ArrayString
+
+# Build rule for target.
+ArrayString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ArrayString
+.PHONY : ArrayString
+
+# fast build rule for target.
+ArrayString\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayString.dir\build
+.PHONY : ArrayString\fast
+
+#=============================================================================
+# Target rules for targets named ReadString
+
+# Build rule for target.
+ReadString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ReadString
+.PHONY : ReadString
+
+# fast build rule for target.
+ReadString\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReadString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReadString.dir\build
+.PHONY : ReadString\fast
+
+#=============================================================================
+# Target rules for targets named StartEndString
+
+# Build rule for target.
+StartEndString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) StartEndString
+.PHONY : StartEndString
+
+# fast build rule for target.
+StartEndString\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StartEndString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StartEndString.dir\build
+.PHONY : StartEndString\fast
+
+#=============================================================================
+# Target rules for targets named 11-2-1
+
+# Build rule for target.
+11-2-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 11-2-1
+.PHONY : 11-2-1
+
+# fast build rule for target.
+11-2-1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-2-1.dir\build
+.PHONY : 11-2-1\fast
+
+#=============================================================================
+# Target rules for targets named 13-1-2
+
+# Build rule for target.
+13-1-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 13-1-2
+.PHONY : 13-1-2
+
+# fast build rule for target.
+13-1-2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-2.dir\build
+.PHONY : 13-1-2\fast
+
+#=============================================================================
+# Target rules for targets named 11-2-3
+
+# Build rule for target.
+11-2-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 11-2-3
+.PHONY : 11-2-3
+
+# fast build rule for target.
+11-2-3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-2-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-2-3.dir\build
+.PHONY : 11-2-3\fast
+
+#=============================================================================
+# Target rules for targets named PointerOperation
+
+# Build rule for target.
+PointerOperation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PointerOperation
+.PHONY : PointerOperation
+
+# fast build rule for target.
+PointerOperation\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerOperation.dir\build
+.PHONY : PointerOperation\fast
+
+#=============================================================================
+# Target rules for targets named 12-1-1
+
+# Build rule for target.
+12-1-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 12-1-1
+.PHONY : 12-1-1
+
+# fast build rule for target.
+12-1-1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\12-1-1.dir\build
+.PHONY : 12-1-1\fast
+
+#=============================================================================
+# Target rules for targets named 12-1-2
+
+# Build rule for target.
+12-1-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 12-1-2
+.PHONY : 12-1-2
+
+# fast build rule for target.
+12-1-2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\12-1-2.dir\build
+.PHONY : 12-1-2\fast
+
+#=============================================================================
+# Target rules for targets named ArrayNameType
+
+# Build rule for target.
+ArrayNameType: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ArrayNameType
+.PHONY : ArrayNameType
+
+# fast build rule for target.
+ArrayNameType\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayNameType.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayNameType.dir\build
+.PHONY : ArrayNameType\fast
+
+#=============================================================================
+# Target rules for targets named ArrayNamePointerOperation
+
+# Build rule for target.
+ArrayNamePointerOperation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ArrayNamePointerOperation
+.PHONY : ArrayNamePointerOperation
+
+# fast build rule for target.
+ArrayNamePointerOperation\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayNamePointerOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayNamePointerOperation.dir\build
+.PHONY : ArrayNamePointerOperation\fast
+
+#=============================================================================
+# Target rules for targets named ArrayNameIsPointer
+
+# Build rule for target.
+ArrayNameIsPointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ArrayNameIsPointer
+.PHONY : ArrayNameIsPointer
+
+# fast build rule for target.
+ArrayNameIsPointer\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayNameIsPointer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayNameIsPointer.dir\build
+.PHONY : ArrayNameIsPointer\fast
+
+#=============================================================================
+# Target rules for targets named PointerOperationResult
+
+# Build rule for target.
+PointerOperationResult: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PointerOperationResult
+.PHONY : PointerOperationResult
+
+# fast build rule for target.
+PointerOperationResult\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerOperationResult.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerOperationResult.dir\build
+.PHONY : PointerOperationResult\fast
+
+#=============================================================================
+# Target rules for targets named 13-1-4
+
+# Build rule for target.
+13-1-4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 13-1-4
+.PHONY : 13-1-4
+
+# fast build rule for target.
+13-1-4\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-4.dir\build
+.PHONY : 13-1-4\fast
+
+#=============================================================================
+# Target rules for targets named PointerArray
+
+# Build rule for target.
+PointerArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PointerArray
+.PHONY : PointerArray
+
+# fast build rule for target.
+PointerArray\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerArray.dir\build
+.PHONY : PointerArray\fast
+
+#=============================================================================
+# Target rules for targets named StringArray
+
+# Build rule for target.
+StringArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) StringArray
+.PHONY : StringArray
+
+# fast build rule for target.
+StringArray\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StringArray.dir\build
+.PHONY : StringArray\fast
 
 02\1\02-1-1.obj: 02\1\02-1-1.c.obj
 .PHONY : 02\1\02-1-1.obj
@@ -4410,29 +4722,605 @@ ArrayAccess\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dogeon8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Dogeon8.dir\10\Dogeon8.c.s
 .PHONY : 10\Dogeon8.c.s
 
-11\ArrayAccess.obj: 11\ArrayAccess.c.obj
-.PHONY : 11\ArrayAccess.obj
+11\1\11-1-1.obj: 11\1\11-1-1.c.obj
+.PHONY : 11\1\11-1-1.obj
 
 # target to build an object file
-11\ArrayAccess.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayAccess.dir\11\ArrayAccess.c.obj
-.PHONY : 11\ArrayAccess.c.obj
+11\1\11-1-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-1-1.dir\11\1\11-1-1.c.obj
+.PHONY : 11\1\11-1-1.c.obj
 
-11\ArrayAccess.i: 11\ArrayAccess.c.i
-.PHONY : 11\ArrayAccess.i
+11\1\11-1-1.i: 11\1\11-1-1.c.i
+.PHONY : 11\1\11-1-1.i
 
 # target to preprocess a source file
-11\ArrayAccess.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayAccess.dir\11\ArrayAccess.c.i
-.PHONY : 11\ArrayAccess.c.i
+11\1\11-1-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-1-1.dir\11\1\11-1-1.c.i
+.PHONY : 11\1\11-1-1.c.i
 
-11\ArrayAccess.s: 11\ArrayAccess.c.s
-.PHONY : 11\ArrayAccess.s
+11\1\11-1-1.s: 11\1\11-1-1.c.s
+.PHONY : 11\1\11-1-1.s
 
 # target to generate assembly for a file
-11\ArrayAccess.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayAccess.dir\11\ArrayAccess.c.s
-.PHONY : 11\ArrayAccess.c.s
+11\1\11-1-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-1-1.dir\11\1\11-1-1.c.s
+.PHONY : 11\1\11-1-1.c.s
+
+11\1\11-1-2.obj: 11\1\11-1-2.c.obj
+.PHONY : 11\1\11-1-2.obj
+
+# target to build an object file
+11\1\11-1-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-1-2.dir\11\1\11-1-2.c.obj
+.PHONY : 11\1\11-1-2.c.obj
+
+11\1\11-1-2.i: 11\1\11-1-2.c.i
+.PHONY : 11\1\11-1-2.i
+
+# target to preprocess a source file
+11\1\11-1-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-1-2.dir\11\1\11-1-2.c.i
+.PHONY : 11\1\11-1-2.c.i
+
+11\1\11-1-2.s: 11\1\11-1-2.c.s
+.PHONY : 11\1\11-1-2.s
+
+# target to generate assembly for a file
+11\1\11-1-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-1-2.dir\11\1\11-1-2.c.s
+.PHONY : 11\1\11-1-2.c.s
+
+11\1\ArrayAccess.obj: 11\1\ArrayAccess.c.obj
+.PHONY : 11\1\ArrayAccess.obj
+
+# target to build an object file
+11\1\ArrayAccess.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayAccess.dir\11\1\ArrayAccess.c.obj
+.PHONY : 11\1\ArrayAccess.c.obj
+
+11\1\ArrayAccess.i: 11\1\ArrayAccess.c.i
+.PHONY : 11\1\ArrayAccess.i
+
+# target to preprocess a source file
+11\1\ArrayAccess.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayAccess.dir\11\1\ArrayAccess.c.i
+.PHONY : 11\1\ArrayAccess.c.i
+
+11\1\ArrayAccess.s: 11\1\ArrayAccess.c.s
+.PHONY : 11\1\ArrayAccess.s
+
+# target to generate assembly for a file
+11\1\ArrayAccess.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayAccess.dir\11\1\ArrayAccess.c.s
+.PHONY : 11\1\ArrayAccess.c.s
+
+11\1\ArrayInit.obj: 11\1\ArrayInit.c.obj
+.PHONY : 11\1\ArrayInit.obj
+
+# target to build an object file
+11\1\ArrayInit.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayInit.dir\11\1\ArrayInit.c.obj
+.PHONY : 11\1\ArrayInit.c.obj
+
+11\1\ArrayInit.i: 11\1\ArrayInit.c.i
+.PHONY : 11\1\ArrayInit.i
+
+# target to preprocess a source file
+11\1\ArrayInit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayInit.dir\11\1\ArrayInit.c.i
+.PHONY : 11\1\ArrayInit.c.i
+
+11\1\ArrayInit.s: 11\1\ArrayInit.c.s
+.PHONY : 11\1\ArrayInit.s
+
+# target to generate assembly for a file
+11\1\ArrayInit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayInit.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayInit.dir\11\1\ArrayInit.c.s
+.PHONY : 11\1\ArrayInit.c.s
+
+11\2\11-2-1.obj: 11\2\11-2-1.c.obj
+.PHONY : 11\2\11-2-1.obj
+
+# target to build an object file
+11\2\11-2-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-2-1.dir\11\2\11-2-1.c.obj
+.PHONY : 11\2\11-2-1.c.obj
+
+11\2\11-2-1.i: 11\2\11-2-1.c.i
+.PHONY : 11\2\11-2-1.i
+
+# target to preprocess a source file
+11\2\11-2-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-2-1.dir\11\2\11-2-1.c.i
+.PHONY : 11\2\11-2-1.c.i
+
+11\2\11-2-1.s: 11\2\11-2-1.c.s
+.PHONY : 11\2\11-2-1.s
+
+# target to generate assembly for a file
+11\2\11-2-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-2-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-2-1.dir\11\2\11-2-1.c.s
+.PHONY : 11\2\11-2-1.c.s
+
+11\2\11-2-2.obj: 11\2\11-2-2.c.obj
+.PHONY : 11\2\11-2-2.obj
+
+# target to build an object file
+11\2\11-2-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-2-2.dir\11\2\11-2-2.c.obj
+.PHONY : 11\2\11-2-2.c.obj
+
+11\2\11-2-2.i: 11\2\11-2-2.c.i
+.PHONY : 11\2\11-2-2.i
+
+# target to preprocess a source file
+11\2\11-2-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-2-2.dir\11\2\11-2-2.c.i
+.PHONY : 11\2\11-2-2.c.i
+
+11\2\11-2-2.s: 11\2\11-2-2.c.s
+.PHONY : 11\2\11-2-2.s
+
+# target to generate assembly for a file
+11\2\11-2-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-2-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-2-2.dir\11\2\11-2-2.c.s
+.PHONY : 11\2\11-2-2.c.s
+
+11\2\11-2-3.obj: 11\2\11-2-3.c.obj
+.PHONY : 11\2\11-2-3.obj
+
+# target to build an object file
+11\2\11-2-3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-2-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-2-3.dir\11\2\11-2-3.c.obj
+.PHONY : 11\2\11-2-3.c.obj
+
+11\2\11-2-3.i: 11\2\11-2-3.c.i
+.PHONY : 11\2\11-2-3.i
+
+# target to preprocess a source file
+11\2\11-2-3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-2-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-2-3.dir\11\2\11-2-3.c.i
+.PHONY : 11\2\11-2-3.c.i
+
+11\2\11-2-3.s: 11\2\11-2-3.c.s
+.PHONY : 11\2\11-2-3.s
+
+# target to generate assembly for a file
+11\2\11-2-3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-2-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\11-2-3.dir\11\2\11-2-3.c.s
+.PHONY : 11\2\11-2-3.c.s
+
+11\2\ArrayString.obj: 11\2\ArrayString.c.obj
+.PHONY : 11\2\ArrayString.obj
+
+# target to build an object file
+11\2\ArrayString.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayString.dir\11\2\ArrayString.c.obj
+.PHONY : 11\2\ArrayString.c.obj
+
+11\2\ArrayString.i: 11\2\ArrayString.c.i
+.PHONY : 11\2\ArrayString.i
+
+# target to preprocess a source file
+11\2\ArrayString.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayString.dir\11\2\ArrayString.c.i
+.PHONY : 11\2\ArrayString.c.i
+
+11\2\ArrayString.s: 11\2\ArrayString.c.s
+.PHONY : 11\2\ArrayString.s
+
+# target to generate assembly for a file
+11\2\ArrayString.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayString.dir\11\2\ArrayString.c.s
+.PHONY : 11\2\ArrayString.c.s
+
+11\2\ReadString.obj: 11\2\ReadString.c.obj
+.PHONY : 11\2\ReadString.obj
+
+# target to build an object file
+11\2\ReadString.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReadString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReadString.dir\11\2\ReadString.c.obj
+.PHONY : 11\2\ReadString.c.obj
+
+11\2\ReadString.i: 11\2\ReadString.c.i
+.PHONY : 11\2\ReadString.i
+
+# target to preprocess a source file
+11\2\ReadString.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReadString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReadString.dir\11\2\ReadString.c.i
+.PHONY : 11\2\ReadString.c.i
+
+11\2\ReadString.s: 11\2\ReadString.c.s
+.PHONY : 11\2\ReadString.s
+
+# target to generate assembly for a file
+11\2\ReadString.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReadString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReadString.dir\11\2\ReadString.c.s
+.PHONY : 11\2\ReadString.c.s
+
+11\2\StartEndString.obj: 11\2\StartEndString.c.obj
+.PHONY : 11\2\StartEndString.obj
+
+# target to build an object file
+11\2\StartEndString.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StartEndString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StartEndString.dir\11\2\StartEndString.c.obj
+.PHONY : 11\2\StartEndString.c.obj
+
+11\2\StartEndString.i: 11\2\StartEndString.c.i
+.PHONY : 11\2\StartEndString.i
+
+# target to preprocess a source file
+11\2\StartEndString.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StartEndString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StartEndString.dir\11\2\StartEndString.c.i
+.PHONY : 11\2\StartEndString.c.i
+
+11\2\StartEndString.s: 11\2\StartEndString.c.s
+.PHONY : 11\2\StartEndString.s
+
+# target to generate assembly for a file
+11\2\StartEndString.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StartEndString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StartEndString.dir\11\2\StartEndString.c.s
+.PHONY : 11\2\StartEndString.c.s
+
+12\2\12-1-1.obj: 12\2\12-1-1.c.obj
+.PHONY : 12\2\12-1-1.obj
+
+# target to build an object file
+12\2\12-1-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\12-1-1.dir\12\2\12-1-1.c.obj
+.PHONY : 12\2\12-1-1.c.obj
+
+12\2\12-1-1.i: 12\2\12-1-1.c.i
+.PHONY : 12\2\12-1-1.i
+
+# target to preprocess a source file
+12\2\12-1-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\12-1-1.dir\12\2\12-1-1.c.i
+.PHONY : 12\2\12-1-1.c.i
+
+12\2\12-1-1.s: 12\2\12-1-1.c.s
+.PHONY : 12\2\12-1-1.s
+
+# target to generate assembly for a file
+12\2\12-1-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\12-1-1.dir\12\2\12-1-1.c.s
+.PHONY : 12\2\12-1-1.c.s
+
+12\2\12-1-2.obj: 12\2\12-1-2.c.obj
+.PHONY : 12\2\12-1-2.obj
+
+# target to build an object file
+12\2\12-1-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\12-1-2.dir\12\2\12-1-2.c.obj
+.PHONY : 12\2\12-1-2.c.obj
+
+12\2\12-1-2.i: 12\2\12-1-2.c.i
+.PHONY : 12\2\12-1-2.i
+
+# target to preprocess a source file
+12\2\12-1-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\12-1-2.dir\12\2\12-1-2.c.i
+.PHONY : 12\2\12-1-2.c.i
+
+12\2\12-1-2.s: 12\2\12-1-2.c.s
+.PHONY : 12\2\12-1-2.s
+
+# target to generate assembly for a file
+12\2\12-1-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\12-1-2.dir\12\2\12-1-2.c.s
+.PHONY : 12\2\12-1-2.c.s
+
+12\2\PointerOperation.obj: 12\2\PointerOperation.c.obj
+.PHONY : 12\2\PointerOperation.obj
+
+# target to build an object file
+12\2\PointerOperation.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerOperation.dir\12\2\PointerOperation.c.obj
+.PHONY : 12\2\PointerOperation.c.obj
+
+12\2\PointerOperation.i: 12\2\PointerOperation.c.i
+.PHONY : 12\2\PointerOperation.i
+
+# target to preprocess a source file
+12\2\PointerOperation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerOperation.dir\12\2\PointerOperation.c.i
+.PHONY : 12\2\PointerOperation.c.i
+
+12\2\PointerOperation.s: 12\2\PointerOperation.c.s
+.PHONY : 12\2\PointerOperation.s
+
+# target to generate assembly for a file
+12\2\PointerOperation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerOperation.dir\12\2\PointerOperation.c.s
+.PHONY : 12\2\PointerOperation.c.s
+
+13\1\ArrayNameIsPointer.obj: 13\1\ArrayNameIsPointer.c.obj
+.PHONY : 13\1\ArrayNameIsPointer.obj
+
+# target to build an object file
+13\1\ArrayNameIsPointer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayNameIsPointer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayNameIsPointer.dir\13\1\ArrayNameIsPointer.c.obj
+.PHONY : 13\1\ArrayNameIsPointer.c.obj
+
+13\1\ArrayNameIsPointer.i: 13\1\ArrayNameIsPointer.c.i
+.PHONY : 13\1\ArrayNameIsPointer.i
+
+# target to preprocess a source file
+13\1\ArrayNameIsPointer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayNameIsPointer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayNameIsPointer.dir\13\1\ArrayNameIsPointer.c.i
+.PHONY : 13\1\ArrayNameIsPointer.c.i
+
+13\1\ArrayNameIsPointer.s: 13\1\ArrayNameIsPointer.c.s
+.PHONY : 13\1\ArrayNameIsPointer.s
+
+# target to generate assembly for a file
+13\1\ArrayNameIsPointer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayNameIsPointer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayNameIsPointer.dir\13\1\ArrayNameIsPointer.c.s
+.PHONY : 13\1\ArrayNameIsPointer.c.s
+
+13\1\ArrayNamePointerOperation.obj: 13\1\ArrayNamePointerOperation.c.obj
+.PHONY : 13\1\ArrayNamePointerOperation.obj
+
+# target to build an object file
+13\1\ArrayNamePointerOperation.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayNamePointerOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayNamePointerOperation.dir\13\1\ArrayNamePointerOperation.c.obj
+.PHONY : 13\1\ArrayNamePointerOperation.c.obj
+
+13\1\ArrayNamePointerOperation.i: 13\1\ArrayNamePointerOperation.c.i
+.PHONY : 13\1\ArrayNamePointerOperation.i
+
+# target to preprocess a source file
+13\1\ArrayNamePointerOperation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayNamePointerOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayNamePointerOperation.dir\13\1\ArrayNamePointerOperation.c.i
+.PHONY : 13\1\ArrayNamePointerOperation.c.i
+
+13\1\ArrayNamePointerOperation.s: 13\1\ArrayNamePointerOperation.c.s
+.PHONY : 13\1\ArrayNamePointerOperation.s
+
+# target to generate assembly for a file
+13\1\ArrayNamePointerOperation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayNamePointerOperation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayNamePointerOperation.dir\13\1\ArrayNamePointerOperation.c.s
+.PHONY : 13\1\ArrayNamePointerOperation.c.s
+
+13\1\ArrayNameType.obj: 13\1\ArrayNameType.c.obj
+.PHONY : 13\1\ArrayNameType.obj
+
+# target to build an object file
+13\1\ArrayNameType.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayNameType.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayNameType.dir\13\1\ArrayNameType.c.obj
+.PHONY : 13\1\ArrayNameType.c.obj
+
+13\1\ArrayNameType.i: 13\1\ArrayNameType.c.i
+.PHONY : 13\1\ArrayNameType.i
+
+# target to preprocess a source file
+13\1\ArrayNameType.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayNameType.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayNameType.dir\13\1\ArrayNameType.c.i
+.PHONY : 13\1\ArrayNameType.c.i
+
+13\1\ArrayNameType.s: 13\1\ArrayNameType.c.s
+.PHONY : 13\1\ArrayNameType.s
+
+# target to generate assembly for a file
+13\1\ArrayNameType.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayNameType.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayNameType.dir\13\1\ArrayNameType.c.s
+.PHONY : 13\1\ArrayNameType.c.s
+
+13\2\13-1-1.obj: 13\2\13-1-1.c.obj
+.PHONY : 13\2\13-1-1.obj
+
+# target to build an object file
+13\2\13-1-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-1.dir\13\2\13-1-1.c.obj
+.PHONY : 13\2\13-1-1.c.obj
+
+13\2\13-1-1.i: 13\2\13-1-1.c.i
+.PHONY : 13\2\13-1-1.i
+
+# target to preprocess a source file
+13\2\13-1-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-1.dir\13\2\13-1-1.c.i
+.PHONY : 13\2\13-1-1.c.i
+
+13\2\13-1-1.s: 13\2\13-1-1.c.s
+.PHONY : 13\2\13-1-1.s
+
+# target to generate assembly for a file
+13\2\13-1-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-1.dir\13\2\13-1-1.c.s
+.PHONY : 13\2\13-1-1.c.s
+
+13\2\13-1-2.obj: 13\2\13-1-2.c.obj
+.PHONY : 13\2\13-1-2.obj
+
+# target to build an object file
+13\2\13-1-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-2.dir\13\2\13-1-2.c.obj
+.PHONY : 13\2\13-1-2.c.obj
+
+13\2\13-1-2.i: 13\2\13-1-2.c.i
+.PHONY : 13\2\13-1-2.i
+
+# target to preprocess a source file
+13\2\13-1-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-2.dir\13\2\13-1-2.c.i
+.PHONY : 13\2\13-1-2.c.i
+
+13\2\13-1-2.s: 13\2\13-1-2.c.s
+.PHONY : 13\2\13-1-2.s
+
+# target to generate assembly for a file
+13\2\13-1-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-2.dir\13\2\13-1-2.c.s
+.PHONY : 13\2\13-1-2.c.s
+
+13\2\13-1-3.obj: 13\2\13-1-3.c.obj
+.PHONY : 13\2\13-1-3.obj
+
+# target to build an object file
+13\2\13-1-3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-3.dir\13\2\13-1-3.c.obj
+.PHONY : 13\2\13-1-3.c.obj
+
+13\2\13-1-3.i: 13\2\13-1-3.c.i
+.PHONY : 13\2\13-1-3.i
+
+# target to preprocess a source file
+13\2\13-1-3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-3.dir\13\2\13-1-3.c.i
+.PHONY : 13\2\13-1-3.c.i
+
+13\2\13-1-3.s: 13\2\13-1-3.c.s
+.PHONY : 13\2\13-1-3.s
+
+# target to generate assembly for a file
+13\2\13-1-3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-3.dir\13\2\13-1-3.c.s
+.PHONY : 13\2\13-1-3.c.s
+
+13\2\13-1-4.obj: 13\2\13-1-4.c.obj
+.PHONY : 13\2\13-1-4.obj
+
+# target to build an object file
+13\2\13-1-4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-4.dir\13\2\13-1-4.c.obj
+.PHONY : 13\2\13-1-4.c.obj
+
+13\2\13-1-4.i: 13\2\13-1-4.c.i
+.PHONY : 13\2\13-1-4.i
+
+# target to preprocess a source file
+13\2\13-1-4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-4.dir\13\2\13-1-4.c.i
+.PHONY : 13\2\13-1-4.c.i
+
+13\2\13-1-4.s: 13\2\13-1-4.c.s
+.PHONY : 13\2\13-1-4.s
+
+# target to generate assembly for a file
+13\2\13-1-4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-1-4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\13-1-4.dir\13\2\13-1-4.c.s
+.PHONY : 13\2\13-1-4.c.s
+
+13\2\PointerBaseArrayAccess.obj: 13\2\PointerBaseArrayAccess.c.obj
+.PHONY : 13\2\PointerBaseArrayAccess.obj
+
+# target to build an object file
+13\2\PointerBaseArrayAccess.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerBaseArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerBaseArrayAccess.dir\13\2\PointerBaseArrayAccess.c.obj
+.PHONY : 13\2\PointerBaseArrayAccess.c.obj
+
+13\2\PointerBaseArrayAccess.i: 13\2\PointerBaseArrayAccess.c.i
+.PHONY : 13\2\PointerBaseArrayAccess.i
+
+# target to preprocess a source file
+13\2\PointerBaseArrayAccess.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerBaseArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerBaseArrayAccess.dir\13\2\PointerBaseArrayAccess.c.i
+.PHONY : 13\2\PointerBaseArrayAccess.c.i
+
+13\2\PointerBaseArrayAccess.s: 13\2\PointerBaseArrayAccess.c.s
+.PHONY : 13\2\PointerBaseArrayAccess.s
+
+# target to generate assembly for a file
+13\2\PointerBaseArrayAccess.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerBaseArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerBaseArrayAccess.dir\13\2\PointerBaseArrayAccess.c.s
+.PHONY : 13\2\PointerBaseArrayAccess.c.s
+
+13\2\PointerOperationResult.obj: 13\2\PointerOperationResult.c.obj
+.PHONY : 13\2\PointerOperationResult.obj
+
+# target to build an object file
+13\2\PointerOperationResult.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerOperationResult.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerOperationResult.dir\13\2\PointerOperationResult.c.obj
+.PHONY : 13\2\PointerOperationResult.c.obj
+
+13\2\PointerOperationResult.i: 13\2\PointerOperationResult.c.i
+.PHONY : 13\2\PointerOperationResult.i
+
+# target to preprocess a source file
+13\2\PointerOperationResult.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerOperationResult.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerOperationResult.dir\13\2\PointerOperationResult.c.i
+.PHONY : 13\2\PointerOperationResult.c.i
+
+13\2\PointerOperationResult.s: 13\2\PointerOperationResult.c.s
+.PHONY : 13\2\PointerOperationResult.s
+
+# target to generate assembly for a file
+13\2\PointerOperationResult.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerOperationResult.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerOperationResult.dir\13\2\PointerOperationResult.c.s
+.PHONY : 13\2\PointerOperationResult.c.s
+
+13\3\TwoStringType.obj: 13\3\TwoStringType.c.obj
+.PHONY : 13\3\TwoStringType.obj
+
+# target to build an object file
+13\3\TwoStringType.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoStringType.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TwoStringType.dir\13\3\TwoStringType.c.obj
+.PHONY : 13\3\TwoStringType.c.obj
+
+13\3\TwoStringType.i: 13\3\TwoStringType.c.i
+.PHONY : 13\3\TwoStringType.i
+
+# target to preprocess a source file
+13\3\TwoStringType.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoStringType.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TwoStringType.dir\13\3\TwoStringType.c.i
+.PHONY : 13\3\TwoStringType.c.i
+
+13\3\TwoStringType.s: 13\3\TwoStringType.c.s
+.PHONY : 13\3\TwoStringType.s
+
+# target to generate assembly for a file
+13\3\TwoStringType.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoStringType.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TwoStringType.dir\13\3\TwoStringType.c.s
+.PHONY : 13\3\TwoStringType.c.s
+
+13\4\PointerArray.obj: 13\4\PointerArray.c.obj
+.PHONY : 13\4\PointerArray.obj
+
+# target to build an object file
+13\4\PointerArray.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerArray.dir\13\4\PointerArray.c.obj
+.PHONY : 13\4\PointerArray.c.obj
+
+13\4\PointerArray.i: 13\4\PointerArray.c.i
+.PHONY : 13\4\PointerArray.i
+
+# target to preprocess a source file
+13\4\PointerArray.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerArray.dir\13\4\PointerArray.c.i
+.PHONY : 13\4\PointerArray.c.i
+
+13\4\PointerArray.s: 13\4\PointerArray.c.s
+.PHONY : 13\4\PointerArray.s
+
+# target to generate assembly for a file
+13\4\PointerArray.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerArray.dir\13\4\PointerArray.c.s
+.PHONY : 13\4\PointerArray.c.s
+
+13\4\StringArray.obj: 13\4\StringArray.c.obj
+.PHONY : 13\4\StringArray.obj
+
+# target to build an object file
+13\4\StringArray.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StringArray.dir\13\4\StringArray.c.obj
+.PHONY : 13\4\StringArray.c.obj
+
+13\4\StringArray.i: 13\4\StringArray.c.i
+.PHONY : 13\4\StringArray.i
+
+# target to preprocess a source file
+13\4\StringArray.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StringArray.dir\13\4\StringArray.c.i
+.PHONY : 13\4\StringArray.c.i
+
+13\4\StringArray.s: 13\4\StringArray.c.s
+.PHONY : 13\4\StringArray.s
+
+# target to generate assembly for a file
+13\4\StringArray.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StringArray.dir\13\4\StringArray.c.s
+.PHONY : 13\4\StringArray.c.s
 
 # Help Target
 help:
@@ -4479,11 +5367,27 @@ help:
 	@echo ... 09-1-2
 	@echo ... 09-1-3
 	@echo ... 09-2
+	@echo ... 11-1-1
+	@echo ... 11-1-2
+	@echo ... 11-2-1
+	@echo ... 11-2-2
+	@echo ... 11-2-3
+	@echo ... 12-1-1
+	@echo ... 12-1-2
+	@echo ... 13-1-1
+	@echo ... 13-1-2
+	@echo ... 13-1-3
+	@echo ... 13-1-4
 	@echo ... AbsoCompare
 	@echo ... AddToNum
 	@echo ... AdvanEnglishSchool
 	@echo ... AnotherLocalVal
 	@echo ... ArrayAccess
+	@echo ... ArrayInit
+	@echo ... ArrayNameIsPointer
+	@echo ... ArrayNamePointerOperation
+	@echo ... ArrayNameType
+	@echo ... ArrayString
 	@echo ... AutoConvOne
 	@echo ... BitAndOperation
 	@echo ... BitLeftShift
@@ -4532,9 +5436,14 @@ help:
 	@echo ... OperatorSix
 	@echo ... OperatorThree
 	@echo ... OperatorTwo
+	@echo ... PointerArray
+	@echo ... PointerBaseArrayAccess
+	@echo ... PointerOperation
+	@echo ... PointerOperationResult
 	@echo ... PrintTwo
 	@echo ... PrintfOne
 	@echo ... PrintfOutput
+	@echo ... ReadString
 	@echo ... RealMean
 	@echo ... RealNumOutput
 	@echo ... RecursiveFactorial
@@ -4548,9 +5457,12 @@ help:
 	@echo ... SimpleWhile
 	@echo ... SizeOfOperator
 	@echo ... SmartAddFunc
+	@echo ... StartEndString
 	@echo ... StaticLocalVariable
+	@echo ... StringArray
 	@echo ... StringPointf
 	@echo ... ThreeOperand
+	@echo ... TwoStringType
 	@echo ... TwoToNine
 	@echo ... UsefulDoWhile
 	@echo ... UsingPG
@@ -4907,9 +5819,81 @@ help:
 	@echo ... 10/Dogeon8.obj
 	@echo ... 10/Dogeon8.i
 	@echo ... 10/Dogeon8.s
-	@echo ... 11/ArrayAccess.obj
-	@echo ... 11/ArrayAccess.i
-	@echo ... 11/ArrayAccess.s
+	@echo ... 11/1/11-1-1.obj
+	@echo ... 11/1/11-1-1.i
+	@echo ... 11/1/11-1-1.s
+	@echo ... 11/1/11-1-2.obj
+	@echo ... 11/1/11-1-2.i
+	@echo ... 11/1/11-1-2.s
+	@echo ... 11/1/ArrayAccess.obj
+	@echo ... 11/1/ArrayAccess.i
+	@echo ... 11/1/ArrayAccess.s
+	@echo ... 11/1/ArrayInit.obj
+	@echo ... 11/1/ArrayInit.i
+	@echo ... 11/1/ArrayInit.s
+	@echo ... 11/2/11-2-1.obj
+	@echo ... 11/2/11-2-1.i
+	@echo ... 11/2/11-2-1.s
+	@echo ... 11/2/11-2-2.obj
+	@echo ... 11/2/11-2-2.i
+	@echo ... 11/2/11-2-2.s
+	@echo ... 11/2/11-2-3.obj
+	@echo ... 11/2/11-2-3.i
+	@echo ... 11/2/11-2-3.s
+	@echo ... 11/2/ArrayString.obj
+	@echo ... 11/2/ArrayString.i
+	@echo ... 11/2/ArrayString.s
+	@echo ... 11/2/ReadString.obj
+	@echo ... 11/2/ReadString.i
+	@echo ... 11/2/ReadString.s
+	@echo ... 11/2/StartEndString.obj
+	@echo ... 11/2/StartEndString.i
+	@echo ... 11/2/StartEndString.s
+	@echo ... 12/2/12-1-1.obj
+	@echo ... 12/2/12-1-1.i
+	@echo ... 12/2/12-1-1.s
+	@echo ... 12/2/12-1-2.obj
+	@echo ... 12/2/12-1-2.i
+	@echo ... 12/2/12-1-2.s
+	@echo ... 12/2/PointerOperation.obj
+	@echo ... 12/2/PointerOperation.i
+	@echo ... 12/2/PointerOperation.s
+	@echo ... 13/1/ArrayNameIsPointer.obj
+	@echo ... 13/1/ArrayNameIsPointer.i
+	@echo ... 13/1/ArrayNameIsPointer.s
+	@echo ... 13/1/ArrayNamePointerOperation.obj
+	@echo ... 13/1/ArrayNamePointerOperation.i
+	@echo ... 13/1/ArrayNamePointerOperation.s
+	@echo ... 13/1/ArrayNameType.obj
+	@echo ... 13/1/ArrayNameType.i
+	@echo ... 13/1/ArrayNameType.s
+	@echo ... 13/2/13-1-1.obj
+	@echo ... 13/2/13-1-1.i
+	@echo ... 13/2/13-1-1.s
+	@echo ... 13/2/13-1-2.obj
+	@echo ... 13/2/13-1-2.i
+	@echo ... 13/2/13-1-2.s
+	@echo ... 13/2/13-1-3.obj
+	@echo ... 13/2/13-1-3.i
+	@echo ... 13/2/13-1-3.s
+	@echo ... 13/2/13-1-4.obj
+	@echo ... 13/2/13-1-4.i
+	@echo ... 13/2/13-1-4.s
+	@echo ... 13/2/PointerBaseArrayAccess.obj
+	@echo ... 13/2/PointerBaseArrayAccess.i
+	@echo ... 13/2/PointerBaseArrayAccess.s
+	@echo ... 13/2/PointerOperationResult.obj
+	@echo ... 13/2/PointerOperationResult.i
+	@echo ... 13/2/PointerOperationResult.s
+	@echo ... 13/3/TwoStringType.obj
+	@echo ... 13/3/TwoStringType.i
+	@echo ... 13/3/TwoStringType.s
+	@echo ... 13/4/PointerArray.obj
+	@echo ... 13/4/PointerArray.i
+	@echo ... 13/4/PointerArray.s
+	@echo ... 13/4/StringArray.obj
+	@echo ... 13/4/StringArray.i
+	@echo ... 13/4/StringArray.s
 .PHONY : help
 
 
