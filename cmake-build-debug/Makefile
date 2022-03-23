@@ -106,6 +106,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CallByRefSwap
+
+# Build rule for target.
+CallByRefSwap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CallByRefSwap
+.PHONY : CallByRefSwap
+
+# fast build rule for target.
+CallByRefSwap\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallByRefSwap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CallByRefSwap.dir\build
+.PHONY : CallByRefSwap\fast
+
+#=============================================================================
 # Target rules for targets named OctHex
 
 # Build rule for target.
@@ -1159,6 +1172,19 @@ AddToNum\fast:
 .PHONY : AddToNum\fast
 
 #=============================================================================
+# Target rules for targets named 14-1-1
+
+# Build rule for target.
+14-1-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 14-1-1
+.PHONY : 14-1-1
+
+# fast build rule for target.
+14-1-1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\14-1-1.dir\build
+.PHONY : 14-1-1\fast
+
+#=============================================================================
 # Target rules for targets named RealMean
 
 # Build rule for target.
@@ -1937,6 +1963,58 @@ StringArray: cmake_check_build_system
 StringArray\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StringArray.dir\build
 .PHONY : StringArray\fast
+
+#=============================================================================
+# Target rules for targets named ArrayParam
+
+# Build rule for target.
+ArrayParam: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ArrayParam
+.PHONY : ArrayParam
+
+# fast build rule for target.
+ArrayParam\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayParam.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayParam.dir\build
+.PHONY : ArrayParam\fast
+
+#=============================================================================
+# Target rules for targets named ArrayParamAccess
+
+# Build rule for target.
+ArrayParamAccess: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ArrayParamAccess
+.PHONY : ArrayParamAccess
+
+# fast build rule for target.
+ArrayParamAccess\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayParamAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayParamAccess.dir\build
+.PHONY : ArrayParamAccess\fast
+
+#=============================================================================
+# Target rules for targets named CallByValueSwap
+
+# Build rule for target.
+CallByValueSwap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CallByValueSwap
+.PHONY : CallByValueSwap
+
+# fast build rule for target.
+CallByValueSwap\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallByValueSwap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CallByValueSwap.dir\build
+.PHONY : CallByValueSwap\fast
+
+#=============================================================================
+# Target rules for targets named 14-1-2
+
+# Build rule for target.
+14-1-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 14-1-2
+.PHONY : 14-1-2
+
+# fast build rule for target.
+14-1-2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\14-1-2.dir\build
+.PHONY : 14-1-2\fast
 
 02\1\02-1-1.obj: 02\1\02-1-1.c.obj
 .PHONY : 02\1\02-1-1.obj
@@ -5322,6 +5400,150 @@ StringArray\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StringArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StringArray.dir\13\4\StringArray.c.s
 .PHONY : 13\4\StringArray.c.s
 
+14\1\ArrayParam.obj: 14\1\ArrayParam.c.obj
+.PHONY : 14\1\ArrayParam.obj
+
+# target to build an object file
+14\1\ArrayParam.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayParam.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayParam.dir\14\1\ArrayParam.c.obj
+.PHONY : 14\1\ArrayParam.c.obj
+
+14\1\ArrayParam.i: 14\1\ArrayParam.c.i
+.PHONY : 14\1\ArrayParam.i
+
+# target to preprocess a source file
+14\1\ArrayParam.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayParam.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayParam.dir\14\1\ArrayParam.c.i
+.PHONY : 14\1\ArrayParam.c.i
+
+14\1\ArrayParam.s: 14\1\ArrayParam.c.s
+.PHONY : 14\1\ArrayParam.s
+
+# target to generate assembly for a file
+14\1\ArrayParam.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayParam.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayParam.dir\14\1\ArrayParam.c.s
+.PHONY : 14\1\ArrayParam.c.s
+
+14\1\ArrayParamAccess.obj: 14\1\ArrayParamAccess.c.obj
+.PHONY : 14\1\ArrayParamAccess.obj
+
+# target to build an object file
+14\1\ArrayParamAccess.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayParamAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayParamAccess.dir\14\1\ArrayParamAccess.c.obj
+.PHONY : 14\1\ArrayParamAccess.c.obj
+
+14\1\ArrayParamAccess.i: 14\1\ArrayParamAccess.c.i
+.PHONY : 14\1\ArrayParamAccess.i
+
+# target to preprocess a source file
+14\1\ArrayParamAccess.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayParamAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayParamAccess.dir\14\1\ArrayParamAccess.c.i
+.PHONY : 14\1\ArrayParamAccess.c.i
+
+14\1\ArrayParamAccess.s: 14\1\ArrayParamAccess.c.s
+.PHONY : 14\1\ArrayParamAccess.s
+
+# target to generate assembly for a file
+14\1\ArrayParamAccess.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArrayParamAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ArrayParamAccess.dir\14\1\ArrayParamAccess.c.s
+.PHONY : 14\1\ArrayParamAccess.c.s
+
+14\2\14-1-1.obj: 14\2\14-1-1.c.obj
+.PHONY : 14\2\14-1-1.obj
+
+# target to build an object file
+14\2\14-1-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\14-1-1.dir\14\2\14-1-1.c.obj
+.PHONY : 14\2\14-1-1.c.obj
+
+14\2\14-1-1.i: 14\2\14-1-1.c.i
+.PHONY : 14\2\14-1-1.i
+
+# target to preprocess a source file
+14\2\14-1-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\14-1-1.dir\14\2\14-1-1.c.i
+.PHONY : 14\2\14-1-1.c.i
+
+14\2\14-1-1.s: 14\2\14-1-1.c.s
+.PHONY : 14\2\14-1-1.s
+
+# target to generate assembly for a file
+14\2\14-1-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14-1-1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\14-1-1.dir\14\2\14-1-1.c.s
+.PHONY : 14\2\14-1-1.c.s
+
+14\2\14-1-2.obj: 14\2\14-1-2.c.obj
+.PHONY : 14\2\14-1-2.obj
+
+# target to build an object file
+14\2\14-1-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\14-1-2.dir\14\2\14-1-2.c.obj
+.PHONY : 14\2\14-1-2.c.obj
+
+14\2\14-1-2.i: 14\2\14-1-2.c.i
+.PHONY : 14\2\14-1-2.i
+
+# target to preprocess a source file
+14\2\14-1-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\14-1-2.dir\14\2\14-1-2.c.i
+.PHONY : 14\2\14-1-2.c.i
+
+14\2\14-1-2.s: 14\2\14-1-2.c.s
+.PHONY : 14\2\14-1-2.s
+
+# target to generate assembly for a file
+14\2\14-1-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14-1-2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\14-1-2.dir\14\2\14-1-2.c.s
+.PHONY : 14\2\14-1-2.c.s
+
+14\2\CallByRefSwap.obj: 14\2\CallByRefSwap.c.obj
+.PHONY : 14\2\CallByRefSwap.obj
+
+# target to build an object file
+14\2\CallByRefSwap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallByRefSwap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CallByRefSwap.dir\14\2\CallByRefSwap.c.obj
+.PHONY : 14\2\CallByRefSwap.c.obj
+
+14\2\CallByRefSwap.i: 14\2\CallByRefSwap.c.i
+.PHONY : 14\2\CallByRefSwap.i
+
+# target to preprocess a source file
+14\2\CallByRefSwap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallByRefSwap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CallByRefSwap.dir\14\2\CallByRefSwap.c.i
+.PHONY : 14\2\CallByRefSwap.c.i
+
+14\2\CallByRefSwap.s: 14\2\CallByRefSwap.c.s
+.PHONY : 14\2\CallByRefSwap.s
+
+# target to generate assembly for a file
+14\2\CallByRefSwap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallByRefSwap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CallByRefSwap.dir\14\2\CallByRefSwap.c.s
+.PHONY : 14\2\CallByRefSwap.c.s
+
+14\2\CallByValueSwap.obj: 14\2\CallByValueSwap.c.obj
+.PHONY : 14\2\CallByValueSwap.obj
+
+# target to build an object file
+14\2\CallByValueSwap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallByValueSwap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CallByValueSwap.dir\14\2\CallByValueSwap.c.obj
+.PHONY : 14\2\CallByValueSwap.c.obj
+
+14\2\CallByValueSwap.i: 14\2\CallByValueSwap.c.i
+.PHONY : 14\2\CallByValueSwap.i
+
+# target to preprocess a source file
+14\2\CallByValueSwap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallByValueSwap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CallByValueSwap.dir\14\2\CallByValueSwap.c.i
+.PHONY : 14\2\CallByValueSwap.c.i
+
+14\2\CallByValueSwap.s: 14\2\CallByValueSwap.c.s
+.PHONY : 14\2\CallByValueSwap.s
+
+# target to generate assembly for a file
+14\2\CallByValueSwap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CallByValueSwap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CallByValueSwap.dir\14\2\CallByValueSwap.c.s
+.PHONY : 14\2\CallByValueSwap.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -5378,6 +5600,8 @@ help:
 	@echo ... 13-1-2
 	@echo ... 13-1-3
 	@echo ... 13-1-4
+	@echo ... 14-1-1
+	@echo ... 14-1-2
 	@echo ... AbsoCompare
 	@echo ... AddToNum
 	@echo ... AdvanEnglishSchool
@@ -5387,6 +5611,8 @@ help:
 	@echo ... ArrayNameIsPointer
 	@echo ... ArrayNamePointerOperation
 	@echo ... ArrayNameType
+	@echo ... ArrayParam
+	@echo ... ArrayParamAccess
 	@echo ... ArrayString
 	@echo ... AutoConvOne
 	@echo ... BitAndOperation
@@ -5396,6 +5622,8 @@ help:
 	@echo ... BitRightShift
 	@echo ... CalOne
 	@echo ... CalTwo
+	@echo ... CallByRefSwap
+	@echo ... CallByValueSwap
 	@echo ... CharShortBaseAdd
 	@echo ... CircleArea
 	@echo ... CommaOp
@@ -5894,6 +6122,24 @@ help:
 	@echo ... 13/4/StringArray.obj
 	@echo ... 13/4/StringArray.i
 	@echo ... 13/4/StringArray.s
+	@echo ... 14/1/ArrayParam.obj
+	@echo ... 14/1/ArrayParam.i
+	@echo ... 14/1/ArrayParam.s
+	@echo ... 14/1/ArrayParamAccess.obj
+	@echo ... 14/1/ArrayParamAccess.i
+	@echo ... 14/1/ArrayParamAccess.s
+	@echo ... 14/2/14-1-1.obj
+	@echo ... 14/2/14-1-1.i
+	@echo ... 14/2/14-1-1.s
+	@echo ... 14/2/14-1-2.obj
+	@echo ... 14/2/14-1-2.i
+	@echo ... 14/2/14-1-2.s
+	@echo ... 14/2/CallByRefSwap.obj
+	@echo ... 14/2/CallByRefSwap.i
+	@echo ... 14/2/CallByRefSwap.s
+	@echo ... 14/2/CallByValueSwap.obj
+	@echo ... 14/2/CallByValueSwap.i
+	@echo ... 14/2/CallByValueSwap.s
 .PHONY : help
 
 
