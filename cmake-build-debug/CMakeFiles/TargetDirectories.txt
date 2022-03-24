@@ -76,6 +76,7 @@ C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/07-1-4.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/07-1-5.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/07-2-2.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/UsefulDoWhile.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/ThreeDimArraySize.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/07-3-1-2.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/07-3-3.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/Dogeon4.dir
@@ -145,5 +146,18 @@ C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/ArrayParam.
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/ArrayParamAccess.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/CallByValueSwap.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/14-1-2.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/1.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/2.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/3.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/4.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/5.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/TwoDimArraySize.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/PopuResearch.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/TwoDimArrayAddr.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/TwoDimArrayInit.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/16-1-1.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/16-1-2.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/16-2-3.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/ThreeDimArrayAccess.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
