@@ -130,6 +130,7 @@ C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/ArrayString
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/ReadString.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/StartEndString.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/11-2-1.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/PointerSwapSuccess.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/13-1-2.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/11-2-3.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/PointerOperation.dir
@@ -159,5 +160,8 @@ C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/16-1-1.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/16-1-2.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/16-2-3.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/ThreeDimArrayAccess.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/DoublePointerAccess.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/PointerSwapFail.dir
+C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/PointerArrayType.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

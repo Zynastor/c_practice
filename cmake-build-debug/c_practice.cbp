@@ -5825,6 +5825,50 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="PointerSwapSuccess">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/PointerSwapSuccess.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 PointerSwapSuccess"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PointerSwapSuccess/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/PointerSwapSuccess.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 PointerSwapSuccess/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="13-1-2">
 				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/13-1-2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
@@ -7101,6 +7145,138 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="DoublePointerAccess">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/DoublePointerAccess.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 DoublePointerAccess"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DoublePointerAccess/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/DoublePointerAccess.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 DoublePointerAccess/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PointerSwapFail">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/PointerSwapFail.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 PointerSwapFail"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PointerSwapFail/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/PointerSwapFail.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 PointerSwapFail/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PointerArrayType">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/PointerArrayType.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 PointerArrayType"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PointerArrayType/fast">
+				<Option output="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug/PointerArrayType.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 PointerArrayType/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\hh118\CLionProjects\c_practice\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/hh118/CLionProjects/c_practice/cmake-build-debug"/>
 				<Option type="4"/>
@@ -7604,6 +7780,18 @@
 		</Unit>
 		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/16/2/ThreeDimArraySize.c">
 			<Option target="ThreeDimArraySize"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/17/1/DoublePointerAccess.c">
+			<Option target="DoublePointerAccess"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/17/1/PointerArrayType.c">
+			<Option target="PointerArrayType"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/17/1/PointerSwapFail.c">
+			<Option target="PointerSwapFail"/>
+		</Unit>
+		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/17/1/PointerSwapSuccess.c">
+			<Option target="PointerSwapSuccess"/>
 		</Unit>
 		<Unit filename="C:/Users/hh118/CLionProjects/c_practice/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

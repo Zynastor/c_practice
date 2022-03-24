@@ -1822,6 +1822,19 @@ StartEndString\fast:
 .PHONY : 11-2-1\fast
 
 #=============================================================================
+# Target rules for targets named PointerSwapSuccess
+
+# Build rule for target.
+PointerSwapSuccess: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PointerSwapSuccess
+.PHONY : PointerSwapSuccess
+
+# fast build rule for target.
+PointerSwapSuccess\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerSwapSuccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerSwapSuccess.dir\build
+.PHONY : PointerSwapSuccess\fast
+
+#=============================================================================
 # Target rules for targets named 13-1-2
 
 # Build rule for target.
@@ -2197,6 +2210,45 @@ ThreeDimArrayAccess: cmake_check_build_system
 ThreeDimArrayAccess\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeDimArrayAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ThreeDimArrayAccess.dir\build
 .PHONY : ThreeDimArrayAccess\fast
+
+#=============================================================================
+# Target rules for targets named DoublePointerAccess
+
+# Build rule for target.
+DoublePointerAccess: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DoublePointerAccess
+.PHONY : DoublePointerAccess
+
+# fast build rule for target.
+DoublePointerAccess\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublePointerAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DoublePointerAccess.dir\build
+.PHONY : DoublePointerAccess\fast
+
+#=============================================================================
+# Target rules for targets named PointerSwapFail
+
+# Build rule for target.
+PointerSwapFail: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PointerSwapFail
+.PHONY : PointerSwapFail
+
+# fast build rule for target.
+PointerSwapFail\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerSwapFail.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerSwapFail.dir\build
+.PHONY : PointerSwapFail\fast
+
+#=============================================================================
+# Target rules for targets named PointerArrayType
+
+# Build rule for target.
+PointerArrayType: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PointerArrayType
+.PHONY : PointerArrayType
+
+# fast build rule for target.
+PointerArrayType\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerArrayType.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerArrayType.dir\build
+.PHONY : PointerArrayType\fast
 
 02\1\02-1-1.obj: 02\1\02-1-1.c.obj
 .PHONY : 02\1\02-1-1.obj
@@ -6062,6 +6114,102 @@ ThreeDimArrayAccess\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeDimArraySize.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ThreeDimArraySize.dir\16\2\ThreeDimArraySize.c.s
 .PHONY : 16\2\ThreeDimArraySize.c.s
 
+17\1\DoublePointerAccess.obj: 17\1\DoublePointerAccess.c.obj
+.PHONY : 17\1\DoublePointerAccess.obj
+
+# target to build an object file
+17\1\DoublePointerAccess.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublePointerAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DoublePointerAccess.dir\17\1\DoublePointerAccess.c.obj
+.PHONY : 17\1\DoublePointerAccess.c.obj
+
+17\1\DoublePointerAccess.i: 17\1\DoublePointerAccess.c.i
+.PHONY : 17\1\DoublePointerAccess.i
+
+# target to preprocess a source file
+17\1\DoublePointerAccess.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublePointerAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DoublePointerAccess.dir\17\1\DoublePointerAccess.c.i
+.PHONY : 17\1\DoublePointerAccess.c.i
+
+17\1\DoublePointerAccess.s: 17\1\DoublePointerAccess.c.s
+.PHONY : 17\1\DoublePointerAccess.s
+
+# target to generate assembly for a file
+17\1\DoublePointerAccess.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublePointerAccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DoublePointerAccess.dir\17\1\DoublePointerAccess.c.s
+.PHONY : 17\1\DoublePointerAccess.c.s
+
+17\1\PointerArrayType.obj: 17\1\PointerArrayType.c.obj
+.PHONY : 17\1\PointerArrayType.obj
+
+# target to build an object file
+17\1\PointerArrayType.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerArrayType.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerArrayType.dir\17\1\PointerArrayType.c.obj
+.PHONY : 17\1\PointerArrayType.c.obj
+
+17\1\PointerArrayType.i: 17\1\PointerArrayType.c.i
+.PHONY : 17\1\PointerArrayType.i
+
+# target to preprocess a source file
+17\1\PointerArrayType.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerArrayType.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerArrayType.dir\17\1\PointerArrayType.c.i
+.PHONY : 17\1\PointerArrayType.c.i
+
+17\1\PointerArrayType.s: 17\1\PointerArrayType.c.s
+.PHONY : 17\1\PointerArrayType.s
+
+# target to generate assembly for a file
+17\1\PointerArrayType.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerArrayType.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerArrayType.dir\17\1\PointerArrayType.c.s
+.PHONY : 17\1\PointerArrayType.c.s
+
+17\1\PointerSwapFail.obj: 17\1\PointerSwapFail.c.obj
+.PHONY : 17\1\PointerSwapFail.obj
+
+# target to build an object file
+17\1\PointerSwapFail.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerSwapFail.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerSwapFail.dir\17\1\PointerSwapFail.c.obj
+.PHONY : 17\1\PointerSwapFail.c.obj
+
+17\1\PointerSwapFail.i: 17\1\PointerSwapFail.c.i
+.PHONY : 17\1\PointerSwapFail.i
+
+# target to preprocess a source file
+17\1\PointerSwapFail.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerSwapFail.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerSwapFail.dir\17\1\PointerSwapFail.c.i
+.PHONY : 17\1\PointerSwapFail.c.i
+
+17\1\PointerSwapFail.s: 17\1\PointerSwapFail.c.s
+.PHONY : 17\1\PointerSwapFail.s
+
+# target to generate assembly for a file
+17\1\PointerSwapFail.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerSwapFail.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerSwapFail.dir\17\1\PointerSwapFail.c.s
+.PHONY : 17\1\PointerSwapFail.c.s
+
+17\1\PointerSwapSuccess.obj: 17\1\PointerSwapSuccess.c.obj
+.PHONY : 17\1\PointerSwapSuccess.obj
+
+# target to build an object file
+17\1\PointerSwapSuccess.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerSwapSuccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerSwapSuccess.dir\17\1\PointerSwapSuccess.c.obj
+.PHONY : 17\1\PointerSwapSuccess.c.obj
+
+17\1\PointerSwapSuccess.i: 17\1\PointerSwapSuccess.c.i
+.PHONY : 17\1\PointerSwapSuccess.i
+
+# target to preprocess a source file
+17\1\PointerSwapSuccess.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerSwapSuccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerSwapSuccess.dir\17\1\PointerSwapSuccess.c.i
+.PHONY : 17\1\PointerSwapSuccess.c.i
+
+17\1\PointerSwapSuccess.s: 17\1\PointerSwapSuccess.c.s
+.PHONY : 17\1\PointerSwapSuccess.s
+
+# target to generate assembly for a file
+17\1\PointerSwapSuccess.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PointerSwapSuccess.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PointerSwapSuccess.dir\17\1\PointerSwapSuccess.c.s
+.PHONY : 17\1\PointerSwapSuccess.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -6163,6 +6311,7 @@ help:
 	@echo ... Dogeon6
 	@echo ... Dogeon7
 	@echo ... Dogeon8
+	@echo ... DoublePointerAccess
 	@echo ... EnglishSchool
 	@echo ... ExceptMul2Mul3
 	@echo ... FieldWidth
@@ -6191,9 +6340,12 @@ help:
 	@echo ... OperatorThree
 	@echo ... OperatorTwo
 	@echo ... PointerArray
+	@echo ... PointerArrayType
 	@echo ... PointerBaseArrayAccess
 	@echo ... PointerOperation
 	@echo ... PointerOperationResult
+	@echo ... PointerSwapFail
+	@echo ... PointerSwapSuccess
 	@echo ... PopuResearch
 	@echo ... PrintTwo
 	@echo ... PrintfOne
@@ -6714,6 +6866,18 @@ help:
 	@echo ... 16/2/ThreeDimArraySize.obj
 	@echo ... 16/2/ThreeDimArraySize.i
 	@echo ... 16/2/ThreeDimArraySize.s
+	@echo ... 17/1/DoublePointerAccess.obj
+	@echo ... 17/1/DoublePointerAccess.i
+	@echo ... 17/1/DoublePointerAccess.s
+	@echo ... 17/1/PointerArrayType.obj
+	@echo ... 17/1/PointerArrayType.i
+	@echo ... 17/1/PointerArrayType.s
+	@echo ... 17/1/PointerSwapFail.obj
+	@echo ... 17/1/PointerSwapFail.i
+	@echo ... 17/1/PointerSwapFail.s
+	@echo ... 17/1/PointerSwapSuccess.obj
+	@echo ... 17/1/PointerSwapSuccess.i
+	@echo ... 17/1/PointerSwapSuccess.s
 .PHONY : help
 
 
