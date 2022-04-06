@@ -15,8 +15,7 @@ int main(void) {
     int i;
 
     printf("도서 정보 입력\n");
-    for (i = 0; i < 3; i++)    //데이터 입력
-    {
+    for (i = 0; i < 3; i++) {
         printf("저자 : ");
         fgets(list[i].author, LEN, stdin);
 
@@ -31,8 +30,7 @@ int main(void) {
     printf("\n");
 
     printf("도서 정보 출력\n");
-    for (i = 0; i < 3; i++)    //데이터 츨력
-    {
+    for (i = 0; i < 3; i++) {
         printf("book %d \n", i + 1);
         printf("저자 : %s", list[i].author);
         printf("제목 : %s", list[i].title);

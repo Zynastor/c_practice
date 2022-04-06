@@ -277,3 +277,8 @@ add_executable(main3 27/3-1/areaArith.c 27/3-1/areaArith.h 27/3-1/basicArith.c 2
 add_executable(main4 27/3-2/main.c 27/3-2/intdiv.c)
 add_executable(main5 27/3-4/intdiv4.c 27/3-4/intdiv4.h 27/3-4/main.c 27/3-4/stdiv2.h)
 add_executable(d4-1 28/d4-1.c)
+add_executable(28-5 28/28-5.c)
+add_executable(28-4 28/28-4.c)
+add_executable(28-3 28/28-3.c)
+add_executable(28-2 28/28-2.c)
+add_executable(28-7 28/28-7.c)

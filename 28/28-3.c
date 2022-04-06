@@ -6,11 +6,8 @@ typedef struct complex {
 } Complex;
 
 Complex Add(Complex c1, Complex c2);
-
 Complex Multi(Complex c1, Complex c2);
-
 void ShowData(Complex c);
-
 int main(void) {
     Complex c1, c2;
     printf("복소수 입력1(실수 허수): ");

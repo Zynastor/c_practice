@@ -10,18 +10,18 @@ typedef struct _Person {
     char phone[TEL_LEN];
 } Person;
 
-void ShowMenu(void);    //¸Ş´º Ãâ·Â
-void InsertTelInfo(Person *, int *);    //µ¥ÀÌÅÍ ÀÔ·Â ÀÔ·Â
-void RemoveTelInfo(Person *, int *);    //ÀÌ¸§À¸·Î µ¥ÀÌÅÍ »èÁ¦
-void SearchTelInfo(Person *, int);    //µ¥ÀÌÅÍ °Ë»ö
-void PrintAll(Person *, int);    //ÀüÃ¼ µ¥ÀÌÅÍ Ãâ·Â
-void LoadData(Person *, int *);    //ÆÄÀÏ·ÎºÎÅÍ µ¥ÀÌÅÍ ÀĞÀ½.
-void StoreData(Person *, int);    //ÆÄÀÏ¿¡ µ¥ÀÌÅÍ ÀúÀå.
+void ShowMenu(void);    //ë©”ë‰´ ì¶œë ¥
+void InsertTelInfo(Person *, int *);    //ë°ì´í„° ì…ë ¥ ì…ë ¥
+void RemoveTelInfo(Person *, int *);    //ì´ë¦„ìœ¼ë¡œ ë°ì´í„° ì‚­ì œ
+void SearchTelInfo(Person *, int);    //ë°ì´í„° ê²€ìƒ‰
+void PrintAll(Person *, int);    //ì „ì²´ ë°ì´í„° ì¶œë ¥
+void LoadData(Person *, int *);    //íŒŒì¼ë¡œë¶€í„° ë°ì´í„° ì½ìŒ.
+void StoreData(Person *, int);    //íŒŒì¼ì— ë°ì´í„° ì €ì¥.
 
 int main(void) {
     int choice;
-    Person perArr[MAX_PERSON_NUM];    // Data ÀúÀåÀ» À§ÇÑ ¹è¿­
-    int perNum = 0;    // ÀúÀåµÈ ÀÎ¿ø ¼ö
+    Person perArr[MAX_PERSON_NUM];    // Data ì €ì¥ì„ ìœ„í•œ ë°°ì—´
+    int perNum = 0;    // ì €ì¥ëœ ì¸ì› ìˆ˜
 
     LoadData(perArr, &perNum);
 
@@ -128,8 +128,7 @@ void PrintAll(Person *parr, int num) {
         printf("Name : %s    /   Tel : %s \n", parr[i].name, parr[i].phone);
 }
 
-void LoadData(Person *parr, int *pnum)        //data Load
-{
+void LoadData(Person *parr, int *pnum) {
     FILE *file = fopen("data.dat", "rt");
     if (file == NULL) {
         return;
@@ -143,8 +142,7 @@ void LoadData(Person *parr, int *pnum)        //data Load
     }
 }
 
-void StoreData(Person *parr, int num)        //data store
-{
+void StoreData(Person *parr, int num) {
     int i;
 
     FILE *file = fopen("data.dat", "wt");
